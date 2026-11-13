@@ -53,7 +53,7 @@ const AltairOverview = () => {
         {/* --- LEFT: STICKY SIDEBAR --- */}
         <div className="lg:w-[40%] bg-[#02080f] text-white lg:h-screen lg:sticky lg:top-0 flex flex-col justify-center p-8 md:p-16 relative overflow-hidden">
           {/* Decorative Background Pattern */}
-          <div className="absolute top-0 right-0 w-64 h-64 bg-[#C5A059]/10 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2" />
+          <div className="absolute top-0 right-0 w-64 h-64 bg-[#C9A24B]/10 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2" />
 
           <motion.div
             initial={{ opacity: 0, x: -30 }}
@@ -65,8 +65,8 @@ const AltairOverview = () => {
             {/* Header */}
             <div>
               <div className="flex items-center gap-3 mb-4">
-                <span className="h-[1px] w-8 bg-[#C5A059]"></span>
-                <span className="text-[#C5A059] font-bold text-xs uppercase tracking-[0.25em]">
+                <span className="h-[1px] w-8 bg-[#C9A24B]"></span>
+                <span className="text-[#C9A24B] font-bold text-xs uppercase tracking-[0.25em]">
                   Project Highlights
                 </span>
               </div>
@@ -76,7 +76,7 @@ const AltairOverview = () => {
                   At a Glance
                 </span>
               </h2>
-              <p className="text-gray-300 text-sm leading-relaxed max-w-md border-l-2 border-[#C5A059] pl-4">
+              <p className="text-gray-300 text-sm leading-relaxed max-w-md border-l-2 border-[#C9A24B] pl-4">
                 A masterpiece of architectural design located in the heart of
                 the city. Experience a lifestyle where luxury meets convenience,
                 wrapped in the signature quality of Sobha.
@@ -87,7 +87,7 @@ const AltairOverview = () => {
             <div className="pt-8">
               <button
                 onClick={() => setIsDownloadOpen(true)}
-                className="group relative px-8 py-4 bg-[#C5A059] text-[#0a1e38] font-bold text-xs uppercase tracking-widest overflow-hidden transition-all hover:bg-white hover:text-[#0a1e38]"
+                className="group relative px-8 py-4 bg-[#C9A24B] text-[#0B3D2E] font-bold text-xs uppercase tracking-widest overflow-hidden transition-all hover:bg-white hover:text-[#0B3D2E]"
               >
                 <span className="relative z-10 flex items-center gap-3">
                   Download Brochure <ArrowDownToLine className="w-4 h-4" />
@@ -95,7 +95,7 @@ const AltairOverview = () => {
                 <div className="absolute inset-0 bg-white transform -translate-x-full group-hover:translate-x-0 transition-transform duration-300 ease-in-out" />
               </button>
               <p className="mt-4 text-[10px] text-gray-500 flex items-center gap-2">
-                <CheckCircle2 className="w-3 h-3 text-[#C5A059]" />
+                <CheckCircle2 className="w-3 h-3 text-[#C9A24B]" />
                 Includes Floor Plans & Master Layout
               </p>
             </div>
@@ -127,12 +127,12 @@ const AltairOverview = () => {
                   `}
                 >
                   {/* Hover Accent Line */}
-                  <div className="absolute top-0 left-0 w-1 h-0 bg-[#C5A059] group-hover:h-full transition-all duration-300 ease-in-out" />
+                  <div className="absolute top-0 left-0 w-1 h-0 bg-[#C9A24B] group-hover:h-full transition-all duration-300 ease-in-out" />
 
                   <div className="flex flex-col h-full justify-between gap-6">
                     <div className="flex justify-between items-start">
-                      <div className="p-3 bg-white border border-gray-100 shadow-sm rounded-md group-hover:border-[#C5A059] group-hover:text-[#C5A059] transition-colors">
-                        <Icon className="w-6 h-6 text-gray-400 group-hover:text-[#C5A059] transition-colors" />
+                      <div className="p-3 bg-white border border-gray-100 shadow-sm rounded-md group-hover:border-[#C9A24B] group-hover:text-[#C9A24B] transition-colors">
+                        <Icon className="w-6 h-6 text-gray-400 group-hover:text-[#C9A24B] transition-colors" />
                       </div>
                       <span className="text-5xl font-bold text-gray-100 group-hover:text-gray-50 transition-colors select-none">
                         0{idx + 1}
@@ -143,7 +143,7 @@ const AltairOverview = () => {
                       <h4 className="text-xs font-bold text-gray-400 uppercase tracking-widest mb-2">
                         {item.label}
                       </h4>
-                      <p className="text-xl font-bold text-[#0a1e38] group-hover:translate-x-1 transition-transform duration-300">
+                      <p className="text-xl font-bold text-[#0B3D2E] group-hover:translate-x-1 transition-transform duration-300">
                         {item.value}
                       </p>
                     </div>

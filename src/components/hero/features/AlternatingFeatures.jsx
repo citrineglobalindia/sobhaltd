@@ -86,7 +86,7 @@ const FeatureSection = ({ section, index, onOpenModal }) => {
             initial={{ width: "100%" }}
             animate={isInView ? { width: "0%" } : {}}
             transition={{ duration: 0.8, ease: "easeInOut", delay: 0.2 }}
-            className={`absolute inset-0 bg-[#C5A059] z-20 ${
+            className={`absolute inset-0 bg-[#C9A24B] z-20 ${
               isEven ? "origin-left" : "origin-right"
             }`}
           />
@@ -99,7 +99,7 @@ const FeatureSection = ({ section, index, onOpenModal }) => {
           transition={{ delay: 0.6, duration: 0.6 }}
           className={`absolute -bottom-6 ${
             isEven ? "-left-6" : "-right-6"
-          } w-2/3 h-2/3 border-2 border-[#C5A059]/30 -z-10 hidden md:block`}
+          } w-2/3 h-2/3 border-2 border-[#C9A24B]/30 -z-10 hidden md:block`}
         />
       </div>
 
@@ -113,7 +113,7 @@ const FeatureSection = ({ section, index, onOpenModal }) => {
           initial={{ width: 0 }}
           animate={isInView ? { width: 60 } : {}}
           transition={{ delay: 0.4, duration: 0.5 }}
-          className="h-1 bg-[#C5A059]"
+          className="h-1 bg-[#C9A24B]"
         />
 
         <div>
@@ -121,7 +121,7 @@ const FeatureSection = ({ section, index, onOpenModal }) => {
             initial={{ opacity: 0, y: 10 }}
             animate={isInView ? { opacity: 1, y: 0 } : {}}
             transition={{ delay: 0.5 }}
-            className="text-[#C5A059] font-bold text-xs uppercase tracking-[0.25em] mb-3 block"
+            className="text-[#C9A24B] font-bold text-xs uppercase tracking-[0.25em] mb-3 block"
           >
             {section.subtitle}
           </motion.span>
@@ -154,8 +154,8 @@ const FeatureSection = ({ section, index, onOpenModal }) => {
               transition={{ delay: 0.8 + i * 0.1 }}
               className="flex items-center gap-3 group/item cursor-default"
             >
-              <Minus className="w-4 h-4 text-[#C5A059] group-hover/item:w-6 transition-all duration-300" />
-              <span className="text-sm font-semibold text-gray-800 group-hover/item:text-[#C5A059] transition-colors">
+              <Minus className="w-4 h-4 text-[#C9A24B] group-hover/item:w-6 transition-all duration-300" />
+              <span className="text-sm font-semibold text-gray-800 group-hover/item:text-[#C9A24B] transition-colors">
                 {feature}
               </span>
             </motion.div>
@@ -170,12 +170,12 @@ const FeatureSection = ({ section, index, onOpenModal }) => {
         >
           <button
             onClick={onOpenModal}
-            className="group relative px-8 py-4 bg-[#1a1a1a] text-white overflow-hidden transition-all hover:shadow-xl hover:shadow-[#C5A059]/20"
+            className="group relative px-8 py-4 bg-[#1a1a1a] text-white overflow-hidden transition-all hover:shadow-xl hover:shadow-[#C9A24B]/20"
           >
             <span className="relative z-10 flex items-center gap-3 font-bold text-xs uppercase tracking-widest group-hover:text-black transition-colors duration-300">
               {section.cta} <ArrowRight className="w-4 h-4" />
             </span>
-            <div className="absolute inset-0 bg-[#C5A059] transform -translate-x-full group-hover:translate-x-0 transition-transform duration-300 ease-in-out" />
+            <div className="absolute inset-0 bg-[#C9A24B] transform -translate-x-full group-hover:translate-x-0 transition-transform duration-300 ease-in-out" />
           </button>
         </motion.div>
       </motion.div>

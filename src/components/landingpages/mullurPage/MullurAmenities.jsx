@@ -102,12 +102,12 @@ const MullurAmenities = () => {
         {/* --- HEADER --- */}
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-6">
           <div className="max-w-2xl">
-            <span className="text-yellow-500 font-bold text-xs uppercase tracking-[0.25em] block mb-2">
+            <span className="text-[#C9A24B] font-bold text-xs uppercase tracking-[0.25em] block mb-2">
               A Community Designed Around You
             </span>
             <h2 className="text-4xl md:text-5xl font-bold text-white leading-tight">
               A Premium Home That <br />
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-yellow-600">
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#D9B968] to-[#A8842F]">
                 Extends Beyond Four Walls
               </span>
             </h2>
@@ -115,7 +115,7 @@ const MullurAmenities = () => {
 
           <button
             onClick={() => setIsModalOpen(true)}
-            className="group flex items-center gap-3 px-6 py-3 border border-yellow-500/30 hover:border-yellow-500 text-yellow-500 rounded-full transition-all hover:bg-yellow-500 hover:text-black"
+            className="group flex items-center gap-3 px-6 py-3 border border-[#C9A24B]/30 hover:border-[#C9A24B] text-[#C9A24B] rounded-full transition-all hover:bg-[#C9A24B] hover:text-black"
           >
             <Download className="w-4 h-4" />
             <span>Amenities Brochure</span>
@@ -143,7 +143,7 @@ const MullurAmenities = () => {
               <div className="absolute bottom-0 left-0 w-full p-6 md:p-8">
                 <div className="flex items-start justify-between">
                   <div className="transform transition-transform duration-300 group-hover:-translate-y-2">
-                    <div className="flex items-center gap-2 mb-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300 text-yellow-500 text-xs font-bold uppercase tracking-wider">
+                    <div className="flex items-center gap-2 mb-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300 text-[#C9A24B] text-xs font-bold uppercase tracking-wider">
                       {item.icon} {item.subtitle}
                     </div>
                     <h3 className="text-2xl md:text-3xl font-bold text-white mb-2">

@@ -4,3 +4,24 @@
   --background: #ffffff;
   --foreground: #171717;
 }
+
+/* Map Tailwind's font utilities to the new type system */
+@theme inline {
+  --font-sans: "Montserrat", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Playfair Display", Georgia, "Times New Roman", serif;
+}
+
+body {
+  font-family: "Montserrat", ui-sans-serif, system-ui, sans-serif;
+}
+
+/* Elegant serif display for all headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+  letter-spacing: -0.01em;
+}

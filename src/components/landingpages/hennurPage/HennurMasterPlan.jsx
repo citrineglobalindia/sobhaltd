@@ -70,18 +70,18 @@ const HennurMasterPlan = () => {
   const [isEnquiryOpen, setIsEnquiryOpen] = useState(false);
 
   return (
-    <section className="py-20 bg-[#0a1e38] font-sans relative overflow-hidden">
-      <div className="absolute -top-24 -right-24 w-96 h-96 bg-[#C5A059]/10 rounded-full blur-3xl" />
+    <section className="py-20 bg-[#0B3D2E] font-sans relative overflow-hidden">
+      <div className="absolute -top-24 -right-24 w-96 h-96 bg-[#C9A24B]/10 rounded-full blur-3xl" />
 
       <div className="max-w-7xl mx-auto px-6 relative z-10">
         {/* Header */}
         <div className="text-center mb-14 max-w-3xl mx-auto">
-          <span className="text-[#C5A059] font-bold text-xs uppercase tracking-[0.25em] block mb-3">
+          <span className="text-[#C9A24B] font-bold text-xs uppercase tracking-[0.25em] block mb-3">
             The Master Plan
           </span>
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-4 leading-tight">
             A Complete{" "}
-            <span className="text-[#C5A059]">Mixed-Use Township</span>
+            <span className="text-[#C9A24B]">Mixed-Use Township</span>
           </h2>
           <p className="text-gray-300 text-lg">
             Sobha Limited proposes a landmark integrated development on Hennur
@@ -102,7 +102,7 @@ const HennurMasterPlan = () => {
               transition={{ delay: idx * 0.08, duration: 0.5 }}
               className="bg-white/5 border border-white/10 rounded-2xl px-4 py-6 text-center"
             >
-              <p className="text-3xl md:text-4xl font-bold text-[#C5A059] mb-1">
+              <p className="text-3xl md:text-4xl font-bold text-[#C9A24B] mb-1">
                 {s.value}
               </p>
               <p className="text-xs md:text-sm text-gray-300 uppercase tracking-wide">
@@ -123,7 +123,7 @@ const HennurMasterPlan = () => {
               transition={{ delay: idx * 0.06, duration: 0.5 }}
               className="group bg-white/5 border border-white/10 rounded-2xl p-7 hover:bg-white/10 transition-colors"
             >
-              <div className="w-12 h-12 rounded-xl bg-[#C5A059] text-[#0a1e38] flex items-center justify-center mb-5">
+              <div className="w-12 h-12 rounded-xl bg-[#C9A24B] text-[#0B3D2E] flex items-center justify-center mb-5">
                 <c.icon className="w-6 h-6" />
               </div>
               <h3 className="text-xl font-bold text-white mb-2">{c.title}</h3>
@@ -135,7 +135,7 @@ const HennurMasterPlan = () => {
         {/* Phase 1 highlight */}
         <div className="bg-gradient-to-r from-white/10 to-transparent border border-white/10 rounded-3xl p-8 md:p-10 flex flex-col lg:flex-row gap-8 lg:items-center">
           <div className="lg:w-1/3">
-            <span className="inline-block bg-[#C5A059] text-[#0a1e38] text-xs font-bold uppercase tracking-widest px-3 py-1 rounded mb-4">
+            <span className="inline-block bg-[#C9A24B] text-[#0B3D2E] text-xs font-bold uppercase tracking-widest px-3 py-1 rounded mb-4">
               Phase 1 — 17 Acres
             </span>
             <h3 className="text-3xl font-bold text-white mb-3">
@@ -155,7 +155,7 @@ const HennurMasterPlan = () => {
                   key={item}
                   className="flex items-center gap-3 bg-white/5 border border-white/10 rounded-lg px-4 py-3"
                 >
-                  <span className="w-2 h-2 rounded-full bg-[#C5A059] shrink-0" />
+                  <span className="w-2 h-2 rounded-full bg-[#C9A24B] shrink-0" />
                   <span className="text-gray-100 text-sm font-medium">
                     {item}
                   </span>
@@ -164,7 +164,7 @@ const HennurMasterPlan = () => {
             </div>
             <button
               onClick={() => setIsEnquiryOpen(true)}
-              className="inline-flex items-center gap-2 bg-[#C5A059] hover:bg-white text-[#0a1e38] font-bold px-8 py-4 rounded-sm uppercase text-sm tracking-widest transition-all"
+              className="inline-flex items-center gap-2 bg-[#C9A24B] hover:bg-white text-[#0B3D2E] font-bold px-8 py-4 rounded-sm uppercase text-sm tracking-widest transition-all"
             >
               Enquire About Phase 1 <ArrowRight className="w-5 h-5" />
             </button>

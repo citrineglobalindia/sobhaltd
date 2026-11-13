@@ -321,7 +321,7 @@ const HeroSlider = () => {
               key={current}
               className="animate-in fade-in slide-in-from-left-8 duration-700 delay-100"
             >
-              <div className="inline-flex items-center gap-1.5 px-3 py-1 mb-3 rounded-sm bg-[#C5A059] text-black text-[10px] md:text-xs font-bold uppercase tracking-wider shadow-lg">
+              <div className="inline-flex items-center gap-1.5 px-3 py-1 mb-3 rounded-sm bg-[#C9A24B] text-black text-[10px] md:text-xs font-bold uppercase tracking-wider shadow-lg">
                 <MapPin className="w-3 h-3" />
                 {SLIDES[current].location}
               </div>
@@ -330,11 +330,11 @@ const HeroSlider = () => {
                 {SLIDES[current].title}
               </h1>
 
-              <div className="flex flex-col gap-1 border-l-4 border-[#C5A059] pl-4">
+              <div className="flex flex-col gap-1 border-l-4 border-[#C9A24B] pl-4">
                 <p className="text-gray-200 text-sm md:text-lg font-light tracking-wide opacity-90 drop-shadow-md">
                   {SLIDES[current].subtitle}
                 </p>
-                <p className="text-[#C5A059] text-sm md:text-lg font-bold">
+                <p className="text-[#C9A24B] text-sm md:text-lg font-bold">
                   {SLIDES[current].basePrice}
                 </p>
               </div>
@@ -349,15 +349,15 @@ const HeroSlider = () => {
                 <div className="mb-4 border-b border-white/10 pb-2">
                   <h3 className="text-md md:text-lg font-bold text-white flex items-center gap-2">
                     {step === 1 ? (
-                      <Building2 className="w-5 h-5 text-[#C5A059]" />
+                      <Building2 className="w-5 h-5 text-[#C9A24B]" />
                     ) : (
-                      <Home className="w-5 h-5 text-[#C5A059]" />
+                      <Home className="w-5 h-5 text-[#C9A24B]" />
                     )}
                     {step === 1 ? "Book a Site Visit" : "Select Configuration"}
                   </h3>
                   <p className="text-[11px] text-gray-300 pl-7">
                     Get exclusive pricing for{" "}
-                    <span className="text-[#C5A059] font-semibold">
+                    <span className="text-[#C9A24B] font-semibold">
                       {SLIDES[current].title}
                     </span>
                   </p>
@@ -371,7 +371,7 @@ const HeroSlider = () => {
                   >
                     {/* Name Input */}
                     <div className="relative group">
-                      <User className="absolute left-3 top-2.5 w-4 h-4 text-gray-400 group-focus-within:text-[#C5A059] transition-colors" />
+                      <User className="absolute left-3 top-2.5 w-4 h-4 text-gray-400 group-focus-within:text-[#C9A24B] transition-colors" />
                       <input
                         type="text"
                         name="name"
@@ -379,26 +379,26 @@ const HeroSlider = () => {
                         placeholder="Your Name"
                         value={formState.name}
                         onChange={handleChange}
-                        className="w-full bg-black/40 border border-white/10 rounded-sm py-2 pl-10 pr-4 text-sm text-white placeholder-gray-400 outline-none focus:border-[#C5A059] focus:bg-black/60 transition-all"
+                        className="w-full bg-black/40 border border-white/10 rounded-sm py-2 pl-10 pr-4 text-sm text-white placeholder-gray-400 outline-none focus:border-[#C9A24B] focus:bg-black/60 transition-all"
                       />
                     </div>
 
                     {/* Email Input (Made Optional) */}
                     <div className="relative group">
-                      <Mail className="absolute left-3 top-2.5 w-4 h-4 text-gray-400 group-focus-within:text-[#C5A059] transition-colors" />
+                      <Mail className="absolute left-3 top-2.5 w-4 h-4 text-gray-400 group-focus-within:text-[#C9A24B] transition-colors" />
                       <input
                         type="email"
                         name="email"
                         placeholder="Email Address (Optional)"
                         value={formState.email}
                         onChange={handleChange}
-                        className="w-full bg-black/40 border border-white/10 rounded-sm py-2 pl-10 pr-4 text-sm text-white placeholder-gray-400 outline-none focus:border-[#C5A059] focus:bg-black/60 transition-all"
+                        className="w-full bg-black/40 border border-white/10 rounded-sm py-2 pl-10 pr-4 text-sm text-white placeholder-gray-400 outline-none focus:border-[#C9A24B] focus:bg-black/60 transition-all"
                       />
                     </div>
 
                     {/* Phone Input */}
                     <div className="relative group">
-                      <Phone className="absolute left-3 top-2.5 w-4 h-4 text-gray-400 group-focus-within:text-[#C5A059] transition-colors" />
+                      <Phone className="absolute left-3 top-2.5 w-4 h-4 text-gray-400 group-focus-within:text-[#C9A24B] transition-colors" />
                       <input
                         type="tel"
                         name="phone"
@@ -416,13 +416,13 @@ const HeroSlider = () => {
                             .slice(0, 10);
                           handleChange(e);
                         }}
-                        className="w-full bg-black/40 border border-white/10 rounded-sm py-2 pl-10 pr-4 text-sm text-white placeholder-gray-400 outline-none focus:border-[#C5A059] focus:bg-black/60 transition-all"
+                        className="w-full bg-black/40 border border-white/10 rounded-sm py-2 pl-10 pr-4 text-sm text-white placeholder-gray-400 outline-none focus:border-[#C9A24B] focus:bg-black/60 transition-all"
                       />
                     </div>
 
                     <button
                       type="submit"
-                      className="mt-1 w-full bg-[#C5A059] hover:bg-[#b08d4b] text-black font-bold py-2.5 rounded-sm flex items-center justify-center gap-2 transition-all active:scale-95 shadow-lg shadow-[#C5A059]/20 text-sm uppercase tracking-wide"
+                      className="mt-1 w-full bg-[#C9A24B] hover:bg-[#b08d4b] text-black font-bold py-2.5 rounded-sm flex items-center justify-center gap-2 transition-all active:scale-95 shadow-lg shadow-[#C9A24B]/20 text-sm uppercase tracking-wide"
                     >
                       Select Configuration <ArrowRight className="w-4 h-4" />
                     </button>
@@ -432,7 +432,7 @@ const HeroSlider = () => {
                 {/* --- STEP 2: CONFIGURATION & TIME --- */}
                 {step === 2 && (
                   <div className="animate-in slide-in-from-right duration-300">
-                    <div className="max-h-[140px] overflow-y-auto pr-1 space-y-2 mb-3 scrollbar-thin scrollbar-thumb-[#C5A059] scrollbar-track-transparent">
+                    <div className="max-h-[140px] overflow-y-auto pr-1 space-y-2 mb-3 scrollbar-thin scrollbar-thumb-[#C9A24B] scrollbar-track-transparent">
                       {SLIDES[current].configs.map((config, idx) => (
                         <div
                           key={idx}
@@ -441,27 +441,27 @@ const HeroSlider = () => {
                             cursor-pointer p-2 md:p-3 rounded-md border transition-all duration-200 relative group/item
                             ${
                               formState.selectedConfig === config
-                                ? "bg-[#C5A059]/20 border-[#C5A059]"
+                                ? "bg-[#C9A24B]/20 border-[#C9A24B]"
                                 : "bg-black/20 border-white/10 hover:bg-black/40 hover:border-white/30"
                             }
                           `}
                         >
                           <div className="flex justify-between items-start">
                             <div>
-                              <div className="text-white text-xs md:text-sm font-bold group-hover/item:text-[#C5A059] transition-colors">
+                              <div className="text-white text-xs md:text-sm font-bold group-hover/item:text-[#C9A24B] transition-colors">
                                 {config.type}
                               </div>
                               <div className="text-gray-400 text-[10px] md:text-xs flex items-center gap-1">
                                 <LayoutGrid className="w-3 h-3" /> {config.size}
                               </div>
                             </div>
-                            <div className="text-[#C5A059] text-[10px] md:text-xs font-semibold text-right">
+                            <div className="text-[#C9A24B] text-[10px] md:text-xs font-semibold text-right">
                               {config.price}
                             </div>
                           </div>
                           {formState.selectedConfig === config && (
                             <div className="absolute top-2 right-2">
-                              <CheckCircle2 className="w-4 h-4 text-[#C5A059]" />
+                              <CheckCircle2 className="w-4 h-4 text-[#C9A24B]" />
                             </div>
                           )}
                         </div>
@@ -470,12 +470,12 @@ const HeroSlider = () => {
 
                     {/* Call Time */}
                     <div className="relative group mb-4">
-                      <Clock className="absolute left-3 top-2.5 w-4 h-4 text-gray-400 group-focus-within:text-[#C5A059] transition-colors z-10" />
+                      <Clock className="absolute left-3 top-2.5 w-4 h-4 text-gray-400 group-focus-within:text-[#C9A24B] transition-colors z-10" />
                       <select
                         name="callTime"
                         value={formState.callTime}
                         onChange={handleChange}
-                        className="w-full bg-black/40 border border-white/10 rounded-sm py-2 pl-10 pr-4 text-sm text-white outline-none focus:border-[#C5A059] focus:bg-black/60 transition-all appearance-none cursor-pointer"
+                        className="w-full bg-black/40 border border-white/10 rounded-sm py-2 pl-10 pr-4 text-sm text-white outline-none focus:border-[#C9A24B] focus:bg-black/60 transition-all appearance-none cursor-pointer"
                       >
                         <option value="" disabled className="text-gray-500">
                           When should we call?
@@ -522,7 +522,7 @@ const HeroSlider = () => {
                           !formState.callTime ||
                           isSubmitting
                         }
-                        className="w-2/3 bg-[#C5A059] hover:bg-[#b08d4b] text-black font-bold py-2 rounded-sm flex items-center justify-center gap-2 transition-all active:scale-95 disabled:opacity-50 disabled:cursor-not-allowed text-xs uppercase"
+                        className="w-2/3 bg-[#C9A24B] hover:bg-[#b08d4b] text-black font-bold py-2 rounded-sm flex items-center justify-center gap-2 transition-all active:scale-95 disabled:opacity-50 disabled:cursor-not-allowed text-xs uppercase"
                       >
                         {isSubmitting ? (
                           <span className="flex items-center gap-2">
@@ -555,7 +555,7 @@ const HeroSlider = () => {
 
         <button
           onClick={nextSlide}
-          className="w-9 h-9 md:w-12 md:h-12 flex items-center justify-center bg-[#C5A059] hover:bg-[#b08d4b] shadow-lg shadow-[#C5A059]/20 rounded-sm text-black transition-all hover:scale-105 active:scale-95"
+          className="w-9 h-9 md:w-12 md:h-12 flex items-center justify-center bg-[#C9A24B] hover:bg-[#b08d4b] shadow-lg shadow-[#C9A24B]/20 rounded-sm text-black transition-all hover:scale-105 active:scale-95"
         >
           <ChevronRight className="w-5 h-5 md:w-6 md:h-6" />
         </button>

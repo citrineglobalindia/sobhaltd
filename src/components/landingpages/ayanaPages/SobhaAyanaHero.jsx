@@ -76,7 +76,7 @@ const SobhaAyanaHero = () => {
               Sobha Ayana
             </h1>
             <p className="text-base md:text-lg text-white/90 font-medium flex items-center gap-2">
-              <MapPinIcon className="w-4 h-4 text-[#C5A059]" />
+              <MapPinIcon className="w-4 h-4 text-[#C9A24B]" />
               Panathur, Off Marathahalli-ORR, East Bangalore
             </p>
           </motion.div>
@@ -93,7 +93,7 @@ const SobhaAyanaHero = () => {
               {PROJECT_DETAILS.map((item, index) => (
                 <div key={index} className="flex items-center">
                   <div className="pr-6 md:pr-8">
-                    <h4 className="text-[#C5A059] text-xs md:text-sm font-bold uppercase tracking-wider mb-1">
+                    <h4 className="text-[#C9A24B] text-xs md:text-sm font-bold uppercase tracking-wider mb-1">
                       {item.label}
                     </h4>
                     <p className="text-sm md:text-lg font-bold text-white whitespace-nowrap">
@@ -118,16 +118,16 @@ const SobhaAyanaHero = () => {
               {/* Button 1: Download - FIXED ONCLICK HANDLER */}
               <button
                 onClick={() => setIsDownloadOpen(true)}
-                className="group flex items-center gap-2 px-8 py-4 border border-white/30 hover:border-[#C5A059] text-white font-bold text-sm uppercase tracking-widest transition-all rounded-sm hover:bg-black/40 backdrop-blur-sm"
+                className="group flex items-center gap-2 px-8 py-4 border border-white/30 hover:border-[#C9A24B] text-white font-bold text-sm uppercase tracking-widest transition-all rounded-sm hover:bg-black/40 backdrop-blur-sm"
               >
-                <Download className="w-4 h-4 group-hover:text-[#C5A059] transition-colors" />
+                <Download className="w-4 h-4 group-hover:text-[#C9A24B] transition-colors" />
                 <span>Brochure</span>
               </button>
 
               {/* Button 2: Site Visit */}
               <button
                 onClick={() => setIsEnquiryOpen(true)}
-                className="group flex items-center gap-2 bg-[#C5A059] hover:bg-[#b08d4b] text-white font-bold text-sm uppercase tracking-widest px-8 py-4 rounded-sm shadow-lg shadow-orange-900/20 transition-all active:scale-95"
+                className="group flex items-center gap-2 bg-[#C9A24B] hover:bg-[#b08d4b] text-white font-bold text-sm uppercase tracking-widest px-8 py-4 rounded-sm shadow-lg shadow-orange-900/20 transition-all active:scale-95"
               >
                 <CalendarDays className="w-4 h-4 text-white" />
                 <span>Schedule Visit</span>
@@ -143,7 +143,7 @@ const SobhaAyanaHero = () => {
       <div className="fixed top-1/2 right-0 -translate-y-1/2 z-50 hidden md:block">
         <button
           onClick={() => setIsEnquiryOpen(true)}
-          className="bg-[#C5A059] text-white font-bold text-sm uppercase tracking-widest py-8 px-2 rounded-l-md shadow-lg hover:bg-[#b08d4b] transition-colors writing-vertical-rl rotate-180 flex items-center gap-2 group"
+          className="bg-[#C9A24B] text-white font-bold text-sm uppercase tracking-widest py-8 px-2 rounded-l-md shadow-lg hover:bg-[#b08d4b] transition-colors writing-vertical-rl rotate-180 flex items-center gap-2 group"
         >
           <MessageCircle className="w-4 h-4 rotate-90 mb-2 group-hover:scale-110 transition-transform" />
           Enquire Now
@@ -172,7 +172,7 @@ const SobhaAyanaHero = () => {
         </button>
         <button
           onClick={() => setIsEnquiryOpen(true)}
-          className="flex-[2] bg-[#C5A059] text-white font-bold py-3.5 rounded-sm uppercase tracking-widest text-xs shadow-lg"
+          className="flex-[2] bg-[#C9A24B] text-white font-bold py-3.5 rounded-sm uppercase tracking-widest text-xs shadow-lg"
         >
           Schedule Site Visit
         </button>

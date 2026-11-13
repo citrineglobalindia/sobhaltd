@@ -19,25 +19,25 @@ const STATS = [
     id: 1,
     label: "Completed Projects",
     value: "530+",
-    icon: <Building2 className="w-12 h-12 text-[#C5A059]" />,
+    icon: <Building2 className="w-12 h-12 text-[#C9A24B]" />,
   },
   {
     id: 2,
     label: "Cities Presence",
     value: "27",
-    icon: <MapPin className="w-12 h-12 text-[#C5A059]" />,
+    icon: <MapPin className="w-12 h-12 text-[#C9A24B]" />,
   },
   {
     id: 3,
     label: "Awards Won",
     value: "300+",
-    icon: <Trophy className="w-12 h-12 text-[#C5A059]" />,
+    icon: <Trophy className="w-12 h-12 text-[#C9A24B]" />,
   },
   {
     id: 4,
     label: "Sq. Ft. Delivered",
     value: "148 Mn+",
-    icon: <Ruler className="w-12 h-12 text-[#C5A059]" />,
+    icon: <Ruler className="w-12 h-12 text-[#C9A24B]" />,
   },
 ];
 
@@ -48,20 +48,20 @@ const LegacySection = () => {
   return (
     <section className="relative w-full bg-white overflow-hidden font-sans">
       {/* --- 1. TOP STATS BAR --- */}
-      <div className="w-full bg-[#1a1a1a] text-white py-3 md:py-4 border-b border-[#C5A059]">
+      <div className="w-full bg-[#1a1a1a] text-white py-3 md:py-4 border-b border-[#C9A24B]">
         <div className="max-w-8xl mx-auto px-4 text-center">
           <p className="text-[10px] md:text-sm font-medium tracking-widest uppercase flex flex-wrap justify-center gap-x-6 gap-y-2">
             <span className="flex items-center gap-2">
-              <MapPin className="w-3 h-3 text-[#C5A059]" /> 27 Cities
+              <MapPin className="w-3 h-3 text-[#C9A24B]" /> 27 Cities
             </span>
-            <span className="hidden md:inline text-[#C5A059]">|</span>
+            <span className="hidden md:inline text-[#C9A24B]">|</span>
             <span className="flex items-center gap-2">
-              <Ruler className="w-3 h-3 text-[#C5A059]" /> 148 Mn Sq. ft.
+              <Ruler className="w-3 h-3 text-[#C9A24B]" /> 148 Mn Sq. ft.
               Delivered
             </span>
-            <span className="hidden md:inline text-[#C5A059]">|</span>
+            <span className="hidden md:inline text-[#C9A24B]">|</span>
             <span className="flex items-center gap-2">
-              <Star className="w-3 h-3 text-[#C5A059]" /> 300+ Awards
+              <Star className="w-3 h-3 text-[#C9A24B]" /> 300+ Awards
             </span>
           </p>
         </div>
@@ -93,16 +93,16 @@ const LegacySection = () => {
               className="flex flex-col gap-8"
             >
               <div>
-                <span className="text-[#C5A059] font-bold tracking-widest uppercase text-xs mb-2 block">
+                <span className="text-[#C9A24B] font-bold tracking-widest uppercase text-xs mb-2 block">
                   Our Journey
                 </span>
                 <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-none">
                   Passion at Work. <br />
-                  <span className="text-[#C5A059]">Since 1995.</span>
+                  <span className="text-[#C9A24B]">Since 1995.</span>
                 </h2>
               </div>
 
-              <p className="text-gray-600 text-sm md:text-base leading-relaxed text-justify border-l-4 border-[#C5A059] pl-6">
+              <p className="text-gray-600 text-sm md:text-base leading-relaxed text-justify border-l-4 border-[#C9A24B] pl-6">
                 Sobha Limited isn't just a name; it's a legacy of trust. For
                 over three decades, we have redefined the Indian real estate
                 landscape with our unique backward integration model,
@@ -114,7 +114,7 @@ const LegacySection = () => {
                 <br />
                 From presidential suites to luxury villas, our projects reflect
                 a simple promise:{" "}
-                <span className="text-[#C5A059] font-bold">
+                <span className="text-[#C9A24B] font-bold">
                   International Quality
                 </span>{" "}
                 that endures, and trust that is earned.
@@ -124,20 +124,20 @@ const LegacySection = () => {
               <div>
                 <button
                   onClick={() => setIsModalOpen(true)}
-                  className="group relative inline-flex items-center gap-3 bg-black text-white px-8 py-4 rounded-sm overflow-hidden transition-all duration-300 hover:bg-[#C5A059] hover:shadow-xl hover:shadow-[#C5A059]/30"
+                  className="group relative inline-flex items-center gap-3 bg-black text-white px-8 py-4 rounded-sm overflow-hidden transition-all duration-300 hover:bg-[#C9A24B] hover:shadow-xl hover:shadow-[#C9A24B]/30"
                 >
                   <span className="relative z-10 text-xs font-bold uppercase tracking-widest group-hover:text-black transition-colors">
                     Read Our Story
                   </span>
                   <ArrowRight className="w-4 h-4 relative z-10 group-hover:text-black transition-colors transform group-hover:translate-x-1" />
-                  <div className="absolute inset-0 bg-[#C5A059] transform -translate-x-full group-hover:translate-x-0 transition-transform duration-300 ease-out origin-left skew-x-12" />
+                  <div className="absolute inset-0 bg-[#C9A24B] transform -translate-x-full group-hover:translate-x-0 transition-transform duration-300 ease-out origin-left skew-x-12" />
                 </button>
               </div>
             </motion.div>
 
             {/* --- RIGHT COLUMN: Stats Grid --- */}
             <div className="relative">
-              <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[120%] h-[120%] bg-[#C5A059]/10 blur-[100px] rounded-full -z-10" />
+              <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[120%] h-[120%] bg-[#C9A24B]/10 blur-[100px] rounded-full -z-10" />
 
               <motion.div
                 className="grid grid-cols-2 gap-5 md:gap-8"
@@ -167,19 +167,19 @@ const LegacySection = () => {
                       bg-white p-6 md:p-10 rounded-xs
                       shadow-2xl shadow-gray-200/50 
                       flex flex-col items-center text-center 
-                      border border-gray-100 hover:border-[#C5A059] 
+                      border border-gray-100 hover:border-[#C9A24B] 
                       transition-all duration-300 group cursor-pointer
                       relative overflow-hidden
                     "
                   >
-                    <div className="absolute top-0 left-0 w-full h-1 bg-gray-100 group-hover:bg-[#C5A059] transition-colors duration-300" />
-                    <div className="mb-5 p-4 bg-gray-50 rounded-xs group-hover:bg-[#C5A059]/10 transition-colors transform group-hover:scale-110 duration-300">
+                    <div className="absolute top-0 left-0 w-full h-1 bg-gray-100 group-hover:bg-[#C9A24B] transition-colors duration-300" />
+                    <div className="mb-5 p-4 bg-gray-50 rounded-xs group-hover:bg-[#C9A24B]/10 transition-colors transform group-hover:scale-110 duration-300">
                       {stat.icon}
                     </div>
                     <h3 className="text-3xl md:text-4xl lg:text-5xl font-extrabold text-gray-900 mb-2">
                       {stat.value}
                     </h3>
-                    <p className="text-[10px] md:text-xs font-bold text-gray-500 uppercase tracking-widest group-hover:text-[#C5A059] transition-colors">
+                    <p className="text-[10px] md:text-xs font-bold text-gray-500 uppercase tracking-widest group-hover:text-[#C9A24B] transition-colors">
                       {stat.label}
                     </p>
                   </motion.div>

@@ -75,12 +75,12 @@ const MullurLocation = () => {
       <div className="max-w-8xl mx-auto px-4 md:px-6 lg:px-12 relative z-10">
         {/* --- HEADER --- */}
         <div className="text-center mb-16">
-          <span className="text-[#C5A059] font-bold text-xs uppercase tracking-[0.25em] block mb-3">
+          <span className="text-[#C9A24B] font-bold text-xs uppercase tracking-[0.25em] block mb-3">
             A Strategic Address
           </span>
           <h2 className="text-4xl md:text-5xl font-bold mb-4 text-slate-900">
             The Heart of Sarjapur Road{" "}
-            <span className="text-[#C5A059]">Growth</span>
+            <span className="text-[#C9A24B]">Growth</span>
           </h2>
           <p className="text-gray-600 max-w-2xl mx-auto text-lg">
             Positioned on Sarjapur Road, opposite Wipro Office in Kodathi, Sobha
@@ -100,8 +100,8 @@ const MullurLocation = () => {
                   onClick={() => setActiveCategory(idx)}
                   className={`flex items-center gap-2 px-5 py-3 rounded-full text-sm font-bold uppercase tracking-wide transition-all duration-300 border ${
                     activeCategory === idx
-                      ? "bg-[#C5A059] text-white border-[#C5A059] shadow-lg shadow-[#C5A059]/30"
-                      : "bg-white text-slate-500 border-slate-200 hover:border-[#C5A059] hover:text-[#C5A059]"
+                      ? "bg-[#C9A24B] text-white border-[#C9A24B] shadow-lg shadow-[#C9A24B]/30"
+                      : "bg-white text-slate-500 border-slate-200 hover:border-[#C9A24B] hover:text-[#C9A24B]"
                   }`}
                 >
                   {cat.icon} {cat.category}
@@ -111,7 +111,7 @@ const MullurLocation = () => {
 
             <div className="bg-slate-50 border border-slate-200 rounded-2xl p-8 shadow-sm min-h-[300px]">
               <h3 className="text-2xl font-bold mb-6 flex items-center gap-3 text-slate-800">
-                <span className="p-2 bg-white rounded-lg shadow-sm text-[#C5A059]">
+                <span className="p-2 bg-white rounded-lg shadow-sm text-[#C9A24B]">
                   {LOCATION_DATA[activeCategory].icon}
                 </span>
                 {LOCATION_DATA[activeCategory].category}
@@ -126,10 +126,10 @@ const MullurLocation = () => {
                     transition={{ delay: i * 0.1 }}
                     className="flex items-center justify-between border-b border-slate-200 pb-4 last:border-0 last:pb-0 group"
                   >
-                    <span className="text-lg text-slate-600 group-hover:text-[#C5A059] transition-colors font-medium">
+                    <span className="text-lg text-slate-600 group-hover:text-[#C9A24B] transition-colors font-medium">
                       {item.name}
                     </span>
-                    <span className="text-sm font-bold bg-white border border-slate-200 px-3 py-1 rounded text-[#C5A059] shadow-sm whitespace-nowrap">
+                    <span className="text-sm font-bold bg-white border border-slate-200 px-3 py-1 rounded text-[#C9A24B] shadow-sm whitespace-nowrap">
                       {item.time}
                     </span>
                   </motion.div>
@@ -145,13 +145,13 @@ const MullurLocation = () => {
             <div className="mt-6 flex flex-col sm:flex-row gap-4">
               <button
                 onClick={() => setIsDownloadOpen(true)}
-                className="flex-1 flex items-center justify-center gap-2 bg-[#0a1e38] text-white font-bold py-4 rounded-sm hover:bg-[#C5A059] transition-all uppercase text-xs tracking-widest shadow-lg"
+                className="flex-1 flex items-center justify-center gap-2 bg-[#0B3D2E] text-white font-bold py-4 rounded-sm hover:bg-[#C9A24B] transition-all uppercase text-xs tracking-widest shadow-lg"
               >
                 <Download className="w-4 h-4" /> Download Location Map
               </button>
               <button
                 onClick={() => setIsEnquiryOpen(true)}
-                className="flex-1 flex items-center justify-center gap-2 border border-slate-300 text-slate-700 font-bold py-4 rounded-sm hover:border-[#C5A059] hover:text-[#C5A059] hover:bg-white transition-all uppercase text-xs tracking-widest"
+                className="flex-1 flex items-center justify-center gap-2 border border-slate-300 text-slate-700 font-bold py-4 rounded-sm hover:border-[#C9A24B] hover:text-[#C9A24B] hover:bg-white transition-all uppercase text-xs tracking-widest"
               >
                 <MapPin className="w-4 h-4" /> Schedule Visit
               </button>
@@ -169,7 +169,7 @@ const MullurLocation = () => {
             ></iframe>
 
             <div className="absolute bottom-8 left-8 right-8 bg-white/95 backdrop-blur-md p-6 rounded-xl border border-slate-200 shadow-2xl pointer-events-none">
-              <h4 className="text-[#C5A059] font-bold text-sm uppercase mb-1">
+              <h4 className="text-[#C9A24B] font-bold text-sm uppercase mb-1">
                 Prime Address
               </h4>
               <p className="text-slate-800 text-lg font-medium leading-snug">
@@ -182,7 +182,7 @@ const MullurLocation = () => {
                   href="https://www.google.com/maps/search/Kodathi,+Sarjapur+Road,+Bengaluru"
                   target="_blank"
                   rel="noreferrer"
-                  className="inline-flex items-center gap-2 text-xs text-slate-500 hover:text-[#C5A059] transition-colors font-bold uppercase tracking-wide cursor-pointer"
+                  className="inline-flex items-center gap-2 text-xs text-slate-500 hover:text-[#C9A24B] transition-colors font-bold uppercase tracking-wide cursor-pointer"
                 >
                   Get Directions <ArrowRight className="w-3 h-3" />
                 </a>

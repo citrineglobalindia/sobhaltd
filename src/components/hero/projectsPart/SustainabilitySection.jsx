@@ -96,7 +96,7 @@ const SustainabilitySection = () => {
               >
                 {/* Top Badge */}
                 <div className="inline-block">
-                  <span className="bg-[#C5A059]/10 text-[#C5A059] px-4 py-1.5 rounded-sm text-xs font-bold uppercase tracking-widest">
+                  <span className="bg-[#C9A24B]/10 text-[#C9A24B] px-4 py-1.5 rounded-sm text-xs font-bold uppercase tracking-widest">
                     {currentProject.heading}
                   </span>
                 </div>
@@ -122,7 +122,7 @@ const SustainabilitySection = () => {
                         key={idx}
                         className="flex items-center gap-2 text-sm text-gray-700 font-medium"
                       >
-                        <ShieldCheck className="w-4 h-4 text-[#C5A059]" />
+                        <ShieldCheck className="w-4 h-4 text-[#C9A24B]" />
                         {feature}
                       </li>
                     ))}
@@ -134,7 +134,7 @@ const SustainabilitySection = () => {
                   <Link href={currentProject.link}>
                     <button
                       onClick={() => setIsModalOpen(true)}
-                      className="group relative inline-flex items-center gap-3 bg-[#0a1e38] text-white px-8 py-3.5 rounded-sm overflow-hidden transition-all duration-300 hover:bg-[#C5A059] hover:shadow-lg hover:shadow-[#C5A059]/30"
+                      className="group relative inline-flex items-center gap-3 bg-[#0B3D2E] text-white px-8 py-3.5 rounded-sm overflow-hidden transition-all duration-300 hover:bg-[#C9A24B] hover:shadow-lg hover:shadow-[#C9A24B]/30"
                     >
                       <span className="relative z-10 text-xs font-bold uppercase tracking-widest group-hover:text-black transition-colors">
                         Know More
@@ -142,7 +142,7 @@ const SustainabilitySection = () => {
                       <ArrowRight className="w-4 h-4 relative z-10 group-hover:text-black transition-colors transform group-hover:translate-x-1" />
 
                       {/* Slant Effect on Hover */}
-                      <div className="absolute inset-0 bg-[#C5A059] transform -translate-x-full group-hover:translate-x-0 transition-transform duration-300 ease-out origin-left skew-x-12" />
+                      <div className="absolute inset-0 bg-[#C9A24B] transform -translate-x-full group-hover:translate-x-0 transition-transform duration-300 ease-out origin-left skew-x-12" />
                     </button>
                   </Link>
                 </div>
@@ -157,7 +157,7 @@ const SustainabilitySection = () => {
                   onClick={() => setCurrentIndex(idx)}
                   className={`h-1 rounded-full transition-all duration-300 ${
                     currentIndex === idx
-                      ? "w-8 bg-[#C5A059]"
+                      ? "w-8 bg-[#C9A24B]"
                       : "w-2 bg-gray-300 hover:bg-gray-400"
                   }`}
                   aria-label={`Go to slide ${idx + 1}`}
@@ -169,7 +169,7 @@ const SustainabilitySection = () => {
           {/* --- RIGHT COLUMN: Image Slider --- */}
           <div className="w-full lg:w-1/2 relative h-[400px] md:h-[500px]">
             {/* Decorative Background Blob */}
-            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[110%] h-[110%] bg-[#C5A059]/10 blur-[80px] rounded-full -z-10" />
+            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[110%] h-[110%] bg-[#C9A24B]/10 blur-[80px] rounded-full -z-10" />
 
             <AnimatePresence mode="wait">
               <motion.div
@@ -194,7 +194,7 @@ const SustainabilitySection = () => {
             </AnimatePresence>
 
             {/* Floating Eco Badge */}
-            <div className="absolute -bottom-6 -left-6 md:bottom-8 md:-left-8 bg-white p-4 md:p-6 rounded-lg shadow-xl border-l-4 border-[#C5A059] animate-in slide-in-from-right duration-700 delay-300">
+            <div className="absolute -bottom-6 -left-6 md:bottom-8 md:-left-8 bg-white p-4 md:p-6 rounded-lg shadow-xl border-l-4 border-[#C9A24B] animate-in slide-in-from-right duration-700 delay-300">
               <div className="flex items-center gap-3">
                 <div className="p-2 bg-green-50 rounded-full">
                   <Leaf className="w-6 h-6 text-green-600" />

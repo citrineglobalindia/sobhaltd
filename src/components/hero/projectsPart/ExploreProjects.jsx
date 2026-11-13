@@ -82,7 +82,7 @@ const ExploreProjects = () => {
         {/* --- HEADER SECTION --- */}
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-8 md:mb-12 gap-6">
           <div className="max-w-xl">
-            <span className="text-[#C5A059] font-bold tracking-widest uppercase text-xs mb-2 block">
+            <span className="text-[#C9A24B] font-bold tracking-widest uppercase text-xs mb-2 block">
               Portfolio
             </span>
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900">
@@ -96,8 +96,8 @@ const ExploreProjects = () => {
               onClick={() => setActiveTab("Residential")}
               className={`px-4 md:px-6 py-2 md:py-2.5 text-[10px] md:text-xs font-bold uppercase tracking-widest border transition-all duration-300 ${
                 activeTab === "Residential"
-                  ? "bg-[#0a1e38] text-white border-[#0a1e38]"
-                  : "bg-white text-gray-500 border-gray-200 hover:border-[#C5A059] hover:text-[#C5A059]"
+                  ? "bg-[#0B3D2E] text-white border-[#0B3D2E]"
+                  : "bg-white text-gray-500 border-gray-200 hover:border-[#C9A24B] hover:text-[#C9A24B]"
               }`}
             >
               Residential
@@ -106,8 +106,8 @@ const ExploreProjects = () => {
               onClick={() => setActiveTab("Commercial")}
               className={`px-4 md:px-6 py-2 md:py-2.5 text-[10px] md:text-xs font-bold uppercase tracking-widest border transition-all duration-300 ${
                 activeTab === "Commercial"
-                  ? "bg-[#0a1e38] text-white border-[#0a1e38]"
-                  : "bg-white text-gray-500 border-gray-200 hover:border-[#C5A059] hover:text-[#C5A059]"
+                  ? "bg-[#0B3D2E] text-white border-[#0B3D2E]"
+                  : "bg-white text-gray-500 border-gray-200 hover:border-[#C9A24B] hover:text-[#C9A24B]"
               }`}
             >
               Commercial
@@ -168,8 +168,8 @@ const ExploreProjects = () => {
                   <div className="transform transition-transform duration-500 md:translate-y-4 md:group-hover:translate-y-0">
                     {/* Top Tag: Location */}
                     <div className="flex items-center gap-1.5 mb-2">
-                      <MapPin className="w-3 h-3 text-[#C5A059]" />
-                      <span className="text-[#C5A059] text-[10px] md:text-xs font-bold uppercase tracking-wider truncate">
+                      <MapPin className="w-3 h-3 text-[#C9A24B]" />
+                      <span className="text-[#C9A24B] text-[10px] md:text-xs font-bold uppercase tracking-wider truncate">
                         {project.location}
                       </span>
                     </div>
@@ -206,7 +206,7 @@ const ExploreProjects = () => {
                       <div
                         className="
                         hidden md:block
-                        bg-[#C5A059] 
+                        bg-[#C9A24B] 
                         p-3 rounded-full 
                         text-black 
                         transform translate-x-10 opacity-0 

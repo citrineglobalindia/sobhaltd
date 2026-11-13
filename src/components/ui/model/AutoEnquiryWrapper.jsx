@@ -337,7 +337,7 @@ export default function AutoEnquiryWrapper({ children }) {
                       priority
                     />
                     {/* Luxurious Gradient Overlay */}
-                    <div className="absolute inset-0 bg-gradient-to-t from-[#0a1e38]/95 via-[#0a1e38]/50 to-transparent" />
+                    <div className="absolute inset-0 bg-gradient-to-t from-[#0B3D2E]/95 via-[#0B3D2E]/50 to-transparent" />
                   </motion.div>
                 </AnimatePresence>
 
@@ -349,20 +349,20 @@ export default function AutoEnquiryWrapper({ children }) {
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ delay: 0.2 }}
                   >
-                    <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-sm bg-[#C5A059] text-white text-[10px] md:text-xs font-bold uppercase tracking-widest mb-3 shadow-lg">
+                    <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-sm bg-[#C9A24B] text-white text-[10px] md:text-xs font-bold uppercase tracking-widest mb-3 shadow-lg">
                       Premium Collection
                     </div>
                     <h3 className="text-2xl md:text-4xl font-bold leading-tight mb-2 tracking-tight">
                       {activeProjectData.title}
                     </h3>
 
-                    <div className="flex flex-col gap-2 mt-4 border-l-2 border-[#C5A059] pl-4">
+                    <div className="flex flex-col gap-2 mt-4 border-l-2 border-[#C9A24B] pl-4">
                       <div className="flex items-start gap-2 text-slate-200 text-xs md:text-sm">
-                        <MapPin className="w-4 h-4 text-[#C5A059] shrink-0 mt-0.5" />
+                        <MapPin className="w-4 h-4 text-[#C9A24B] shrink-0 mt-0.5" />
                         <p>{activeProjectData.location}</p>
                       </div>
                       <div className="flex items-center gap-2 text-white font-semibold">
-                        <Tag className="w-4 h-4 text-[#C5A059] shrink-0" />
+                        <Tag className="w-4 h-4 text-[#C9A24B] shrink-0" />
                         <p className="text-sm md:text-base">
                           {activeProjectData.basePrice}
                         </p>
@@ -377,7 +377,7 @@ export default function AutoEnquiryWrapper({ children }) {
                 {!isSuccess ? (
                   <>
                     <div className="mb-6 md:mb-8">
-                      <h2 className="text-2xl md:text-3xl font-bold text-[#0a1e38] tracking-tight">
+                      <h2 className="text-2xl md:text-3xl font-bold text-[#0B3D2E] tracking-tight">
                         Register Your Interest
                       </h2>
                       <p className="text-slate-500 text-sm mt-2">
@@ -401,7 +401,7 @@ export default function AutoEnquiryWrapper({ children }) {
                             value={formState.name}
                             onChange={handleChange}
                             placeholder="Full Name*"
-                            className="w-full bg-slate-50 border border-slate-200 rounded-lg pl-12 pr-4 py-3.5 text-sm md:text-base text-[#0a1e38] placeholder-slate-400 outline-none focus:border-[#C5A059] focus:ring-1 focus:ring-[#C5A059] transition-all"
+                            className="w-full bg-slate-50 border border-slate-200 rounded-lg pl-12 pr-4 py-3.5 text-sm md:text-base text-[#0B3D2E] placeholder-slate-400 outline-none focus:border-[#C9A24B] focus:ring-1 focus:ring-[#C9A24B] transition-all"
                           />
                         </div>
 
@@ -426,7 +426,7 @@ export default function AutoEnquiryWrapper({ children }) {
                                 handleChange(e);
                               }}
                               placeholder="Phone Number*"
-                              className="w-full bg-slate-50 border border-slate-200 rounded-lg pl-12 pr-4 py-3.5 text-sm md:text-base text-[#0a1e38] placeholder-slate-400 outline-none focus:border-[#C5A059] focus:ring-1 focus:ring-[#C5A059] transition-all"
+                              className="w-full bg-slate-50 border border-slate-200 rounded-lg pl-12 pr-4 py-3.5 text-sm md:text-base text-[#0B3D2E] placeholder-slate-400 outline-none focus:border-[#C9A24B] focus:ring-1 focus:ring-[#C9A24B] transition-all"
                             />
                           </div>
 
@@ -439,7 +439,7 @@ export default function AutoEnquiryWrapper({ children }) {
                               value={formState.email}
                               onChange={handleChange}
                               placeholder="Email Address (Optional)"
-                              className="w-full bg-slate-50 border border-slate-200 rounded-lg pl-12 pr-4 py-3.5 text-sm md:text-base text-[#0a1e38] placeholder-slate-400 outline-none focus:border-[#C5A059] focus:ring-1 focus:ring-[#C5A059] transition-all"
+                              className="w-full bg-slate-50 border border-slate-200 rounded-lg pl-12 pr-4 py-3.5 text-sm md:text-base text-[#0B3D2E] placeholder-slate-400 outline-none focus:border-[#C9A24B] focus:ring-1 focus:ring-[#C9A24B] transition-all"
                             />
                           </div>
                         </div>
@@ -452,7 +452,7 @@ export default function AutoEnquiryWrapper({ children }) {
                               name="project"
                               value={formState.project}
                               onChange={handleChange}
-                              className="w-full bg-slate-50 border border-slate-200 rounded-lg pl-12 pr-4 py-3.5 text-sm md:text-base text-[#0a1e38] outline-none focus:border-[#C5A059] focus:ring-1 focus:ring-[#C5A059] transition-all appearance-none cursor-pointer"
+                              className="w-full bg-slate-50 border border-slate-200 rounded-lg pl-12 pr-4 py-3.5 text-sm md:text-base text-[#0B3D2E] outline-none focus:border-[#C9A24B] focus:ring-1 focus:ring-[#C9A24B] transition-all appearance-none cursor-pointer"
                             >
                               {PROJECT_DATA.map((p) => (
                                 <option key={p.id} value={p.title}>
@@ -467,7 +467,7 @@ export default function AutoEnquiryWrapper({ children }) {
                               name="config"
                               value={formState.config}
                               onChange={handleChange}
-                              className="w-full bg-slate-50 border border-slate-200 rounded-lg px-4 py-3.5 text-sm md:text-base text-[#0a1e38] outline-none focus:border-[#C5A059] focus:ring-1 focus:ring-[#C5A059] transition-all appearance-none cursor-pointer"
+                              className="w-full bg-slate-50 border border-slate-200 rounded-lg px-4 py-3.5 text-sm md:text-base text-[#0B3D2E] outline-none focus:border-[#C9A24B] focus:ring-1 focus:ring-[#C9A24B] transition-all appearance-none cursor-pointer"
                               required
                             >
                               <option value="" disabled>
@@ -491,7 +491,7 @@ export default function AutoEnquiryWrapper({ children }) {
                         disabled={
                           isSubmitting || !formState.name || !formState.phone
                         }
-                        className="w-full mt-auto bg-[#0a1e38] hover:bg-[#C5A059] cursor-pointer text-white font-bold py-4 rounded-lg flex items-center justify-center gap-2 transition-all shadow-md disabled:opacity-50 disabled:cursor-not-allowed text-base uppercase tracking-wider"
+                        className="w-full mt-auto bg-[#0B3D2E] hover:bg-[#C9A24B] cursor-pointer text-white font-bold py-4 rounded-lg flex items-center justify-center gap-2 transition-all shadow-md disabled:opacity-50 disabled:cursor-not-allowed text-base uppercase tracking-wider"
                       >
                         {isSubmitting ? (
                           <Loader2 className="w-5 h-5 animate-spin" />
@@ -506,16 +506,16 @@ export default function AutoEnquiryWrapper({ children }) {
                     <motion.div
                       initial={{ scale: 0.5, opacity: 0 }}
                       animate={{ scale: 1, opacity: 1 }}
-                      className="w-20 h-20 bg-[#C5A059]/10 rounded-full flex items-center justify-center mb-6 text-[#C5A059]"
+                      className="w-20 h-20 bg-[#C9A24B]/10 rounded-full flex items-center justify-center mb-6 text-[#C9A24B]"
                     >
                       <CheckCircle className="w-10 h-10" />
                     </motion.div>
-                    <h3 className="text-3xl font-bold text-[#0a1e38] mb-3">
+                    <h3 className="text-3xl font-bold text-[#0B3D2E] mb-3">
                       Request Successful
                     </h3>
                     <p className="text-slate-500 text-base max-w-sm mx-auto mb-6">
                       Thank you for your interest in{" "}
-                      <span className="font-bold text-[#0a1e38]">
+                      <span className="font-bold text-[#0B3D2E]">
                         {activeProjectData.title}
                       </span>
                       . Our luxury property consultant will reach out shortly.

@@ -61,7 +61,7 @@ const AltairDetails = () => {
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
           {/* Text Info */}
           <div className="lg:col-span-1 space-y-6">
-            <h2 className="text-4xl font-bold text-[#0a1e38]">
+            <h2 className="text-4xl font-bold text-[#0B3D2E]">
               Project Overview
             </h2>
             <p className="text-gray-600 text-sm leading-relaxed text-justify">
@@ -75,13 +75,13 @@ const AltairDetails = () => {
                 <p className="text-xs text-gray-500 uppercase tracking-wider">
                   Location
                 </p>
-                <p className="text-[#0a1e38] font-bold">Sarjapur Road</p>
+                <p className="text-[#0B3D2E] font-bold">Sarjapur Road</p>
               </div>
               <div className="p-4 bg-gray-50 rounded-lg border border-gray-100">
                 <p className="text-xs text-gray-500 uppercase tracking-wider">
                   Status
                 </p>
-                <p className="text-[#C5A059] font-bold">Pre-Launch</p>
+                <p className="text-[#C9A24B] font-bold">Pre-Launch</p>
               </div>
             </div>
           </div>
@@ -93,9 +93,9 @@ const AltairDetails = () => {
               return (
                 <div
                   key={idx}
-                  className="group p-6 bg-white border border-gray-100 rounded-xl hover:shadow-lg hover:border-[#C5A059]/30 transition-all duration-300"
+                  className="group p-6 bg-white border border-gray-100 rounded-xl hover:shadow-lg hover:border-[#C9A24B]/30 transition-all duration-300"
                 >
-                  <Icon className="w-6 h-6 text-[#C5A059] mb-3 group-hover:scale-110 transition-transform" />
+                  <Icon className="w-6 h-6 text-[#C9A24B] mb-3 group-hover:scale-110 transition-transform" />
                   <p className="text-xs text-gray-400 uppercase font-bold mb-1">
                     {item.label}
                   </p>
@@ -111,7 +111,7 @@ const AltairDetails = () => {
         {/* --- PART 2: MASTER & FLOOR PLANS --- */}
         <div className="space-y-8">
           <div className="flex flex-col md:flex-row items-center justify-between gap-6">
-            <h2 className="text-3xl font-bold text-[#0a1e38]">
+            <h2 className="text-3xl font-bold text-[#0B3D2E]">
               Master & Floor Plans
             </h2>
             <div className="flex bg-gray-100 p-1 rounded-lg">
@@ -121,8 +121,8 @@ const AltairDetails = () => {
                   onClick={() => setActiveTab(key)}
                   className={`px-6 py-2 rounded-md text-sm font-bold uppercase transition-all ${
                     activeTab === key
-                      ? "bg-white text-[#0a1e38] shadow-sm"
-                      : "text-gray-500 hover:text-[#0a1e38]"
+                      ? "bg-white text-[#0B3D2E] shadow-sm"
+                      : "text-gray-500 hover:text-[#0B3D2E]"
                   }`}
                 >
                   {key === "MASTER" ? "Master Plan" : "Floor Plan"}
@@ -143,11 +143,11 @@ const AltairDetails = () => {
               >
                 {/* Plan Details */}
                 <div className="lg:w-1/3 space-y-4">
-                  <h3 className="text-2xl font-bold text-[#0a1e38]">
+                  <h3 className="text-2xl font-bold text-[#0B3D2E]">
                     {PLANS[activeTab].title}
                   </h3>
                   <p className="text-gray-600">{PLANS[activeTab].desc}</p>
-                  <button className="flex items-center gap-2 text-[#C5A059] font-bold text-sm uppercase tracking-wide hover:text-[#0a1e38] transition-colors mt-4">
+                  <button className="flex items-center gap-2 text-[#C9A24B] font-bold text-sm uppercase tracking-wide hover:text-[#0B3D2E] transition-colors mt-4">
                     <Download className="w-4 h-4" /> Download PDF
                   </button>
                 </div>

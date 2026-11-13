@@ -39,7 +39,7 @@ const SobhaHennurHero = () => {
         <div className="max-w-3xl space-y-6 md:space-y-8">
           {/* Top Badges */}
           <div className="flex flex-wrap gap-2 md:gap-3">
-            <span className="bg-yellow-500 text-slate-900 px-3 py-1 text-[10px] md:text-xs font-bold uppercase tracking-wider rounded shadow-lg">
+            <span className="bg-[#C9A24B] text-slate-900 px-3 py-1 text-[10px] md:text-xs font-bold uppercase tracking-wider rounded shadow-lg">
               Pre-Launch
             </span>
             <span className="bg-white/10 backdrop-blur-md border border-white/20 text-white px-3 py-1 text-[10px] md:text-xs font-semibold uppercase tracking-wider rounded flex items-center gap-2">
@@ -54,18 +54,18 @@ const SobhaHennurHero = () => {
               By Sobha Limited
             </h2>
             <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold text-white tracking-tight leading-[1.1]">
-              Sobha <span className="text-yellow-500">Hennur</span>
+              Sobha <span className="text-[#C9A24B]">Hennur</span>
             </h1>
           </div>
 
           {/* Location */}
           <div className="flex items-start md:items-center gap-2 text-gray-300 text-base md:text-xl">
-            <MapPin className="w-5 h-5 text-yellow-500 mt-1 md:mt-0 shrink-0" />
+            <MapPin className="w-5 h-5 text-[#C9A24B] mt-1 md:mt-0 shrink-0" />
             <p>Hennur Main Road, North Bangalore</p>
           </div>
 
           {/* Configuration & Price Block (Glass Card) */}
-          <div className="bg-white/10 backdrop-blur-md border-l-4 border-yellow-500 p-5 md:p-6 rounded-r-lg max-w-lg shadow-2xl">
+          <div className="bg-white/10 backdrop-blur-md border-l-4 border-[#C9A24B] p-5 md:p-6 rounded-r-lg max-w-lg shadow-2xl">
             <p className="text-gray-200 text-xs md:text-sm uppercase tracking-wide mb-1">
               Premium 1, 2, 3, 3.5 &amp; 4 BHK Residences
             </p>
@@ -78,7 +78,7 @@ const SobhaHennurHero = () => {
               </span>
               <span className="text-xs md:text-sm text-gray-300">Onwards</span>
             </div>
-            <p className="text-yellow-400 text-xs md:text-sm font-medium mt-2 flex items-center gap-1">
+            <p className="text-[#D9B968] text-xs md:text-sm font-medium mt-2 flex items-center gap-1">
               <span>◆</span> Priority Pre-Launch Enquiries Now Open
             </p>
           </div>
@@ -87,7 +87,7 @@ const SobhaHennurHero = () => {
           <div className="flex flex-col sm:flex-row gap-4 pt-2 md:pt-4">
             <button
               onClick={() => setIsEnquiryOpen(true)}
-              className="w-full sm:w-auto flex items-center justify-center gap-2 bg-yellow-500 hover:bg-yellow-400 text-slate-900 font-bold px-8 py-4 rounded transition-all transform active:scale-95 hover:-translate-y-1 shadow-lg shadow-yellow-500/20 text-sm md:text-base uppercase tracking-wider"
+              className="w-full sm:w-auto flex items-center justify-center gap-2 bg-[#C9A24B] hover:bg-[#D9B968] text-slate-900 font-bold px-8 py-4 rounded transition-all transform active:scale-95 hover:-translate-y-1 shadow-lg shadow-[#C9A24B]/20 text-sm md:text-base uppercase tracking-wider"
             >
               Enquire Now
               <ArrowRight className="w-5 h-5" />
@@ -113,7 +113,7 @@ const SobhaHennurHero = () => {
           </span>
           <span className="hidden md:inline text-slate-700">|</span>
           <span className="flex items-center gap-2 text-center">
-            <div className="hidden md:block w-1.5 h-1.5 bg-yellow-500 rounded-full" />{" "}
+            <div className="hidden md:block w-1.5 h-1.5 bg-[#C9A24B] rounded-full" />{" "}
             North Bangalore's Next Landmark Township
           </span>
           <span className="hidden md:inline text-slate-700">|</span>

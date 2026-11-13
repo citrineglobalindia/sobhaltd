@@ -90,12 +90,12 @@ const MasterPlan = () => {
         {/* --- HEADER --- */}
         <div className="flex flex-col md:flex-row items-end justify-between mb-10 gap-6">
           <div>
-            <span className="text-[#C5A059] font-bold text-xs uppercase tracking-[0.2em] block mb-3">
+            <span className="text-[#C9A24B] font-bold text-xs uppercase tracking-[0.2em] block mb-3">
               Site Layout
             </span>
             <h2 className="text-3xl md:text-5xl font-bold">
               Master{" "}
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#C5A059] to-[#F3E5AB]">
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#C9A24B] to-[#F3E5AB]">
                 Plan
               </span>
             </h2>
@@ -104,7 +104,7 @@ const MasterPlan = () => {
           <div className="flex gap-4">
             <button
               onClick={() => setShowLegend(!showLegend)}
-              className="flex items-center gap-2 px-4 py-2 border border-white/20 hover:border-[#C5A059] rounded-full text-xs font-bold uppercase tracking-wider transition-colors"
+              className="flex items-center gap-2 px-4 py-2 border border-white/20 hover:border-[#C9A24B] rounded-full text-xs font-bold uppercase tracking-wider transition-colors"
             >
               <Info className="w-4 h-4" /> {showLegend ? "Hide" : "View"} Legend
             </button>
@@ -148,8 +148,8 @@ const MasterPlan = () => {
                   style={{ top: `${spot.y}%`, left: `${spot.x}%` }}
                 >
                   {/* Pulsing Rings */}
-                  <span className="absolute -inset-2 rounded-full bg-[#C5A059] opacity-20 animate-ping" />
-                  <span className="absolute -inset-4 rounded-full bg-[#C5A059] opacity-10 animate-pulse delay-75" />
+                  <span className="absolute -inset-2 rounded-full bg-[#C9A24B] opacity-20 animate-ping" />
+                  <span className="absolute -inset-4 rounded-full bg-[#C9A24B] opacity-10 animate-pulse delay-75" />
 
                   {/* The Dot */}
                   <div
@@ -157,8 +157,8 @@ const MasterPlan = () => {
                     relative w-4 h-4 md:w-6 md:h-6 rounded-full border-2 border-white shadow-lg transition-transform duration-300
                     ${
                       activeSpot === spot.id
-                        ? "bg-[#C5A059] scale-125"
-                        : "bg-[#0a0a0a] hover:scale-110 hover:bg-[#C5A059]"
+                        ? "bg-[#C9A24B] scale-125"
+                        : "bg-[#0a0a0a] hover:scale-110 hover:bg-[#C9A24B]"
                     }
                   `}
                   >
@@ -178,10 +178,10 @@ const MasterPlan = () => {
                         exit={{ opacity: 0, y: 10, scale: 0.95 }}
                         // Prevent click on tooltip from closing it immediately if bubbling issues arise
                         onClick={(e) => e.stopPropagation()}
-                        className="absolute left-1/2 -translate-x-1/2 bottom-full mb-4 w-64 bg-[#0a0a0a]/90 backdrop-blur-xl border border-[#C5A059]/30 p-4 rounded-xl text-left shadow-2xl z-40 cursor-auto"
+                        className="absolute left-1/2 -translate-x-1/2 bottom-full mb-4 w-64 bg-[#0a0a0a]/90 backdrop-blur-xl border border-[#C9A24B]/30 p-4 rounded-xl text-left shadow-2xl z-40 cursor-auto"
                       >
                         <div className="flex items-center justify-between mb-2">
-                          <span className="text-[#C5A059] text-[10px] font-bold uppercase tracking-widest flex items-center gap-1">
+                          <span className="text-[#C9A24B] text-[10px] font-bold uppercase tracking-widest flex items-center gap-1">
                             <spot.icon className="w-3 h-3" /> {spot.category}
                           </span>
                           <button
@@ -202,7 +202,7 @@ const MasterPlan = () => {
                         </p>
 
                         {/* Down Arrow */}
-                        <div className="absolute left-1/2 -translate-x-1/2 top-full w-0 h-0 border-l-[6px] border-l-transparent border-r-[6px] border-r-transparent border-t-[6px] border-t-[#C5A059]/30" />
+                        <div className="absolute left-1/2 -translate-x-1/2 top-full w-0 h-0 border-l-[6px] border-l-transparent border-r-[6px] border-r-transparent border-t-[6px] border-t-[#C9A24B]/30" />
                       </motion.div>
                     )}
                   </AnimatePresence>
@@ -239,7 +239,7 @@ const MasterPlan = () => {
                       key={i}
                       className="flex items-center gap-2 text-xs text-gray-400"
                     >
-                      <div className="w-1.5 h-1.5 rounded-full bg-[#C5A059]" />
+                      <div className="w-1.5 h-1.5 rounded-full bg-[#C9A24B]" />
                       {item}
                     </div>
                   ))}

@@ -130,7 +130,7 @@ const Navbar = () => {
               />
             </div>
             {/* ADDED TEXT BELOW LOGO */}
-            <span className="text-[8px] md:text-[8px] font-medium text-gray-500 uppercase tracking-wide mt-0.5 group-hover:text-[#C5A059] transition-colors">
+            <span className="text-[8px] md:text-[8px] font-medium text-gray-500 uppercase tracking-wide mt-0.5 group-hover:text-[#C9A24B] transition-colors">
               Authorized Channel Partner
             </span>
           </Link>
@@ -139,7 +139,7 @@ const Navbar = () => {
           <div className="hidden md:flex items-center gap-4">
             <button
               onClick={handleEnquiryClick}
-              className="flex items-center gap-2 bg-black hover:bg-[#C5A059] text-white hover:text-white px-5 py-2.5 rounded-sm text-[11px] font-bold uppercase tracking-widest transition-all duration-300 shadow-md hover:shadow-lg active:scale-95 group"
+              className="flex items-center gap-2 bg-black hover:bg-[#C9A24B] text-white hover:text-white px-5 py-2.5 rounded-sm text-[11px] font-bold uppercase tracking-widest transition-all duration-300 shadow-md hover:shadow-lg active:scale-95 group"
             >
               <Phone className="w-3.5 h-3.5 group-hover:animate-pulse" />
               <span>Request Call</span>
@@ -149,7 +149,7 @@ const Navbar = () => {
           {/* MOBILE MENU TOGGLE */}
           <button
             onClick={toggleMenu}
-            className="md:hidden p-2 text-gray-800 hover:text-[#C5A059] transition-colors rounded-full hover:bg-gray-50 active:scale-90"
+            className="md:hidden p-2 text-gray-800 hover:text-[#C9A24B] transition-colors rounded-full hover:bg-gray-50 active:scale-90"
             aria-label="Toggle menu"
           >
             <Menu className="w-6 h-6" />
@@ -176,7 +176,7 @@ const Navbar = () => {
               animate={{ x: 0 }}
               exit={{ x: "-100%" }}
               transition={{ type: "spring", damping: 25, stiffness: 200 }}
-              className="fixed top-0 left-0 bottom-0 w-[85%] max-w-sm bg-white z-[70] shadow-2xl md:hidden flex flex-col border-r border-[#C5A059]/10"
+              className="fixed top-0 left-0 bottom-0 w-[85%] max-w-sm bg-white z-[70] shadow-2xl md:hidden flex flex-col border-r border-[#C9A24B]/10"
             >
               {/* 1. Header Area */}
               <div className="flex items-center justify-between p-5 border-b border-gray-100 bg-gray-50/50">
@@ -198,7 +198,7 @@ const Navbar = () => {
 
                 <button
                   onClick={toggleMenu}
-                  className="p-2 bg-white text-gray-500 rounded-full shadow-sm hover:bg-[#C5A059] hover:text-white transition-all active:rotate-90"
+                  className="p-2 bg-white text-gray-500 rounded-full shadow-sm hover:bg-[#C9A24B] hover:text-white transition-all active:rotate-90"
                 >
                   <X className="w-5 h-5" />
                 </button>
@@ -208,7 +208,7 @@ const Navbar = () => {
               <div className="flex-1 overflow-y-auto p-5 space-y-8">
                 {/* Section: Featured Projects */}
                 <div className="space-y-4">
-                  <div className="flex items-center gap-2 text-[#C5A059]">
+                  <div className="flex items-center gap-2 text-[#C9A24B]">
                     <Building2 className="w-4 h-4" />
                     <h3 className="text-xs font-extrabold uppercase tracking-widest text-black">
                       Featured Collections
@@ -221,7 +221,7 @@ const Navbar = () => {
                         key={idx}
                         href={item.href}
                         onClick={toggleMenu}
-                        className="group relative flex items-center gap-4 p-3 rounded-xl bg-white border border-gray-100 hover:border-[#C5A059] hover:shadow-lg hover:shadow-[#C5A059]/10 transition-all duration-300"
+                        className="group relative flex items-center gap-4 p-3 rounded-xl bg-white border border-gray-100 hover:border-[#C9A24B] hover:shadow-lg hover:shadow-[#C9A24B]/10 transition-all duration-300"
                       >
                         {/* Thumbnail */}
                         <div className="relative w-16 h-16 shrink-0 rounded-lg overflow-hidden bg-gray-200">
@@ -235,7 +235,7 @@ const Navbar = () => {
 
                         {/* Text */}
                         <div className="flex-1 min-w-0">
-                          <h4 className="text-sm font-bold text-gray-900 group-hover:text-[#C5A059] truncate transition-colors">
+                          <h4 className="text-sm font-bold text-gray-900 group-hover:text-[#C9A24B] truncate transition-colors">
                             {item.name}
                           </h4>
                           <p className="text-[10px] text-gray-500 truncate">
@@ -244,7 +244,7 @@ const Navbar = () => {
                         </div>
 
                         {/* Arrow */}
-                        <div className="w-6 h-6 flex items-center justify-center rounded-full bg-gray-50 group-hover:bg-[#C5A059] group-hover:text-white transition-colors">
+                        <div className="w-6 h-6 flex items-center justify-center rounded-full bg-gray-50 group-hover:bg-[#C9A24B] group-hover:text-white transition-colors">
                           <ChevronRight className="w-3.5 h-3.5" />
                         </div>
                       </Link>
@@ -259,7 +259,7 @@ const Navbar = () => {
                   </h3>
                   <button
                     onClick={handleBrochureClick}
-                    className="w-full flex items-center justify-between p-4 bg-gray-900 text-white rounded-xl hover:bg-[#C5A059] transition-colors group"
+                    className="w-full flex items-center justify-between p-4 bg-gray-900 text-white rounded-xl hover:bg-[#C9A24B] transition-colors group"
                   >
                     <div className="flex items-center gap-3">
                       <div className="p-1.5 bg-white/10 rounded-full">
@@ -290,7 +290,7 @@ const Navbar = () => {
                   </a>
                   <a
                     href="tel:+919902730474"
-                    className="flex flex-col items-center justify-center gap-1 p-3 bg-[#C5A059]/10 text-[#C5A059] border border-[#C5A059]/20 rounded-xl hover:bg-[#C5A059] hover:text-white transition-colors"
+                    className="flex flex-col items-center justify-center gap-1 p-3 bg-[#C9A24B]/10 text-[#C9A24B] border border-[#C9A24B]/20 rounded-xl hover:bg-[#C9A24B] hover:text-white transition-colors"
                   >
                     <Phone className="w-5 h-5" />
                     <span className="text-[10px] font-bold uppercase">

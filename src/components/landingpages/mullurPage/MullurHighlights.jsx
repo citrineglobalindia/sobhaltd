@@ -53,18 +53,18 @@ const MullurHighlights = () => {
   const [isEnquiryOpen, setIsEnquiryOpen] = useState(false);
 
   return (
-    <section className="py-20 bg-[#0a1e38] font-sans relative overflow-hidden">
-      <div className="absolute -top-24 -right-24 w-96 h-96 bg-[#C5A059]/10 rounded-full blur-3xl" />
+    <section className="py-20 bg-[#0B3D2E] font-sans relative overflow-hidden">
+      <div className="absolute -top-24 -right-24 w-96 h-96 bg-[#C9A24B]/10 rounded-full blur-3xl" />
 
       <div className="max-w-7xl mx-auto px-6 relative z-10">
         {/* Header */}
         <div className="text-center mb-14 max-w-3xl mx-auto">
-          <span className="text-[#C5A059] font-bold text-xs uppercase tracking-[0.25em] block mb-3">
+          <span className="text-[#C9A24B] font-bold text-xs uppercase tracking-[0.25em] block mb-3">
             Why Sobha Aurelia
           </span>
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-4 leading-tight">
             Your Next Address of{" "}
-            <span className="text-[#C5A059]">Excellence</span>
+            <span className="text-[#C9A24B]">Excellence</span>
           </h2>
           <p className="text-gray-300 text-lg">
             A new landmark residential community on Sarjapur Road, bringing
@@ -84,7 +84,7 @@ const MullurHighlights = () => {
               transition={{ delay: idx * 0.08, duration: 0.5 }}
               className="bg-white/5 border border-white/10 rounded-2xl px-4 py-6 text-center"
             >
-              <p className="text-3xl md:text-4xl font-bold text-[#C5A059] mb-1">
+              <p className="text-3xl md:text-4xl font-bold text-[#C9A24B] mb-1">
                 {s.value}
               </p>
               <p className="text-xs md:text-sm text-gray-300 uppercase tracking-wide">
@@ -105,7 +105,7 @@ const MullurHighlights = () => {
               transition={{ delay: idx * 0.06, duration: 0.5 }}
               className="group bg-white/5 border border-white/10 rounded-2xl p-7 hover:bg-white/10 transition-colors"
             >
-              <div className="w-12 h-12 rounded-xl bg-[#C5A059] text-[#0a1e38] flex items-center justify-center mb-5">
+              <div className="w-12 h-12 rounded-xl bg-[#C9A24B] text-[#0B3D2E] flex items-center justify-center mb-5">
                 <c.icon className="w-6 h-6" />
               </div>
               <h3 className="text-xl font-bold text-white mb-2">{c.title}</h3>
@@ -119,20 +119,20 @@ const MullurHighlights = () => {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ delay: 0.3, duration: 0.5 }}
-            className="bg-gradient-to-br from-[#C5A059] to-[#b08d4b] rounded-2xl p-7 flex flex-col justify-between"
+            className="bg-gradient-to-br from-[#C9A24B] to-[#b08d4b] rounded-2xl p-7 flex flex-col justify-between"
           >
             <div>
-              <h3 className="text-xl font-bold text-[#0a1e38] mb-2">
+              <h3 className="text-xl font-bold text-[#0B3D2E] mb-2">
                 The Wait Is Almost Over
               </h3>
-              <p className="text-[#0a1e38]/80 text-sm leading-relaxed">
+              <p className="text-[#0B3D2E]/80 text-sm leading-relaxed">
                 Register your interest to receive EOI details, launch updates and
                 the latest project information first.
               </p>
             </div>
             <button
               onClick={() => setIsEnquiryOpen(true)}
-              className="mt-6 inline-flex items-center justify-center gap-2 bg-[#0a1e38] hover:bg-white text-white hover:text-[#0a1e38] font-bold px-6 py-3.5 rounded-sm uppercase text-sm tracking-widest transition-all"
+              className="mt-6 inline-flex items-center justify-center gap-2 bg-[#0B3D2E] hover:bg-white text-white hover:text-[#0B3D2E] font-bold px-6 py-3.5 rounded-sm uppercase text-sm tracking-widest transition-all"
             >
               Register Interest <ArrowRight className="w-5 h-5" />
             </button>

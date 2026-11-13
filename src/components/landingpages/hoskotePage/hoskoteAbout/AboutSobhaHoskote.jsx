@@ -31,7 +31,7 @@ const AboutSobhaHoskote = () => {
       className="relative py-16 md:py-24 bg-[#0a0a0a] font-sans overflow-hidden"
     >
       {/* Background Texture */}
-      <div className="absolute top-0 right-0 w-[600px] h-[600px] bg-[#C5A059]/5 rounded-full blur-[120px] pointer-events-none translate-x-1/2 -translate-y-1/2" />
+      <div className="absolute top-0 right-0 w-[600px] h-[600px] bg-[#C9A24B]/5 rounded-full blur-[120px] pointer-events-none translate-x-1/2 -translate-y-1/2" />
       <div className="absolute bottom-0 left-0 w-[400px] h-[400px] bg-white/5 rounded-full blur-[100px] pointer-events-none -translate-x-1/2 translate-y-1/2" />
 
       <div className="max-w-8xl mx-auto px-6 md:px-12 relative z-10">
@@ -46,14 +46,14 @@ const AboutSobhaHoskote = () => {
               transition={{ duration: 0.8 }}
             >
               <div className="flex items-center gap-3 mb-4">
-                <span className="w-12 h-[2px] bg-[#C5A059]"></span>
-                <span className="text-[#C5A059] font-bold text-xs uppercase tracking-[0.25em]">
+                <span className="w-12 h-[2px] bg-[#C9A24B]"></span>
+                <span className="text-[#C9A24B] font-bold text-xs uppercase tracking-[0.25em]">
                   Project Vision
                 </span>
               </div>
               <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight">
                 Redefining <br />
-                <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#C5A059] to-[#F3E5AB]">
+                <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#C9A24B] to-[#F3E5AB]">
                   East Bangalore
                 </span>
               </h2>
@@ -101,14 +101,14 @@ const AboutSobhaHoskote = () => {
               transition={{ delay: 0.4, duration: 0.8 }}
               className="relative mt-8 group"
             >
-              <div className="absolute inset-0 bg-gradient-to-r from-[#C5A059] to-transparent opacity-20 blur-xl group-hover:opacity-30 transition-opacity duration-500" />
+              <div className="absolute inset-0 bg-gradient-to-r from-[#C9A24B] to-transparent opacity-20 blur-xl group-hover:opacity-30 transition-opacity duration-500" />
 
-              <div className="relative bg-[#111] border border-[#C5A059]/30 p-8 rounded-xl overflow-hidden">
+              <div className="relative bg-[#111] border border-[#C9A24B]/30 p-8 rounded-xl overflow-hidden">
                 {/* Decorative Line */}
-                <div className="absolute top-0 left-0 w-[4px] h-full bg-[#C5A059]" />
+                <div className="absolute top-0 left-0 w-[4px] h-full bg-[#C9A24B]" />
 
                 <div className="flex items-start gap-4">
-                  <div className="p-3 bg-[#C5A059]/10 rounded-lg text-[#C5A059]">
+                  <div className="p-3 bg-[#C9A24B]/10 rounded-lg text-[#C9A24B]">
                     <TrendingUp className="w-6 h-6" />
                   </div>
                   <div>
@@ -118,7 +118,7 @@ const AboutSobhaHoskote = () => {
                     <p className="text-sm text-gray-400 leading-relaxed">
                       Often termed <strong>"Neo-Bangalore"</strong>, Hoskote
                       offers a rare
-                      <span className="text-[#C5A059]">
+                      <span className="text-[#C9A24B]">
                         {" "}
                         First-Mover Advantage
                       </span>
@@ -160,13 +160,13 @@ const AboutSobhaHoskote = () => {
                 </span>
               </div>
               <p className="text-2xl font-bold text-white">Pre-Launch</p>
-              <p className="text-xs text-[#C5A059] mt-1">Accepting EOIs Now</p>
+              <p className="text-xs text-[#C9A24B] mt-1">Accepting EOIs Now</p>
             </motion.div>
 
             {/* Floating Element 2: Location Highlight (Moves slower) */}
             <motion.div
               style={{ y: useTransform(scrollYProgress, [0, 1], [0, 40]) }}
-              className="absolute -top-10 -right-10 z-0 w-64 h-40 bg-[#C5A059] rounded-2xl flex items-center justify-center p-6 shadow-[0_0_50px_rgba(197,160,89,0.3)]"
+              className="absolute -top-10 -right-10 z-0 w-64 h-40 bg-[#C9A24B] rounded-2xl flex items-center justify-center p-6 shadow-[0_0_50px_rgba(197,160,89,0.3)]"
             >
               <div className="text-black text-center">
                 <MapPin className="w-8 h-8 mx-auto mb-2" />
@@ -188,8 +188,8 @@ const AboutSobhaHoskote = () => {
               fill
               className="object-cover"
             />
-            <div className="absolute bottom-4 left-4 bg-black/80 backdrop-blur-md px-4 py-2 rounded-lg border border-[#C5A059]/30">
-              <p className="text-[#C5A059] font-bold text-sm">Pre-Launch</p>
+            <div className="absolute bottom-4 left-4 bg-black/80 backdrop-blur-md px-4 py-2 rounded-lg border border-[#C9A24B]/30">
+              <p className="text-[#C9A24B] font-bold text-sm">Pre-Launch</p>
             </div>
           </div>
         </div>

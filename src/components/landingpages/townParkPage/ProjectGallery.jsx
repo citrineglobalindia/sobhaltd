@@ -109,7 +109,7 @@ const ProjectGallery = () => {
         {/* --- HEADER & FILTERS --- */}
         <div className="flex flex-col md:flex-row items-center justify-between mb-12 gap-6">
           <div>
-            <span className="text-[#C5A059] font-bold text-xs uppercase tracking-[0.25em] block mb-2">
+            <span className="text-[#C9A24B] font-bold text-xs uppercase tracking-[0.25em] block mb-2">
               Visual Tour
             </span>
             <h2 className="text-4xl font-bold text-slate-900">
@@ -125,7 +125,7 @@ const ProjectGallery = () => {
                 className={`px-4 py-2 rounded-full text-xs font-bold uppercase tracking-wider transition-all
                   ${
                     activeCategory === cat
-                      ? "bg-[#0a1e38] text-white"
+                      ? "bg-[#0B3D2E] text-white"
                       : "bg-slate-100 text-slate-500 hover:bg-slate-200"
                   }
                 `}
@@ -193,14 +193,14 @@ const ProjectGallery = () => {
             {/* Navigation Buttons */}
             <button
               onClick={prevImage}
-              className="absolute left-4 top-1/2 -translate-y-1/2 p-3 bg-white/10 hover:bg-[#C5A059] rounded-full text-white transition-colors z-50 hidden md:block"
+              className="absolute left-4 top-1/2 -translate-y-1/2 p-3 bg-white/10 hover:bg-[#C9A24B] rounded-full text-white transition-colors z-50 hidden md:block"
             >
               <ChevronLeft className="w-6 h-6" />
             </button>
 
             <button
               onClick={nextImage}
-              className="absolute right-4 top-1/2 -translate-y-1/2 p-3 bg-white/10 hover:bg-[#C5A059] rounded-full text-white transition-colors z-50 hidden md:block"
+              className="absolute right-4 top-1/2 -translate-y-1/2 p-3 bg-white/10 hover:bg-[#C9A24B] rounded-full text-white transition-colors z-50 hidden md:block"
             >
               <ChevronRight className="w-6 h-6" />
             </button>

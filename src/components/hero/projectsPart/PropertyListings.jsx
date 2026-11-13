@@ -117,10 +117,10 @@ const PropertyListings = () => {
       <div className="max-w-7xl mx-auto px-4 md:px-8">
         {/* --- HEADER --- */}
         <div className="text-center mb-10 md:mb-12">
-          <span className="text-[#C5A059] font-bold tracking-[0.2em] uppercase text-xs mb-3 block">
+          <span className="text-[#C9A24B] font-bold tracking-[0.2em] uppercase text-xs mb-3 block">
             Our Portfolio
           </span>
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#0a1e38]">
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#0B3D2E]">
             Featured Sobha Properties
           </h2>
         </div>
@@ -135,8 +135,8 @@ const PropertyListings = () => {
                 onClick={() => setActiveFilter(filter)}
                 className={`px-5 md:px-7 py-2.5 rounded-md text-xs md:text-sm font-semibold transition-all duration-300 border ${
                   isActive
-                    ? "bg-[#0a1e38] text-white border-[#0a1e38] shadow-md"
-                    : "bg-white text-[#0a1e38] border-gray-200 hover:border-[#0a1e38]"
+                    ? "bg-[#0B3D2E] text-white border-[#0B3D2E] shadow-md"
+                    : "bg-white text-[#0B3D2E] border-gray-200 hover:border-[#0B3D2E]"
                 }`}
               >
                 {filter}
@@ -167,31 +167,31 @@ const PropertyListings = () => {
                     className="object-cover transition-transform duration-700 group-hover:scale-105"
                     sizes="(max-width: 768px) 100vw, 33vw"
                   />
-                  <span className="absolute bottom-0 right-0 bg-[#0a1e38] text-white text-[11px] md:text-xs font-semibold uppercase tracking-wider px-4 py-2 rounded-tl-lg shadow-md">
+                  <span className="absolute bottom-0 right-0 bg-[#0B3D2E] text-white text-[11px] md:text-xs font-semibold uppercase tracking-wider px-4 py-2 rounded-tl-lg shadow-md">
                     {property.status}
                   </span>
                 </div>
 
                 {/* Body */}
                 <div className="p-6 flex flex-col flex-1">
-                  <h3 className="text-xl md:text-2xl font-bold text-[#0a1e38] mb-1.5">
+                  <h3 className="text-xl md:text-2xl font-bold text-[#0B3D2E] mb-1.5">
                     {property.title}
                   </h3>
                   <div className="flex items-center gap-1.5 text-gray-500 mb-5">
-                    <MapPin className="w-4 h-4 text-[#C5A059] shrink-0" />
+                    <MapPin className="w-4 h-4 text-[#C9A24B] shrink-0" />
                     <span className="text-sm">{property.location}</span>
                   </div>
 
                   {/* Price + Apartments */}
                   <div className="grid grid-cols-2 gap-4 mb-4">
                     <div>
-                      <p className="text-[#0a1e38] font-bold text-sm mb-1">
+                      <p className="text-[#0B3D2E] font-bold text-sm mb-1">
                         Price
                       </p>
                       <p className="text-gray-600 text-sm">{property.price}</p>
                     </div>
                     <div>
-                      <p className="text-[#0a1e38] font-bold text-sm mb-1">
+                      <p className="text-[#0B3D2E] font-bold text-sm mb-1">
                         Residential Apartments
                       </p>
                       <p className="text-gray-600 text-sm">
@@ -202,7 +202,7 @@ const PropertyListings = () => {
 
                   {/* Unit Size */}
                   <div className="mb-6">
-                    <p className="text-[#0a1e38] font-bold text-sm mb-1">
+                    <p className="text-[#0B3D2E] font-bold text-sm mb-1">
                       Unit Size
                     </p>
                     <p className="text-gray-600 text-sm">{property.unitSize}</p>
@@ -212,13 +212,13 @@ const PropertyListings = () => {
                   <div className="grid grid-cols-2 gap-3 mt-auto">
                     <Link
                       href={property.href}
-                      className="text-center bg-[#0a1e38] hover:bg-[#C5A059] text-white text-sm font-semibold py-3 rounded-md transition-colors duration-300"
+                      className="text-center bg-[#0B3D2E] hover:bg-[#C9A24B] text-white text-sm font-semibold py-3 rounded-md transition-colors duration-300"
                     >
                       Book a Site Visit
                     </Link>
                     <button
                       onClick={() => openEnquiry(property.title)}
-                      className="text-center bg-[#0a1e38] hover:bg-[#C5A059] text-white text-sm font-semibold py-3 rounded-md transition-colors duration-300 cursor-pointer"
+                      className="text-center bg-[#0B3D2E] hover:bg-[#C9A24B] text-white text-sm font-semibold py-3 rounded-md transition-colors duration-300 cursor-pointer"
                     >
                       Enquire Now
                     </button>

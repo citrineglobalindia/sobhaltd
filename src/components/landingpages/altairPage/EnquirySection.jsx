@@ -303,7 +303,7 @@ const EnquirySection = ({ defaultProjectName = "" }) => {
     <section className="relative py-20 lg:py-28 bg-[#0a0a0a] font-sans overflow-hidden">
       {/* --- BACKGROUND EFFECTS --- */}
       <div className="absolute inset-0 opacity-10 pointer-events-none bg-[url('https://www.transparenttextures.com/patterns/cubes.png')]" />
-      <div className="absolute top-0 left-0 w-[500px] h-[500px] bg-[#C5A059]/10 rounded-full blur-[120px] pointer-events-none" />
+      <div className="absolute top-0 left-0 w-[500px] h-[500px] bg-[#C9A24B]/10 rounded-full blur-[120px] pointer-events-none" />
       <div className="absolute bottom-0 right-0 w-[500px] h-[500px] bg-white/5 rounded-full blur-[120px] pointer-events-none" />
 
       <div className="max-w-8xl mx-auto px-4 md:px-12 relative z-10">
@@ -311,18 +311,18 @@ const EnquirySection = ({ defaultProjectName = "" }) => {
           {/* --- LEFT: SALES PITCH --- */}
           <div className="lg:w-1/2 space-y-8 text-center lg:text-left">
             <div>
-              <span className="text-[#C5A059] font-bold text-xs uppercase tracking-[0.2em] mb-4 block">
+              <span className="text-[#C9A24B] font-bold text-xs uppercase tracking-[0.2em] mb-4 block">
                 Enquire Now
               </span>
               <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight">
                 Secure Your <br />
-                <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#C5A059] to-[#F3E5AB]">
+                <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#C9A24B] to-[#F3E5AB]">
                   Dream Home
                 </span>
               </h2>
             </div>
 
-            <div className="text-gray-300 text-lg leading-relaxed max-w-xl mx-auto lg:mx-0 border-l-2 border-[#C5A059] pl-4 bg-white/5 p-4 rounded-r-lg">
+            <div className="text-gray-300 text-lg leading-relaxed max-w-xl mx-auto lg:mx-0 border-l-2 border-[#C9A24B] pl-4 bg-white/5 p-4 rounded-r-lg">
               <p>
                 Don't miss the opportunity to own a piece of{" "}
                 <span className="text-white font-bold">
@@ -330,13 +330,13 @@ const EnquirySection = ({ defaultProjectName = "" }) => {
                 </span>
                 .
               </p>
-              <p className="text-sm mt-2 text-[#C5A059] font-medium">
+              <p className="text-sm mt-2 text-[#C9A24B] font-medium">
                 {currentProjectDetails?.basePrice}
               </p>
             </div>
 
             <div className="flex items-center justify-center lg:justify-start gap-2 text-gray-400 text-sm font-medium">
-              <MapPin className="w-4 h-4 text-[#C5A059]" />
+              <MapPin className="w-4 h-4 text-[#C9A24B]" />
               {currentProjectDetails?.location || "Bengaluru"}
             </div>
 
@@ -344,9 +344,9 @@ const EnquirySection = ({ defaultProjectName = "" }) => {
             <div className="flex flex-wrap justify-center lg:justify-start gap-4 pt-4">
               <button
                 onClick={() => setIsDownloadModalOpen(true)}
-                className="group flex items-center gap-3 px-8 py-4 bg-[#C5A059] text-black rounded-full hover:bg-white hover:scale-105 transition-all duration-300 shadow-[0_0_20px_rgba(197,160,89,0.4)] cursor-pointer"
+                className="group flex items-center gap-3 px-8 py-4 bg-[#C9A24B] text-black rounded-full hover:bg-white hover:scale-105 transition-all duration-300 shadow-[0_0_20px_rgba(197,160,89,0.4)] cursor-pointer"
               >
-                <div className="p-1 bg-black/10 rounded-full group-hover:bg-[#C5A059]/20">
+                <div className="p-1 bg-black/10 rounded-full group-hover:bg-[#C9A24B]/20">
                   <Download className="w-5 h-5 font-bold" />
                 </div>
                 <span className="text-sm font-extrabold tracking-wide uppercase">
@@ -356,7 +356,7 @@ const EnquirySection = ({ defaultProjectName = "" }) => {
 
               <button
                 onClick={() => setIsEnquiryModalOpen(true)}
-                className="group flex items-center gap-3 px-8 py-4 bg-white text-black rounded-full hover:bg-[#C5A059] hover:scale-105 transition-all duration-300 shadow-[0_0_20px_rgba(255,255,255,0.3)] cursor-pointer"
+                className="group flex items-center gap-3 px-8 py-4 bg-white text-black rounded-full hover:bg-[#C9A24B] hover:scale-105 transition-all duration-300 shadow-[0_0_20px_rgba(255,255,255,0.3)] cursor-pointer"
               >
                 <div className="p-1 bg-black/10 rounded-full group-hover:bg-white/30">
                   <CalendarDays className="w-5 h-5 font-bold" />
@@ -375,9 +375,9 @@ const EnquirySection = ({ defaultProjectName = "" }) => {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6 }}
-              className="relative bg-[#111111]/90 backdrop-blur-xl border border-[#C5A059]/30 p-8 md:p-10 rounded-2xl shadow-2xl"
+              className="relative bg-[#111111]/90 backdrop-blur-xl border border-[#C9A24B]/30 p-8 md:p-10 rounded-2xl shadow-2xl"
             >
-              <div className="absolute top-0 left-0 w-full h-1.5 bg-gradient-to-r from-[#C5A059] via-[#F3E5AB] to-[#C5A059]" />
+              <div className="absolute top-0 left-0 w-full h-1.5 bg-gradient-to-r from-[#C9A24B] via-[#F3E5AB] to-[#C9A24B]" />
 
               <AnimatePresence mode="wait">
                 {status === "success" ? (
@@ -387,8 +387,8 @@ const EnquirySection = ({ defaultProjectName = "" }) => {
                     animate={{ opacity: 1, scale: 1 }}
                     className="flex flex-col items-center justify-center text-center py-12 space-y-6"
                   >
-                    <div className="w-20 h-20 bg-[#C5A059]/20 rounded-full flex items-center justify-center border border-[#C5A059] shadow-[0_0_30px_rgba(197,160,89,0.3)]">
-                      <CheckCircle2 className="w-10 h-10 text-[#C5A059]" />
+                    <div className="w-20 h-20 bg-[#C9A24B]/20 rounded-full flex items-center justify-center border border-[#C9A24B] shadow-[0_0_30px_rgba(197,160,89,0.3)]">
+                      <CheckCircle2 className="w-10 h-10 text-[#C9A24B]" />
                     </div>
                     <div>
                       <h3 className="text-2xl font-bold text-white mb-2">
@@ -396,7 +396,7 @@ const EnquirySection = ({ defaultProjectName = "" }) => {
                       </h3>
                       <p className="text-gray-300 text-sm">
                         Thank you for your interest in <br />
-                        <span className="text-[#C5A059] font-semibold">
+                        <span className="text-[#C9A24B] font-semibold">
                           {formState.project}
                         </span>
                       </p>
@@ -437,7 +437,7 @@ const EnquirySection = ({ defaultProjectName = "" }) => {
                         value={formState.project}
                         onChange={handleProjectChange}
                         disabled={isProjectLocked}
-                        className={`w-full bg-black/40 border border-white/10 rounded-lg pl-10 pr-4 py-3.5 text-sm text-white focus:border-[#C5A059] outline-none appearance-none transition-colors ${
+                        className={`w-full bg-black/40 border border-white/10 rounded-lg pl-10 pr-4 py-3.5 text-sm text-white focus:border-[#C9A24B] outline-none appearance-none transition-colors ${
                           isProjectLocked
                             ? "cursor-not-allowed bg-white/5 text-gray-400"
                             : "cursor-pointer hover:bg-white/5"
@@ -469,7 +469,7 @@ const EnquirySection = ({ defaultProjectName = "" }) => {
                         onChange={handleChange}
                         className={`w-full bg-black/40 border ${
                           errors.config ? "border-red-500" : "border-white/10"
-                        } rounded-lg pl-10 pr-4 py-3.5 text-sm text-white focus:border-[#C5A059] outline-none appearance-none cursor-pointer transition-colors hover:bg-white/5`}
+                        } rounded-lg pl-10 pr-4 py-3.5 text-sm text-white focus:border-[#C9A24B] outline-none appearance-none cursor-pointer transition-colors hover:bg-white/5`}
                       >
                         <option value="" disabled className="text-gray-500">
                           Select Configuration
@@ -498,7 +498,7 @@ const EnquirySection = ({ defaultProjectName = "" }) => {
                         onChange={handleChange}
                         className={`w-full bg-black/40 border ${
                           errors.name ? "border-red-500" : "border-white/10"
-                        } rounded-lg pl-10 pr-4 py-3.5 text-white placeholder-gray-500 focus:border-[#C5A059] outline-none text-sm transition-colors`}
+                        } rounded-lg pl-10 pr-4 py-3.5 text-white placeholder-gray-500 focus:border-[#C9A24B] outline-none text-sm transition-colors`}
                       />
                     </div>
 
@@ -513,7 +513,7 @@ const EnquirySection = ({ defaultProjectName = "" }) => {
                         onChange={handleChange}
                         className={`w-full bg-black/40 border ${
                           errors.email ? "border-red-500" : "border-white/10"
-                        } rounded-lg pl-10 pr-4 py-3.5 text-white placeholder-gray-500 focus:border-[#C5A059] outline-none text-sm transition-colors`}
+                        } rounded-lg pl-10 pr-4 py-3.5 text-white placeholder-gray-500 focus:border-[#C9A24B] outline-none text-sm transition-colors`}
                       />
                     </div>
 
@@ -540,7 +540,7 @@ const EnquirySection = ({ defaultProjectName = "" }) => {
                         }}
                         className={`w-full bg-black/40 border ${
                           errors.phone ? "border-red-500" : "border-white/10"
-                        } rounded-lg pl-20 pr-4 py-3.5 text-white placeholder-gray-500 focus:border-[#C5A059] outline-none text-sm transition-colors`}
+                        } rounded-lg pl-20 pr-4 py-3.5 text-white placeholder-gray-500 focus:border-[#C9A24B] outline-none text-sm transition-colors`}
                       />
                     </div>
 
@@ -552,7 +552,7 @@ const EnquirySection = ({ defaultProjectName = "" }) => {
                           name="consent"
                           checked={formState.consent}
                           onChange={handleChange}
-                          className="peer appearance-none w-4 h-4 border border-white/30 rounded-sm bg-black/40 checked:bg-[#C5A059] checked:border-[#C5A059] transition-all"
+                          className="peer appearance-none w-4 h-4 border border-white/30 rounded-sm bg-black/40 checked:bg-[#C9A24B] checked:border-[#C9A24B] transition-all"
                         />
                         <CheckCircle2 className="absolute w-3 h-3 text-black pointer-events-none opacity-0 peer-checked:opacity-100 left-0.5 top-1" />
                       </div>
@@ -563,7 +563,7 @@ const EnquirySection = ({ defaultProjectName = "" }) => {
                       >
                         I authorize Sobha Ltd. to contact me via Phone/WhatsApp.
                         I agree to the{" "}
-                        <span className="underline cursor-pointer hover:text-[#C5A059]">
+                        <span className="underline cursor-pointer hover:text-[#C9A24B]">
                           Privacy Policy
                         </span>
                         .
@@ -573,7 +573,7 @@ const EnquirySection = ({ defaultProjectName = "" }) => {
                     {/* Submit Button */}
                     <button
                       disabled={status === "loading"}
-                      className="w-full bg-[#C5A059] hover:bg-[#b08d4b] text-[#0a1e38] font-bold text-sm uppercase tracking-widest py-4 rounded-lg shadow-[0_0_20px_rgba(197,160,89,0.4)] transition-all active:scale-95 disabled:opacity-70 disabled:cursor-not-allowed flex items-center justify-center gap-2"
+                      className="w-full bg-[#C9A24B] hover:bg-[#b08d4b] text-[#0B3D2E] font-bold text-sm uppercase tracking-widest py-4 rounded-lg shadow-[0_0_20px_rgba(197,160,89,0.4)] transition-all active:scale-95 disabled:opacity-70 disabled:cursor-not-allowed flex items-center justify-center gap-2"
                     >
                       {status === "loading" ? (
                         <>

@@ -52,7 +52,7 @@ export default function InitialLoader({ onComplete }) {
               className="relative w-64 h-64 sm:w-80 sm:h-80 flex items-center justify-center"
             >
               {/* Optional: Soft Glow behind the GIF for premium feel */}
-              <div className="absolute inset-0 bg-yellow-400 blur-[60px] opacity-10 rounded-full"></div>
+              <div className="absolute inset-0 bg-[#D9B968] blur-[60px] opacity-10 rounded-full"></div>
 
               <img
                 src="/shoba.gif"
@@ -78,7 +78,7 @@ export default function InitialLoader({ onComplete }) {
                   initial={{ x: "-100%" }}
                   animate={{ x: "0%" }}
                   transition={{ duration: 3, ease: "easeInOut" }}
-                  className="h-full w-full bg-gradient-to-r from-yellow-600 via-yellow-400 to-yellow-600"
+                  className="h-full w-full bg-gradient-to-r from-[#A8842F] via-[#D9B968] to-[#A8842F]"
                 />
               </div>
             </div>

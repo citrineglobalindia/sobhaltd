@@ -363,14 +363,14 @@ const DownloadModal = ({ isOpen, onClose, defaultProjectName = "" }) => {
                 </motion.div>
               </AnimatePresence>
               <div className="absolute bottom-6 left-6 right-6 text-white z-10">
-                <div className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded bg-[#C5A059] text-white text-[10px] font-bold uppercase tracking-wider mb-2 shadow-lg">
+                <div className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded bg-[#C9A24B] text-white text-[10px] font-bold uppercase tracking-wider mb-2 shadow-lg">
                   <MapPin className="w-3 h-3" />{" "}
                   {activeProjectData.location.split(",")[0]}
                 </div>
                 <h3 className="text-xl md:text-3xl font-bold leading-tight mb-2">
                   {activeProjectData.title}
                 </h3>
-                <div className="inline-block border-l-4 border-[#C5A059] pl-3">
+                <div className="inline-block border-l-4 border-[#C9A24B] pl-3">
                   <p className="text-slate-300 text-xs uppercase tracking-wider font-medium">
                     Price
                   </p>
@@ -386,7 +386,7 @@ const DownloadModal = ({ isOpen, onClose, defaultProjectName = "" }) => {
               {!isSuccess ? (
                 <>
                   <div className="mb-6">
-                    <div className="flex items-center gap-2 mb-1 text-[#C5A059]">
+                    <div className="flex items-center gap-2 mb-1 text-[#C9A24B]">
                       <FileText className="w-5 h-5" />
                       <span className="text-xs font-bold uppercase tracking-widest">
                         Document Request
@@ -415,7 +415,7 @@ const DownloadModal = ({ isOpen, onClose, defaultProjectName = "" }) => {
                         value={formData.selectedProject}
                         onChange={handleProjectChange}
                         disabled={isProjectLocked}
-                        className={`w-full bg-slate-50 border border-slate-200 rounded-lg pl-10 pr-4 py-3.5 text-sm text-slate-700 font-medium focus:border-[#C5A059] outline-none appearance-none transition-colors ${
+                        className={`w-full bg-slate-50 border border-slate-200 rounded-lg pl-10 pr-4 py-3.5 text-sm text-slate-700 font-medium focus:border-[#C9A24B] outline-none appearance-none transition-colors ${
                           isProjectLocked
                             ? "cursor-not-allowed bg-slate-100"
                             : "cursor-pointer hover:bg-slate-100"
@@ -442,7 +442,7 @@ const DownloadModal = ({ isOpen, onClose, defaultProjectName = "" }) => {
                         required
                         value={formData.selectedConfig}
                         onChange={handleChange}
-                        className="w-full bg-slate-50 border border-slate-200 rounded-lg pl-10 pr-4 py-3.5 text-sm text-slate-700 font-medium focus:border-[#C5A059] outline-none appearance-none cursor-pointer hover:bg-slate-100 transition-colors"
+                        className="w-full bg-slate-50 border border-slate-200 rounded-lg pl-10 pr-4 py-3.5 text-sm text-slate-700 font-medium focus:border-[#C9A24B] outline-none appearance-none cursor-pointer hover:bg-slate-100 transition-colors"
                       >
                         <option value="" disabled className="text-slate-400">
                           Select Configuration
@@ -471,7 +471,7 @@ const DownloadModal = ({ isOpen, onClose, defaultProjectName = "" }) => {
                         placeholder="Your Name"
                         value={formData.name}
                         onChange={handleChange}
-                        className="w-full bg-slate-50 border border-slate-200 rounded-lg pl-10 pr-4 py-3.5 text-sm text-slate-900 placeholder-slate-400 focus:border-[#C5A059] outline-none focus:bg-white transition-all"
+                        className="w-full bg-slate-50 border border-slate-200 rounded-lg pl-10 pr-4 py-3.5 text-sm text-slate-900 placeholder-slate-400 focus:border-[#C9A24B] outline-none focus:bg-white transition-all"
                       />
                     </div>
 
@@ -484,7 +484,7 @@ const DownloadModal = ({ isOpen, onClose, defaultProjectName = "" }) => {
                         placeholder="Email Address (Optional)"
                         value={formData.email}
                         onChange={handleChange}
-                        className="w-full bg-slate-50 border border-slate-200 rounded-lg pl-10 pr-4 py-3.5 text-sm text-slate-900 placeholder-slate-400 focus:border-[#C5A059] outline-none focus:bg-white transition-all"
+                        className="w-full bg-slate-50 border border-slate-200 rounded-lg pl-10 pr-4 py-3.5 text-sm text-slate-900 placeholder-slate-400 focus:border-[#C9A24B] outline-none focus:bg-white transition-all"
                       />
                     </div>
 
@@ -508,7 +508,7 @@ const DownloadModal = ({ isOpen, onClose, defaultProjectName = "" }) => {
                             .slice(0, 10);
                           handleChange(e);
                         }}
-                        className="w-full bg-slate-50 border border-slate-200 rounded-lg pl-10 pr-4 py-3.5 text-sm text-slate-900 placeholder-slate-400 focus:border-[#C5A059] outline-none focus:bg-white transition-all"
+                        className="w-full bg-slate-50 border border-slate-200 rounded-lg pl-10 pr-4 py-3.5 text-sm text-slate-900 placeholder-slate-400 focus:border-[#C9A24B] outline-none focus:bg-white transition-all"
                       />
                     </div>
 
@@ -517,7 +517,7 @@ const DownloadModal = ({ isOpen, onClose, defaultProjectName = "" }) => {
                       disabled={
                         isSubmitting || !formData.name || !formData.phone
                       }
-                      className="mt-2 w-full bg-[#0a1e38] hover:bg-[#C5A059] text-white font-bold py-4 rounded-lg flex items-center justify-center gap-2 transition-all active:scale-95 disabled:opacity-70 disabled:cursor-not-allowed shadow-lg"
+                      className="mt-2 w-full bg-[#0B3D2E] hover:bg-[#C9A24B] text-white font-bold py-4 rounded-lg flex items-center justify-center gap-2 transition-all active:scale-95 disabled:opacity-70 disabled:cursor-not-allowed shadow-lg"
                     >
                       {isSubmitting ? (
                         <span className="flex items-center gap-2">
@@ -549,7 +549,7 @@ const DownloadModal = ({ isOpen, onClose, defaultProjectName = "" }) => {
                   </h3>
                   <p className="text-slate-500 text-sm mb-6 max-w-xs">
                     Your brochure for{" "}
-                    <span className="text-[#C5A059] font-bold">
+                    <span className="text-[#C9A24B] font-bold">
                       {formData.selectedProject}
                     </span>{" "}
                     is opening in a new tab...

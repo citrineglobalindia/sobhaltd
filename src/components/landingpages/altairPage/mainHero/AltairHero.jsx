@@ -47,7 +47,7 @@ const AltairHero = () => {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
-            className="inline-flex items-center gap-2 px-3 py-1.5 md:px-4 bg-[#C5A059] text-black text-[10px] md:text-xs font-bold uppercase tracking-widest rounded-sm"
+            className="inline-flex items-center gap-2 px-3 py-1.5 md:px-4 bg-[#C9A24B] text-black text-[10px] md:text-xs font-bold uppercase tracking-widest rounded-sm"
           >
             <Star className="w-3 h-3 fill-black" />
             Pre-Launch Offer Live
@@ -60,10 +60,10 @@ const AltairHero = () => {
             transition={{ duration: 0.8, delay: 0.2 }}
           >
             <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white leading-[1.1] mb-3 md:mb-4">
-              Sobha <span className="text-[#C5A059]">Altair</span>
+              Sobha <span className="text-[#C9A24B]">Altair</span>
             </h1>
             <div className="flex flex-wrap items-center gap-2 md:gap-3 text-gray-300 text-base md:text-xl font-light">
-              <MapPin className="w-5 h-5 md:w-6 md:h-6 text-[#C5A059] shrink-0" />
+              <MapPin className="w-5 h-5 md:w-6 md:h-6 text-[#C9A24B] shrink-0" />
               <p>Sir M Visvesvaraya Terminal, Bengaluru</p>
             </div>
           </motion.div>
@@ -73,7 +73,7 @@ const AltairHero = () => {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.4 }}
-            className="grid grid-cols-1 sm:grid-cols-2 gap-4 md:gap-6 border-l-4 border-[#C5A059] pl-4 md:pl-6 bg-white/5 backdrop-blur-sm py-4 md:py-6 rounded-r-lg max-w-xl"
+            className="grid grid-cols-1 sm:grid-cols-2 gap-4 md:gap-6 border-l-4 border-[#C9A24B] pl-4 md:pl-6 bg-white/5 backdrop-blur-sm py-4 md:py-6 rounded-r-lg max-w-xl"
           >
             <div>
               <p className="text-gray-400 text-[10px] md:text-xs uppercase tracking-wider mb-1">
@@ -90,7 +90,7 @@ const AltairHero = () => {
               <p className="text-gray-400 text-[10px] md:text-xs uppercase tracking-wider mb-1">
                 Starting From
               </p>
-              <p className="text-[#C5A059] text-xl md:text-2xl font-bold">
+              <p className="text-[#C9A24B] text-xl md:text-2xl font-bold">
                 ₹ 19500/sqft*
               </p>
               <p className="text-gray-400 text-[10px] md:text-xs">
@@ -124,7 +124,7 @@ const AltairHero = () => {
             {/* Download Button */}
             <button
               onClick={() => setIsDownloadOpen(true)}
-              className="group w-full sm:w-auto flex items-center justify-center gap-3 bg-[#C5A059] hover:bg-white text-black px-6 py-3.5 md:px-8 md:py-4 font-bold uppercase tracking-widest transition-all duration-300 text-xs md:text-sm shadow-lg shadow-[#C5A059]/20"
+              className="group w-full sm:w-auto flex items-center justify-center gap-3 bg-[#C9A24B] hover:bg-white text-black px-6 py-3.5 md:px-8 md:py-4 font-bold uppercase tracking-widest transition-all duration-300 text-xs md:text-sm shadow-lg shadow-[#C9A24B]/20"
             >
               <Download className="w-4 h-4 md:w-5 md:h-5 group-hover:scale-110 transition-transform" />
               Download Brochure
@@ -133,7 +133,7 @@ const AltairHero = () => {
             {/* Enquiry Button */}
             <button
               onClick={() => setIsEnquiryOpen(true)}
-              className="group w-full sm:w-auto flex items-center justify-center gap-3 border border-white text-white hover:border-[#C5A059] hover:bg-[#C5A059]/10 hover:text-[#C5A059] px-6 py-3.5 md:px-8 md:py-4 font-bold uppercase tracking-widest transition-all duration-300 text-xs md:text-sm"
+              className="group w-full sm:w-auto flex items-center justify-center gap-3 border border-white text-white hover:border-[#C9A24B] hover:bg-[#C9A24B]/10 hover:text-[#C9A24B] px-6 py-3.5 md:px-8 md:py-4 font-bold uppercase tracking-widest transition-all duration-300 text-xs md:text-sm"
             >
               Enquire Now
               <ArrowRight className="w-4 h-4 md:w-5 md:h-5 group-hover:translate-x-1 transition-transform" />

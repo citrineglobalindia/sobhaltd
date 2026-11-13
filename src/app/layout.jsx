@@ -1,4 +1,3 @@
-import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import CrAnalytics from "@/components/CrAnalytics";
 import ClientLayout from "./ClientLayout";
@@ -8,16 +7,6 @@ import Footer from "@/components/ui/footer/Footer";
 import MobileActionBar from "@/components/mobileLock/MobileActionBar";
 import Script from "next/script";
 import AutoEnquiryWrapper from "@/components/ui/model/AutoEnquiryWrapper";
-
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
 
 export { metadata };
 
@@ -29,6 +18,17 @@ const IS_MAINTENANCE_MODE = false;
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      {/* Fonts: Playfair Display (headings) + Montserrat (body) */}
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link
+        rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossOrigin="anonymous"
+      />
+      <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:wght@500;600;700;800;900&display=swap"
+        rel="stylesheet"
+      />
       {/* 1. Google Tag Manager - Main Script */}
       {/* "afterInteractive" loads it immediately after the page becomes interactive */}
       <Script id="google-tag-manager" strategy="afterInteractive">
@@ -42,7 +42,7 @@ export default function RootLayout({ children }) {
       </Script>
 
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`antialiased`}
       >
         <CrAnalytics />
         {/* 2. Google Tag Manager (noscript) - MUST be the first item in body */}

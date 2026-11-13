@@ -49,7 +49,7 @@ const ThankYouContent = () => {
 
   return (
     <>
-      <div className="min-h-screen bg-slate-50 font-sans selection:bg-[#C5A059] selection:text-white pt-20">
+      <div className="min-h-screen bg-slate-50 font-sans selection:bg-[#C9A24B] selection:text-white pt-20">
         {/* --- HERO SECTION --- */}
         <div className="relative w-full min-h-[50vh] md:h-[60vh] flex items-center justify-center pb-10">
           {/* Background Image */}
@@ -80,7 +80,7 @@ const ThankYouContent = () => {
                 damping: 15,
                 delay: 0.2,
               }}
-              className="w-16 h-16 md:w-24 md:h-24 bg-[#C5A059] rounded-full flex items-center justify-center mb-6 shadow-[0_0_30px_rgba(197,160,89,0.5)]"
+              className="w-16 h-16 md:w-24 md:h-24 bg-[#C9A24B] rounded-full flex items-center justify-center mb-6 shadow-[0_0_30px_rgba(197,160,89,0.5)]"
             >
               <CheckCircle2 className="w-8 h-8 md:w-12 md:h-12 text-white" />
             </motion.div>
@@ -90,7 +90,7 @@ const ThankYouContent = () => {
             </h1>
             <p className="text-base md:text-xl text-slate-200 font-medium px-4">
               We have received your request regarding{" "}
-              <span className="text-[#C5A059] font-bold block md:inline mt-1 md:mt-0">
+              <span className="text-[#C9A24B] font-bold block md:inline mt-1 md:mt-0">
                 {data.projectName}
               </span>
             </p>
@@ -107,7 +107,7 @@ const ThankYouContent = () => {
                   href={data.fileLink}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 px-6 py-3 bg-slate-900/80 hover:bg-[#C5A059] text-white rounded-full border border-white/20 text-sm font-semibold transition-all shadow-lg hover:scale-105"
+                  className="inline-flex items-center gap-2 px-6 py-3 bg-slate-900/80 hover:bg-[#C9A24B] text-white rounded-full border border-white/20 text-sm font-semibold transition-all shadow-lg hover:scale-105"
                 >
                   <Download className="w-4 h-4" />
                   <span>Download Brochure Again</span>
@@ -129,7 +129,7 @@ const ThankYouContent = () => {
             className="bg-white rounded-2xl shadow-xl border border-slate-100 overflow-hidden"
           >
             {/* Timeline Header */}
-            <div className="bg-[#0a1e38] p-6 md:p-8 text-center">
+            <div className="bg-[#0B3D2E] p-6 md:p-8 text-center">
               <h2 className="text-white text-xl md:text-2xl font-bold">
                 What Happens Next?
               </h2>
@@ -172,7 +172,7 @@ const ThankYouContent = () => {
 
                 {/* Step 3 */}
                 <div className="relative z-10 flex flex-col items-center text-center md:w-1/3">
-                  <div className="w-12 h-12 bg-[#C5A059]/10 rounded-full flex items-center justify-center text-[#C5A059] mb-3 border-4 border-white shadow-sm ring-4 ring-slate-50 md:ring-0">
+                  <div className="w-12 h-12 bg-[#C9A24B]/10 rounded-full flex items-center justify-center text-[#C9A24B] mb-3 border-4 border-white shadow-sm ring-4 ring-slate-50 md:ring-0">
                     {data.isBrochure ? (
                       <Download className="w-6 h-6" />
                     ) : (
@@ -195,14 +195,14 @@ const ThankYouContent = () => {
             <div className="bg-slate-50 p-6 md:p-8 flex flex-col sm:flex-row items-center justify-center gap-4 border-t border-slate-100">
               <Link
                 href="/"
-                className="w-full sm:w-auto px-8 py-3.5 bg-white border border-slate-200 text-slate-700 font-bold rounded-lg hover:bg-slate-50 hover:border-[#C5A059] transition-all flex items-center justify-center gap-2 shadow-sm"
+                className="w-full sm:w-auto px-8 py-3.5 bg-white border border-slate-200 text-slate-700 font-bold rounded-lg hover:bg-slate-50 hover:border-[#C9A24B] transition-all flex items-center justify-center gap-2 shadow-sm"
               >
                 <Home className="w-4 h-4" /> Return to Home
               </Link>
 
               <a
                 href="tel:+919902730474"
-                className="w-full sm:w-auto px-8 py-3.5 bg-[#0a1e38] text-white font-bold rounded-lg hover:bg-[#C5A059] transition-all flex items-center justify-center gap-2 shadow-lg"
+                className="w-full sm:w-auto px-8 py-3.5 bg-[#0B3D2E] text-white font-bold rounded-lg hover:bg-[#C9A24B] transition-all flex items-center justify-center gap-2 shadow-lg"
               >
                 <Phone className="w-4 h-4" /> Call Sales Team
               </a>
@@ -224,7 +224,7 @@ const ThankYouPage = () => {
     <Suspense
       fallback={
         <div className="min-h-screen flex items-center justify-center bg-slate-50">
-          <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-[#C5A059]"></div>
+          <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-[#C9A24B]"></div>
         </div>
       }
     >

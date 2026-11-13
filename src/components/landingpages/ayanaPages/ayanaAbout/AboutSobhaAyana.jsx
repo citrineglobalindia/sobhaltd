@@ -69,7 +69,7 @@ const AboutSobhaAyana = () => {
     >
       {/* --- BACKGROUND ACCENTS --- */}
       {/* Hidden on mobile to improve performance and reduce visual noise */}
-      <div className="hidden md:block absolute top-0 right-0 w-[600px] h-[600px] bg-[#C5A059]/5 rounded-full blur-[100px] pointer-events-none translate-x-1/2 -translate-y-1/2" />
+      <div className="hidden md:block absolute top-0 right-0 w-[600px] h-[600px] bg-[#C9A24B]/5 rounded-full blur-[100px] pointer-events-none translate-x-1/2 -translate-y-1/2" />
       <div className="hidden md:block absolute bottom-0 left-0 w-[500px] h-[500px] bg-emerald-50 rounded-full blur-[100px] pointer-events-none -translate-x-1/3 translate-y-1/3" />
 
       <div className="max-w-8xl mx-auto px-4 md:px-6 lg:px-12 relative z-10">
@@ -83,16 +83,16 @@ const AboutSobhaAyana = () => {
             {/* Header */}
             <div>
               <div className="flex items-center gap-3 mb-3 md:mb-4">
-                <span className="w-8 md:w-12 h-[3px] bg-[#C5A059]"></span>
-                <span className="text-[#C5A059] font-bold text-[10px] md:text-xs uppercase tracking-[0.2em] md:tracking-[0.25em]">
+                <span className="w-8 md:w-12 h-[3px] bg-[#C9A24B]"></span>
+                <span className="text-[#C9A24B] font-bold text-[10px] md:text-xs uppercase tracking-[0.2em] md:tracking-[0.25em]">
                   Project Overview
                 </span>
               </div>
-              <h2 className="text-3xl md:text-5xl lg:text-6xl font-bold text-[#0a1e38] leading-tight">
-                Sobha <span className="text-[#C5A059]">Ayana</span>
+              <h2 className="text-3xl md:text-5xl lg:text-6xl font-bold text-[#0B3D2E] leading-tight">
+                Sobha <span className="text-[#C9A24B]">Ayana</span>
               </h2>
               <div className="flex items-center gap-2 text-gray-500 mt-2 md:mt-3 text-xs md:text-sm font-medium">
-                <MapPin className="w-3.5 h-3.5 md:w-4.5 md:h-4.5 text-[#C5A059]" />
+                <MapPin className="w-3.5 h-3.5 md:w-4.5 md:h-4.5 text-[#C9A24B]" />
                 Panathur, East Bangalore
               </div>
             </div>
@@ -101,17 +101,17 @@ const AboutSobhaAyana = () => {
             <div className="space-y-4 text-gray-600 text-sm md:text-base leading-relaxed text-justify">
               <p>
                 Spread across{" "}
-                <strong className="text-[#0a1e38]">6.29 acres</strong>, Sobha
+                <strong className="text-[#0B3D2E]">6.29 acres</strong>, Sobha
                 Ayana is a luxury enclave featuring 12 elegant wings crafted to
                 combine everyday comfort with a touch of opulence. With homes
                 starting from{" "}
-                <strong className="text-[#0a1e38]">1553 sq. ft.</strong>, every
+                <strong className="text-[#0B3D2E]">1553 sq. ft.</strong>, every
                 unit is designed to maximize space and natural light.
               </p>
               <p>
                 More than just a home, it offers a resort-like lifestyle with
                 unique amenities like a
-                <span className="text-[#C5A059] font-semibold">
+                <span className="text-[#C9A24B] font-semibold">
                   {" "}
                   Wave Garden, Bamboo Trek, and Adventure Trail
                 </span>
@@ -124,7 +124,7 @@ const AboutSobhaAyana = () => {
               {AMENITIES_HIGHLIGHT.map((amenity, i) => (
                 <span
                   key={i}
-                  className="px-3 py-1.5 bg-[#C5A059]/10 border border-[#C5A059]/30 rounded-full text-[#C5A059] text-[10px] md:text-xs font-bold uppercase tracking-wider"
+                  className="px-3 py-1.5 bg-[#C9A24B]/10 border border-[#C9A24B]/30 rounded-full text-[#C9A24B] text-[10px] md:text-xs font-bold uppercase tracking-wider"
                 >
                   {amenity}
                 </span>
@@ -138,15 +138,15 @@ const AboutSobhaAyana = () => {
                 return (
                   <div
                     key={idx}
-                    className="group bg-white border border-gray-100 p-3 md:p-5 rounded-lg md:rounded-xl shadow-sm hover:shadow-xl hover:border-[#C5A059]/30 transition-all duration-300"
+                    className="group bg-white border border-gray-100 p-3 md:p-5 rounded-lg md:rounded-xl shadow-sm hover:shadow-xl hover:border-[#C9A24B]/30 transition-all duration-300"
                   >
                     <div className="flex items-start justify-between mb-2 md:mb-3">
-                      <Icon className="w-4 h-4 md:w-5 md:h-5 text-gray-400 group-hover:text-[#C5A059] transition-colors" />
+                      <Icon className="w-4 h-4 md:w-5 md:h-5 text-gray-400 group-hover:text-[#C9A24B] transition-colors" />
                       <span className="text-[8px] md:text-[9px] text-gray-400 font-bold uppercase tracking-widest">
                         {stat.label}
                       </span>
                     </div>
-                    <h4 className="text-sm md:text-lg font-bold text-[#0a1e38] group-hover:text-[#C5A059] transition-colors truncate">
+                    <h4 className="text-sm md:text-lg font-bold text-[#0B3D2E] group-hover:text-[#C9A24B] transition-colors truncate">
                       {stat.value}
                     </h4>
                     <p className="text-[9px] md:text-[10px] text-gray-500 mt-0.5 md:mt-1 truncate">
@@ -160,7 +160,7 @@ const AboutSobhaAyana = () => {
             {/* Investment Note */}
             <div className="bg-emerald-50 border-l-4 border-emerald-500 p-4 md:p-5 rounded-r-xl">
               <p className="text-[11px] md:text-xs text-gray-700 leading-relaxed">
-                <strong className="text-[#0a1e38] block mb-1 text-xs md:text-sm">
+                <strong className="text-[#0B3D2E] block mb-1 text-xs md:text-sm">
                   Smart Investment Opportunity
                 </strong>
                 Located near{" "}
@@ -193,12 +193,12 @@ const AboutSobhaAyana = () => {
 
               {/* Floating Status Badge */}
               <div className="absolute bottom-4 left-4 md:bottom-8 md:left-8 bg-white/90 backdrop-blur-xl border border-white/50 p-3 md:p-5 rounded-lg md:rounded-xl shadow-lg">
-                <p className="text-[#0a1e38] text-[9px] md:text-[10px] font-bold uppercase tracking-widest mb-0.5 md:mb-1">
+                <p className="text-[#0B3D2E] text-[9px] md:text-[10px] font-bold uppercase tracking-widest mb-0.5 md:mb-1">
                   Current Status
                 </p>
                 <div className="flex items-center gap-1.5 md:gap-2">
                   <div className="w-2 h-2 md:w-2.5 md:h-2.5 rounded-full bg-green-500 animate-pulse" />
-                  <span className="text-[#0a1e38] font-bold text-sm md:text-lg">
+                  <span className="text-[#0B3D2E] font-bold text-sm md:text-lg">
                     Under Construction
                   </span>
                 </div>
@@ -206,7 +206,7 @@ const AboutSobhaAyana = () => {
             </motion.div>
 
             {/* Decorative Outline Behind (Gold) */}
-            <div className="absolute inset-0 border-2 border-[#C5A059]/20 rounded-2xl md:rounded-[2rem] translate-x-3 translate-y-3 md:translate-x-6 md:translate-y-6 -z-0" />
+            <div className="absolute inset-0 border-2 border-[#C9A24B]/20 rounded-2xl md:rounded-[2rem] translate-x-3 translate-y-3 md:translate-x-6 md:translate-y-6 -z-0" />
           </div>
         </div>
       </div>

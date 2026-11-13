@@ -58,10 +58,10 @@ const AltairPlans = () => {
         {/* --- HEADER & TABS --- */}
         <div className="flex flex-col md:flex-row items-end justify-between mb-10 gap-6">
           <div>
-            <span className="text-[#C5A059] font-bold text-xs uppercase tracking-[0.2em] block mb-2">
+            <span className="text-[#C9A24B] font-bold text-xs uppercase tracking-[0.2em] block mb-2">
               Layouts & Configurations
             </span>
-            <h2 className="text-3xl md:text-4xl font-bold text-[#0a1e38]">
+            <h2 className="text-3xl md:text-4xl font-bold text-[#0B3D2E]">
               Project Plans
             </h2>
           </div>
@@ -74,8 +74,8 @@ const AltairPlans = () => {
                 onClick={() => setActiveTab(key)}
                 className={`px-6 py-2.5 rounded-md text-sm font-bold uppercase tracking-wider transition-all duration-300 ${
                   activeTab === key
-                    ? "bg-white text-[#0a1e38] shadow-md"
-                    : "text-gray-500 hover:text-[#0a1e38]"
+                    ? "bg-white text-[#0B3D2E] shadow-md"
+                    : "text-gray-500 hover:text-[#0B3D2E]"
                 }`}
               >
                 {PLANS[key].title.split(" - ")[0]} {/* Show short title */}
@@ -98,14 +98,14 @@ const AltairPlans = () => {
               {/* Info Bar */}
               <div className="w-full flex justify-between items-center mb-6 pb-4 border-b border-gray-200">
                 <div>
-                  <h3 className="text-xl font-bold text-[#0a1e38]">
+                  <h3 className="text-xl font-bold text-[#0B3D2E]">
                     {currentPlan.title}
                   </h3>
-                  <p className="text-sm text-[#C5A059] font-medium mt-1">
+                  <p className="text-sm text-[#C9A24B] font-medium mt-1">
                     {currentPlan.details}
                   </p>
                 </div>
-                <button className="flex items-center gap-2 text-xs font-bold uppercase tracking-widest text-[#0a1e38] hover:text-[#C5A059] transition-colors border border-gray-300 px-4 py-2 rounded-sm hover:border-[#C5A059]">
+                <button className="flex items-center gap-2 text-xs font-bold uppercase tracking-widest text-[#0B3D2E] hover:text-[#C9A24B] transition-colors border border-gray-300 px-4 py-2 rounded-sm hover:border-[#C9A24B]">
                   <Download className="w-4 h-4" /> Download PDF
                 </button>
               </div>

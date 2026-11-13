@@ -84,19 +84,19 @@ const SobhaAyanaJourney = () => {
       <div className="absolute left-4 md:left-1/2 top-0 bottom-0 w-[2px] bg-gray-100 transform md:-translate-x-1/2 z-0">
         <motion.div
           style={{ scaleY: scrollYProgress }}
-          className="absolute top-0 left-0 w-full bg-[#C5A059] origin-top h-full"
+          className="absolute top-0 left-0 w-full bg-[#C9A24B] origin-top h-full"
         />
       </div>
 
       <div className="max-w-8xl mx-auto px-6 md:px-12 relative z-10">
         {/* --- SECTION HEADER --- */}
         <div className="text-center mb-20 md:mb-32">
-          <span className="text-[#C5A059] font-bold text-xs uppercase tracking-[0.25em] block mb-3">
+          <span className="text-[#C9A24B] font-bold text-xs uppercase tracking-[0.25em] block mb-3">
             Life at Ayana
           </span>
-          <h2 className="text-4xl md:text-5xl font-bold text-[#0a1e38]">
+          <h2 className="text-4xl md:text-5xl font-bold text-[#0B3D2E]">
             A Tropical{" "}
-            <span className="text-[#C5A059] italic font-serif">Journey</span>
+            <span className="text-[#C9A24B] italic font-serif">Journey</span>
           </h2>
         </div>
 
@@ -118,8 +118,8 @@ const SobhaAyanaJourney = () => {
         {/* --- AMENITIES SECTION (The Destination) --- */}
         <div className="mt-32 pt-16 border-t border-gray-100 relative bg-white">
           <div className="text-center mb-16">
-            <h3 className="text-3xl font-bold text-[#0a1e38] mb-4">
-              Curated <span className="text-[#C5A059]">Amenities</span>
+            <h3 className="text-3xl font-bold text-[#0B3D2E] mb-4">
+              Curated <span className="text-[#C9A24B]">Amenities</span>
             </h3>
             <p className="text-gray-500 max-w-2xl mx-auto">
               Designed to rejuvenate your senses, featuring nature-inspired
@@ -135,12 +135,12 @@ const SobhaAyanaJourney = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: idx * 0.05 }}
-                className="group flex flex-col items-center p-6 bg-gray-50 hover:bg-[#C5A059]/10 rounded-2xl transition-all duration-300 border border-transparent hover:border-[#C5A059]/30"
+                className="group flex flex-col items-center p-6 bg-gray-50 hover:bg-[#C9A24B]/10 rounded-2xl transition-all duration-300 border border-transparent hover:border-[#C9A24B]/30"
               >
-                <div className="w-12 h-12 bg-white rounded-full flex items-center justify-center shadow-sm mb-4 group-hover:scale-110 transition-transform text-[#C5A059]">
+                <div className="w-12 h-12 bg-white rounded-full flex items-center justify-center shadow-sm mb-4 group-hover:scale-110 transition-transform text-[#C9A24B]">
                   <amenity.icon className="w-6 h-6" />
                 </div>
-                <span className="text-sm font-bold text-gray-700 text-center group-hover:text-[#0a1e38]">
+                <span className="text-sm font-bold text-gray-700 text-center group-hover:text-[#0B3D2E]">
                   {amenity.label}
                 </span>
               </motion.div>
@@ -181,7 +181,7 @@ const TimelineItem = ({ item, isEven, index }) => {
 
         {/* Decorative Box Behind */}
         <div
-          className={`absolute -bottom-4 -z-10 w-full h-full border border-[#C5A059]/30 rounded-2xl ${
+          className={`absolute -bottom-4 -z-10 w-full h-full border border-[#C9A24B]/30 rounded-2xl ${
             isEven ? "-left-4" : "-right-4"
           }`}
         />
@@ -189,11 +189,11 @@ const TimelineItem = ({ item, isEven, index }) => {
         {/* Timeline Node (Center Dot) */}
         <div
           className={`
-          hidden md:flex absolute top-1/2 -translate-y-1/2 w-10 h-10 bg-white border-4 border-[#C5A059] rounded-full items-center justify-center z-20 shadow-lg
+          hidden md:flex absolute top-1/2 -translate-y-1/2 w-10 h-10 bg-white border-4 border-[#C9A24B] rounded-full items-center justify-center z-20 shadow-lg
           ${isEven ? "-right-[4.2rem]" : "-left-[4.2rem]"}
         `}
         >
-          <span className="text-[#0a1e38] font-bold text-xs">{index + 1}</span>
+          <span className="text-[#0B3D2E] font-bold text-xs">{index + 1}</span>
         </div>
       </motion.div>
 
@@ -209,21 +209,21 @@ const TimelineItem = ({ item, isEven, index }) => {
           {item.tags.map((tag, i) => (
             <span
               key={i}
-              className="px-3 py-1 bg-[#C5A059]/10 text-[#C5A059] text-[10px] font-bold uppercase tracking-wider rounded-full"
+              className="px-3 py-1 bg-[#C9A24B]/10 text-[#C9A24B] text-[10px] font-bold uppercase tracking-wider rounded-full"
             >
               {tag}
             </span>
           ))}
         </div>
 
-        <h3 className="text-3xl md:text-4xl font-bold text-[#0a1e38] mb-4">
+        <h3 className="text-3xl md:text-4xl font-bold text-[#0B3D2E] mb-4">
           {item.title}
         </h3>
 
         <p className="text-gray-500 text-lg leading-relaxed">{item.desc}</p>
 
         {/* Mobile Connector Dot */}
-        <div className="md:hidden absolute left-[-5px] w-2.5 h-2.5 bg-[#C5A059] rounded-full mt-[-6rem]" />
+        <div className="md:hidden absolute left-[-5px] w-2.5 h-2.5 bg-[#C9A24B] rounded-full mt-[-6rem]" />
       </motion.div>
     </div>
   );

@@ -364,14 +364,14 @@ const EnquiryModel = ({ isOpen, onClose, defaultProjectName = "" }) => {
                 </motion.div>
               </AnimatePresence>
               <div className="absolute bottom-4 left-4 right-4 md:bottom-6 md:left-6 md:right-6 text-white z-10">
-                <div className="inline-flex items-center gap-1.5 px-2 py-0.5 md:px-2.5 md:py-1 rounded bg-[#C5A059] text-white text-[9px] md:text-[10px] font-bold uppercase tracking-wider mb-2 shadow-lg">
+                <div className="inline-flex items-center gap-1.5 px-2 py-0.5 md:px-2.5 md:py-1 rounded bg-[#C9A24B] text-white text-[9px] md:text-[10px] font-bold uppercase tracking-wider mb-2 shadow-lg">
                   <MapPin className="w-2.5 h-2.5 md:w-3 md:h-3" />{" "}
                   {activeProject.location.split(",")[0]}
                 </div>
                 <h3 className="text-xl md:text-3xl font-bold leading-tight mb-2">
                   {activeProject.title}
                 </h3>
-                <div className="inline-block border-l-4 border-[#C5A059] pl-3">
+                <div className="inline-block border-l-4 border-[#C9A24B] pl-3">
                   <p className="text-slate-300 text-[10px] md:text-xs uppercase tracking-wider font-medium">
                     Price
                   </p>
@@ -389,9 +389,9 @@ const EnquiryModel = ({ isOpen, onClose, defaultProjectName = "" }) => {
                   <div className="mb-4 md:mb-6">
                     <h2 className="text-xl md:text-2xl font-bold text-slate-900 flex items-center gap-2">
                       {step === 1 ? (
-                        <User className="w-5 h-5 md:w-6 md:h-6 text-[#C5A059]" />
+                        <User className="w-5 h-5 md:w-6 md:h-6 text-[#C9A24B]" />
                       ) : (
-                        <Calendar className="w-5 h-5 md:w-6 md:h-6 text-[#C5A059]" />
+                        <Calendar className="w-5 h-5 md:w-6 md:h-6 text-[#C9A24B]" />
                       )}
                       {step === 1 ? "Contact Details" : "Preferences"}
                     </h2>
@@ -415,7 +415,7 @@ const EnquiryModel = ({ isOpen, onClose, defaultProjectName = "" }) => {
                         value={activeProject.title}
                         onChange={handleProjectChange}
                         disabled={isProjectLocked}
-                        className={`w-full bg-slate-50 border border-slate-200 rounded-lg pl-9 pr-4 py-2.5 md:pl-10 md:py-3 text-sm text-slate-700 font-medium focus:border-[#C5A059] outline-none appearance-none transition-colors ${
+                        className={`w-full bg-slate-50 border border-slate-200 rounded-lg pl-9 pr-4 py-2.5 md:pl-10 md:py-3 text-sm text-slate-700 font-medium focus:border-[#C9A24B] outline-none appearance-none transition-colors ${
                           isProjectLocked
                             ? "cursor-not-allowed bg-slate-100"
                             : "cursor-pointer hover:bg-slate-100"
@@ -449,7 +449,7 @@ const EnquiryModel = ({ isOpen, onClose, defaultProjectName = "" }) => {
                             placeholder="Your Name"
                             value={formState.name}
                             onChange={handleChange}
-                            className="w-full bg-slate-50 border border-slate-200 rounded-lg pl-9 pr-4 py-2.5 md:pl-10 md:py-3 text-sm md:text-base text-slate-900 placeholder-slate-400 outline-none focus:border-[#C5A059] focus:bg-white transition-all"
+                            className="w-full bg-slate-50 border border-slate-200 rounded-lg pl-9 pr-4 py-2.5 md:pl-10 md:py-3 text-sm md:text-base text-slate-900 placeholder-slate-400 outline-none focus:border-[#C9A24B] focus:bg-white transition-all"
                           />
                         </div>
 
@@ -462,7 +462,7 @@ const EnquiryModel = ({ isOpen, onClose, defaultProjectName = "" }) => {
                             placeholder="Email Address (Optional)"
                             value={formState.email}
                             onChange={handleChange}
-                            className="w-full bg-slate-50 border border-slate-200 rounded-lg pl-9 pr-4 py-2.5 md:pl-10 md:py-3 text-sm md:text-base text-slate-900 placeholder-slate-400 outline-none focus:border-[#C5A059] focus:bg-white transition-all"
+                            className="w-full bg-slate-50 border border-slate-200 rounded-lg pl-9 pr-4 py-2.5 md:pl-10 md:py-3 text-sm md:text-base text-slate-900 placeholder-slate-400 outline-none focus:border-[#C9A24B] focus:bg-white transition-all"
                           />
                         </div>
 
@@ -486,7 +486,7 @@ const EnquiryModel = ({ isOpen, onClose, defaultProjectName = "" }) => {
                                 .slice(0, 10);
                               handleChange(e);
                             }}
-                            className="w-full bg-slate-50 border border-slate-200 rounded-lg pl-9 pr-4 py-2.5 md:pl-10 md:py-3 text-sm md:text-base text-slate-900 placeholder-slate-400 outline-none focus:border-[#C5A059] focus:bg-white transition-all"
+                            className="w-full bg-slate-50 border border-slate-200 rounded-lg pl-9 pr-4 py-2.5 md:pl-10 md:py-3 text-sm md:text-base text-slate-900 placeholder-slate-400 outline-none focus:border-[#C9A24B] focus:bg-white transition-all"
                           />
                         </div>
 
@@ -495,7 +495,7 @@ const EnquiryModel = ({ isOpen, onClose, defaultProjectName = "" }) => {
                           disabled={
                             !formState.name || !formState.phone // Removed !formState.email validation
                           }
-                          className="w-full mt-2 md:mt-4 bg-[#0a1e38] text-white font-bold py-3 md:py-3.5 rounded-lg flex items-center justify-center gap-2 hover:bg-[#C5A059] transition-all shadow-lg text-sm md:text-base disabled:opacity-50 disabled:cursor-not-allowed"
+                          className="w-full mt-2 md:mt-4 bg-[#0B3D2E] text-white font-bold py-3 md:py-3.5 rounded-lg flex items-center justify-center gap-2 hover:bg-[#C9A24B] transition-all shadow-lg text-sm md:text-base disabled:opacity-50 disabled:cursor-not-allowed"
                         >
                           Next Step <ArrowRight className="w-4 h-4" />
                         </button>
@@ -521,8 +521,8 @@ const EnquiryModel = ({ isOpen, onClose, defaultProjectName = "" }) => {
                                   onClick={() => handleConfigSelect(confString)}
                                   className={`cursor-pointer p-2 md:p-3 rounded-md text-[10px] md:text-xs font-bold border text-center transition-all flex flex-col justify-center ${
                                     isSelected
-                                      ? "bg-[#C5A059] text-white border-[#C5A059] shadow-md"
-                                      : "bg-white text-slate-600 border-slate-200 hover:border-[#C5A059] hover:text-[#C5A059]"
+                                      ? "bg-[#C9A24B] text-white border-[#C9A24B] shadow-md"
+                                      : "bg-white text-slate-600 border-slate-200 hover:border-[#C9A24B] hover:text-[#C9A24B]"
                                   }`}
                                 >
                                   <span>{conf.type}</span>
@@ -546,7 +546,7 @@ const EnquiryModel = ({ isOpen, onClose, defaultProjectName = "" }) => {
                             name="visitDate"
                             value={formState.visitDate}
                             onChange={handleChange}
-                            className="w-full bg-slate-50 border border-slate-200 rounded-lg pl-9 pr-4 py-2.5 md:pl-10 md:py-3 text-xs md:text-sm text-slate-700 outline-none focus:border-[#C5A059] appearance-none cursor-pointer"
+                            className="w-full bg-slate-50 border border-slate-200 rounded-lg pl-9 pr-4 py-2.5 md:pl-10 md:py-3 text-xs md:text-sm text-slate-700 outline-none focus:border-[#C9A24B] appearance-none cursor-pointer"
                           >
                             <option value="" disabled>
                               When should we call/schedule?
@@ -571,7 +571,7 @@ const EnquiryModel = ({ isOpen, onClose, defaultProjectName = "" }) => {
                           <button
                             onClick={handleSubmit}
                             disabled={!formState.selectedConfig || isSubmitting}
-                            className="w-2/3 bg-[#C5A059] text-white font-bold py-2.5 md:py-3.5 rounded-lg flex items-center justify-center gap-2 hover:bg-[#b08d4b] transition-all shadow-lg disabled:opacity-50 disabled:cursor-not-allowed text-sm"
+                            className="w-2/3 bg-[#C9A24B] text-white font-bold py-2.5 md:py-3.5 rounded-lg flex items-center justify-center gap-2 hover:bg-[#b08d4b] transition-all shadow-lg disabled:opacity-50 disabled:cursor-not-allowed text-sm"
                           >
                             {isSubmitting ? (
                               <Loader2 className="w-4 h-4 animate-spin" />

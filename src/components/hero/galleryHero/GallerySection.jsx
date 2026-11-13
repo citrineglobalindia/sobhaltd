@@ -83,11 +83,11 @@ const GallerySection = () => {
         {/* --- HEADER --- */}
         <div className="flex flex-col md:flex-row items-end justify-between mb-12 gap-6">
           <div className="max-w-xl">
-            <span className="text-[#C5A059] font-bold tracking-widest uppercase text-xs mb-3 block">
+            <span className="text-[#C9A24B] font-bold tracking-widest uppercase text-xs mb-3 block">
               Visual Tour
             </span>
 
-            <h2 className="text-3xl md:text-5xl font-bold text-[#0a1e38] mb-4">
+            <h2 className="text-3xl md:text-5xl font-bold text-[#0B3D2E] mb-4">
               Life at Sobha
             </h2>
 
@@ -106,8 +106,8 @@ const GallerySection = () => {
                 onClick={() => setFilter(cat)}
                 className={`px-6 py-2 rounded-xs text-xs font-bold uppercase tracking-wider border transition-all duration-300 ${
                   filter === cat
-                    ? "bg-[#0a1e38] text-white border-[#0a1e38]"
-                    : "bg-white text-gray-500 border-gray-200 hover:border-[#C5A059] hover:text-[#C5A059]"
+                    ? "bg-[#0B3D2E] text-white border-[#0B3D2E]"
+                    : "bg-white text-gray-500 border-gray-200 hover:border-[#C9A24B] hover:text-[#C9A24B]"
                 }`}
               >
                 {cat}
@@ -151,14 +151,14 @@ const GallerySection = () => {
 
                 {/* Content Reveal */}
                 <div className="absolute inset-0 p-6 flex flex-col justify-end translate-y-4 group-hover:translate-y-0 opacity-0 group-hover:opacity-100 transition-all duration-300">
-                  <span className="text-[#C5A059] text-[10px] font-bold uppercase tracking-widest mb-1">
+                  <span className="text-[#C9A24B] text-[10px] font-bold uppercase tracking-widest mb-1">
                     {item.project}
                   </span>
                   <div className="flex items-center justify-between">
                     <h3 className="text-white text-xl font-bold">
                       {item.title}
                     </h3>
-                    <div className="p-2 bg-white/10 backdrop-blur-md rounded-full text-white hover:bg-[#C5A059] hover:text-black transition-colors">
+                    <div className="p-2 bg-white/10 backdrop-blur-md rounded-full text-white hover:bg-[#C9A24B] hover:text-black transition-colors">
                       <ArrowUpRight className="w-5 h-5" />
                     </div>
                   </div>
@@ -175,9 +175,9 @@ const GallerySection = () => {
 
         {/* View More Button */}
         <div className="mt-12 text-center">
-          <button className="inline-flex items-center gap-2 text-sm font-bold uppercase tracking-widest text-[#0a1e38] hover:text-[#C5A059] transition-colors group">
+          <button className="inline-flex items-center gap-2 text-sm font-bold uppercase tracking-widest text-[#0B3D2E] hover:text-[#C9A24B] transition-colors group">
             View All Photos
-            <span className="w-8 h-[1px] bg-[#0a1e38] group-hover:w-12 group-hover:bg-[#C5A059] transition-all duration-300"></span>
+            <span className="w-8 h-[1px] bg-[#0B3D2E] group-hover:w-12 group-hover:bg-[#C9A24B] transition-all duration-300"></span>
           </button>
         </div>
       </div>

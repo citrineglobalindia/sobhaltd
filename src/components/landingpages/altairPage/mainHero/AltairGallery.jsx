@@ -124,10 +124,10 @@ const AltairGallery = () => {
         {/* --- HEADER & FILTERS --- */}
         <div className="flex flex-col md:flex-row items-center justify-between mb-12 gap-8">
           <div className="text-center md:text-left">
-            <span className="text-[#C5A059] font-bold text-xs uppercase tracking-[0.2em] block mb-2">
+            <span className="text-[#C9A24B] font-bold text-xs uppercase tracking-[0.2em] block mb-2">
               Visual Tour
             </span>
-            <h2 className="text-4xl font-bold text-[#0a1e38]">
+            <h2 className="text-4xl font-bold text-[#0B3D2E]">
               Sobha Altair Gallery
             </h2>
           </div>
@@ -144,8 +144,8 @@ const AltairGallery = () => {
                     flex items-center gap-2 px-6 py-2.5 rounded-full text-xs font-bold uppercase tracking-wider transition-all duration-300
                     ${
                       isActive
-                        ? "bg-[#0a1e38] text-white shadow-lg"
-                        : "text-gray-500 hover:text-[#0a1e38] hover:bg-gray-200"
+                        ? "bg-[#0B3D2E] text-white shadow-lg"
+                        : "text-gray-500 hover:text-[#0B3D2E] hover:bg-gray-200"
                     }
                   `}
                 >
@@ -198,7 +198,7 @@ const AltairGallery = () => {
 
                   {/* Hover Overlay */}
                   <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-6">
-                    <span className="text-[#C5A059] text-[10px] font-bold uppercase tracking-widest mb-1 translate-y-4 group-hover:translate-y-0 transition-transform duration-300">
+                    <span className="text-[#C9A24B] text-[10px] font-bold uppercase tracking-widest mb-1 translate-y-4 group-hover:translate-y-0 transition-transform duration-300">
                       {img.category}
                     </span>
                     <div className="flex justify-between items-center translate-y-4 group-hover:translate-y-0 transition-transform duration-300 delay-75">
@@ -237,13 +237,13 @@ const AltairGallery = () => {
 
             {/* Navigation Buttons */}
             <button
-              className="absolute left-4 md:left-8 p-3 bg-white/10 hover:bg-[#C5A059] rounded-full text-white transition-colors z-50 hidden md:block"
+              className="absolute left-4 md:left-8 p-3 bg-white/10 hover:bg-[#C9A24B] rounded-full text-white transition-colors z-50 hidden md:block"
               onClick={handlePrev}
             >
               <ChevronLeft className="w-8 h-8" />
             </button>
             <button
-              className="absolute right-4 md:right-8 p-3 bg-white/10 hover:bg-[#C5A059] rounded-full text-white transition-colors z-50 hidden md:block"
+              className="absolute right-4 md:right-8 p-3 bg-white/10 hover:bg-[#C9A24B] rounded-full text-white transition-colors z-50 hidden md:block"
               onClick={handleNext}
             >
               <ChevronRight className="w-8 h-8" />

@@ -57,13 +57,13 @@ const SobhaHoskoteOverview = () => {
   return (
     <section className="py-24 bg-[#0a0a0a] text-white font-sans relative overflow-hidden">
       {/* Background Glows */}
-      <div className="absolute top-1/4 left-0 w-[500px] h-[500px] bg-[#C5A059]/5 rounded-full blur-[120px] pointer-events-none" />
+      <div className="absolute top-1/4 left-0 w-[500px] h-[500px] bg-[#C9A24B]/5 rounded-full blur-[120px] pointer-events-none" />
 
       <div className="max-w-8xl mx-auto px-6 md:px-12 relative z-10">
         {/* --- HEADER --- */}
         <div className="flex flex-col md:flex-row items-end justify-between mb-16 gap-6">
           <div className="max-w-2xl">
-            <span className="text-[#C5A059] font-bold text-xs uppercase tracking-[0.2em] block mb-4">
+            <span className="text-[#C9A24B] font-bold text-xs uppercase tracking-[0.2em] block mb-4">
               Project Overview
             </span>
             <h2 className="text-4xl md:text-5xl font-bold leading-tight">
@@ -111,7 +111,7 @@ const SobhaHoskoteOverview = () => {
                   <div className="absolute bottom-0 left-0 p-6 md:p-8 w-full">
                     <div className="flex justify-between items-end">
                       <div>
-                        <span className="text-[#C5A059] text-[10px] font-bold uppercase tracking-widest mb-1 block">
+                        <span className="text-[#C9A24B] text-[10px] font-bold uppercase tracking-widest mb-1 block">
                           {item.subtitle}
                         </span>
                         <h3 className="text-2xl font-bold text-white leading-none">
@@ -128,19 +128,19 @@ const SobhaHoskoteOverview = () => {
 
               {/* === RENDER: STAT CARD === */}
               {item.type === "stat" && (
-                <div className="h-full flex flex-col justify-between p-6 hover:bg-[#C5A059]/10 transition-colors duration-500">
+                <div className="h-full flex flex-col justify-between p-6 hover:bg-[#C9A24B]/10 transition-colors duration-500">
                   <div className="flex justify-between items-start">
-                    <div className="p-3 bg-white/5 rounded-full text-[#C5A059] border border-white/5 group-hover:border-[#C5A059] transition-colors">
+                    <div className="p-3 bg-white/5 rounded-full text-[#C9A24B] border border-white/5 group-hover:border-[#C9A24B] transition-colors">
                       <item.icon className="w-6 h-6" />
                     </div>
-                    <ArrowUpRight className="w-4 h-4 text-gray-600 group-hover:text-[#C5A059] transition-colors" />
+                    <ArrowUpRight className="w-4 h-4 text-gray-600 group-hover:text-[#C9A24B] transition-colors" />
                   </div>
 
                   <div>
                     <h3 className="text-4xl font-bold text-white mb-1">
                       {item.value}
                     </h3>
-                    <p className="text-[#C5A059] text-xs font-bold uppercase tracking-widest mb-3">
+                    <p className="text-[#C9A24B] text-xs font-bold uppercase tracking-widest mb-3">
                       {item.label}
                     </p>
                     <p className="text-gray-500 text-xs leading-relaxed border-t border-white/10 pt-3">
@@ -149,7 +149,7 @@ const SobhaHoskoteOverview = () => {
                   </div>
 
                   {/* Hover Border Glow */}
-                  <div className="absolute inset-0 border-2 border-[#C5A059] opacity-0 group-hover:opacity-100 rounded-2xl transition-opacity duration-300 pointer-events-none" />
+                  <div className="absolute inset-0 border-2 border-[#C9A24B] opacity-0 group-hover:opacity-100 rounded-2xl transition-opacity duration-300 pointer-events-none" />
                 </div>
               )}
             </motion.div>
@@ -159,7 +159,7 @@ const SobhaHoskoteOverview = () => {
         {/* --- BOTTOM SCROLL HINT --- */}
         <div className="mt-16 flex justify-center">
           <div className="flex flex-col items-center gap-3 opacity-50">
-            <div className="w-[1px] h-12 bg-gradient-to-b from-transparent via-[#C5A059] to-transparent"></div>
+            <div className="w-[1px] h-12 bg-gradient-to-b from-transparent via-[#C9A24B] to-transparent"></div>
             <span className="text-[10px] uppercase tracking-widest text-gray-500">
               Amenities
             </span>

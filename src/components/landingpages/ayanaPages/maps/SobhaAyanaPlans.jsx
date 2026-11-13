@@ -56,18 +56,18 @@ const SobhaAyanaPlans = () => {
       <div className="max-w-8xl mx-auto px-6 md:px-12 relative z-10">
         {/* --- HEADER --- */}
         <div className="text-center mb-12">
-          <span className="text-[#C5A059] font-bold text-xs uppercase tracking-[0.25em] block mb-3">
+          <span className="text-[#C9A24B] font-bold text-xs uppercase tracking-[0.25em] block mb-3">
             Blueprints
           </span>
-          <h2 className="text-4xl md:text-5xl font-bold text-[#0a1e38] mb-8">
-            Plans & <span className="text-[#C5A059]">Layouts</span>
+          <h2 className="text-4xl md:text-5xl font-bold text-[#0B3D2E] mb-8">
+            Plans & <span className="text-[#C9A24B]">Layouts</span>
           </h2>
 
           {/* TOGGLE SWITCH */}
           <div className="inline-flex bg-gray-100 p-1.5 rounded-full relative">
             {/* Sliding Background */}
             <motion.div
-              className="absolute top-1.5 bottom-1.5 bg-[#0a1e38] rounded-full shadow-md z-0"
+              className="absolute top-1.5 bottom-1.5 bg-[#0B3D2E] rounded-full shadow-md z-0"
               initial={false}
               animate={{
                 x: activeTab === "master" ? 0 : "100%",
@@ -81,7 +81,7 @@ const SobhaAyanaPlans = () => {
               className={`relative z-10 px-8 py-3 rounded-full text-sm font-bold uppercase tracking-wider transition-colors duration-300 flex items-center gap-2 ${
                 activeTab === "master"
                   ? "text-white"
-                  : "text-gray-500 hover:text-[#0a1e38]"
+                  : "text-gray-500 hover:text-[#0B3D2E]"
               }`}
             >
               <Map className="w-4 h-4" /> Master Plan
@@ -91,7 +91,7 @@ const SobhaAyanaPlans = () => {
               className={`relative z-10 px-8 py-3 rounded-full text-sm font-bold uppercase tracking-wider transition-colors duration-300 flex items-center gap-2 ${
                 activeTab === "floor"
                   ? "text-white"
-                  : "text-gray-500 hover:text-[#0a1e38]"
+                  : "text-gray-500 hover:text-[#0B3D2E]"
               }`}
             >
               <Home className="w-4 h-4" /> Floor Plan
@@ -122,7 +122,7 @@ const SobhaAyanaPlans = () => {
 
               {/* Hover Overlay */}
               <div className="absolute inset-0 bg-black/5 group-hover:bg-black/10 transition-colors flex items-center justify-center opacity-0 group-hover:opacity-100 duration-300">
-                <div className="bg-white/90 backdrop-blur-md px-6 py-3 rounded-full shadow-lg flex items-center gap-2 text-[#0a1e38] font-bold uppercase text-xs tracking-widest transform translate-y-4 group-hover:translate-y-0 transition-all">
+                <div className="bg-white/90 backdrop-blur-md px-6 py-3 rounded-full shadow-lg flex items-center gap-2 text-[#0B3D2E] font-bold uppercase text-xs tracking-widest transform translate-y-4 group-hover:translate-y-0 transition-all">
                   <Maximize className="w-4 h-4" /> Click to Expand
                 </div>
               </div>
@@ -137,10 +137,10 @@ const SobhaAyanaPlans = () => {
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.5, delay: 0.1 }}
             >
-              <h3 className="text-2xl font-bold text-[#0a1e38] mb-2">
+              <h3 className="text-2xl font-bold text-[#0B3D2E] mb-2">
                 {activeData.title}
               </h3>
-              <div className="w-12 h-1 bg-[#C5A059] mb-4" />
+              <div className="w-12 h-1 bg-[#C9A24B] mb-4" />
               <p className="text-gray-500 text-sm leading-relaxed mb-6">
                 {activeData.desc}
               </p>
@@ -154,7 +154,7 @@ const SobhaAyanaPlans = () => {
                     key={i}
                     className="flex items-center gap-3 text-sm text-gray-700 font-medium"
                   >
-                    <CheckCircle2 className="w-5 h-5 text-[#C5A059]" />
+                    <CheckCircle2 className="w-5 h-5 text-[#C9A24B]" />
                     {feat}
                   </li>
                 ))}
@@ -168,7 +168,7 @@ const SobhaAyanaPlans = () => {
               </p>
               <button
                 onClick={() => setIsModalOpen(true)}
-                className="w-full bg-[#0a1e38] hover:bg-[#C5A059] text-white font-bold py-3.5 rounded-xl uppercase text-xs tracking-widest transition-all shadow-lg flex items-center justify-center gap-2 group"
+                className="w-full bg-[#0B3D2E] hover:bg-[#C9A24B] text-white font-bold py-3.5 rounded-xl uppercase text-xs tracking-widest transition-all shadow-lg flex items-center justify-center gap-2 group"
               >
                 <Download className="w-4 h-4" /> Download Brochure
               </button>
@@ -210,7 +210,7 @@ const SobhaAyanaPlans = () => {
               {/* Footer Info - INTEGRATED MODAL */}
               <div className="absolute bottom-0 left-0 w-full bg-white/90 backdrop-blur-md p-4 border-t border-gray-200 flex justify-between items-center">
                 <div>
-                  <h3 className="text-[#0a1e38] font-bold">
+                  <h3 className="text-[#0B3D2E] font-bold">
                     {activeData.title}
                   </h3>
                   <p className="text-gray-500 text-xs">
@@ -222,7 +222,7 @@ const SobhaAyanaPlans = () => {
                     setIsZoomed(false); // Close zoom view first
                     setIsModalOpen(true); // Open form modal
                   }}
-                  className="bg-[#C5A059] text-white px-6 py-2 rounded-lg text-xs font-bold uppercase tracking-wider flex items-center gap-2 hover:bg-[#b08d4b] transition-colors"
+                  className="bg-[#C9A24B] text-white px-6 py-2 rounded-lg text-xs font-bold uppercase tracking-wider flex items-center gap-2 hover:bg-[#b08d4b] transition-colors"
                 >
                   Download PDF <ArrowRight className="w-3 h-3" />
                 </button>

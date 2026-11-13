@@ -88,12 +88,12 @@ const SobhaHoskoteAmenities = () => {
       <div className="max-w-8xl mx-auto px-6 md:px-12 relative z-10">
         {/* --- HEADER --- */}
         <div className="text-center mb-12 pt-12">
-          <span className="text-[#C5A059] font-bold text-xs uppercase tracking-[0.2em] mb-3 block">
+          <span className="text-[#C9A24B] font-bold text-xs uppercase tracking-[0.2em] mb-3 block">
             Lifestyle Upgrades
           </span>
           <h2 className="text-4xl md:text-5xl font-bold">
             Curated for{" "}
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#C5A059] to-[#F3E5AB]">
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#C9A24B] to-[#F3E5AB]">
               Excellence
             </span>
           </h2>
@@ -113,7 +113,7 @@ const SobhaHoskoteAmenities = () => {
                     group flex items-center justify-between p-6 rounded-xl border transition-all duration-300 relative overflow-hidden
                     ${
                       isActive
-                        ? "bg-[#111] border-[#C5A059] shadow-[0_0_30px_rgba(197,160,89,0.1)]"
+                        ? "bg-[#111] border-[#C9A24B] shadow-[0_0_30px_rgba(197,160,89,0.1)]"
                         : "bg-transparent border-white/10 hover:border-white/30 hover:bg-white/5"
                     }
                   `}
@@ -122,7 +122,7 @@ const SobhaHoskoteAmenities = () => {
                   {isActive && (
                     <motion.div
                       layoutId="activeBar"
-                      className="absolute left-0 top-0 bottom-0 w-1 bg-[#C5A059]"
+                      className="absolute left-0 top-0 bottom-0 w-1 bg-[#C9A24B]"
                     />
                   )}
 
@@ -132,7 +132,7 @@ const SobhaHoskoteAmenities = () => {
                       p-2 rounded-lg transition-colors
                       ${
                         isActive
-                          ? "text-[#C5A059] bg-[#C5A059]/10"
+                          ? "text-[#C9A24B] bg-[#C9A24B]/10"
                           : "text-gray-400 group-hover:text-white"
                       }
                     `}
@@ -153,7 +153,7 @@ const SobhaHoskoteAmenities = () => {
                   <ChevronRight
                     className={`w-4 h-4 transition-transform ${
                       isActive
-                        ? "text-[#C5A059] rotate-0"
+                        ? "text-[#C9A24B] rotate-0"
                         : "text-gray-600 -rotate-90 opacity-0 group-hover:opacity-100"
                     }`}
                   />
@@ -194,8 +194,8 @@ const SobhaHoskoteAmenities = () => {
                     transition={{ delay: 0.2 }}
                   >
                     <div className="flex items-center gap-2 mb-4">
-                      <Sparkles className="w-4 h-4 text-[#C5A059]" />
-                      <span className="text-[#C5A059] text-xs font-bold uppercase tracking-widest">
+                      <Sparkles className="w-4 h-4 text-[#C9A24B]" />
+                      <span className="text-[#C9A24B] text-xs font-bold uppercase tracking-widest">
                         Signature Feature
                       </span>
                     </div>
@@ -204,7 +204,7 @@ const SobhaHoskoteAmenities = () => {
                       {activeContent.title}
                     </h3>
 
-                    <p className="text-gray-300 text-sm md:text-base leading-relaxed mb-8 border-l-2 border-[#C5A059] pl-4">
+                    <p className="text-gray-300 text-sm md:text-base leading-relaxed mb-8 border-l-2 border-[#C9A24B] pl-4">
                       {activeContent.desc}
                     </p>
 
@@ -230,11 +230,11 @@ const SobhaHoskoteAmenities = () => {
         <div className="mt-16 text-center">
           <button
             onClick={() => setIsModalOpen(true)}
-            className="group inline-flex items-center gap-3 text-sm font-bold uppercase tracking-widest text-white hover:text-[#C5A059] transition-colors"
+            className="group inline-flex items-center gap-3 text-sm font-bold uppercase tracking-widest text-white hover:text-[#C9A24B] transition-colors"
           >
             <Download className="w-4 h-4" />
             Download Amenities Brochure
-            <div className="w-8 h-[1px] bg-white group-hover:bg-[#C5A059] group-hover:w-12 transition-all duration-300" />
+            <div className="w-8 h-[1px] bg-white group-hover:bg-[#C9A24B] group-hover:w-12 transition-all duration-300" />
             <ArrowRight className="w-4 h-4" />
           </button>
         </div>

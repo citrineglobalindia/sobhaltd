@@ -18,22 +18,22 @@ const FEATURES = [
   {
     title: "Backward Integration",
     desc: "In-house manufacturing from concrete to furniture.",
-    icon: <LayoutTemplate className="w-6 h-6 text-[#C5A059]" />,
+    icon: <LayoutTemplate className="w-6 h-6 text-[#C9A24B]" />,
   },
   {
     title: "Global Standards",
     desc: "German engineering processes meet Indian luxury.",
-    icon: <Globe2 className="w-6 h-6 text-[#C5A059]" />,
+    icon: <Globe2 className="w-6 h-6 text-[#C9A24B]" />,
   },
   {
     title: "On-Time Delivery",
     desc: "27 years of track record delivering before time.",
-    icon: <Clock4 className="w-6 h-6 text-[#C5A059]" />,
+    icon: <Clock4 className="w-6 h-6 text-[#C9A24B]" />,
   },
   {
     title: "Transparent Dealings",
     desc: "No hidden clauses. 100% legally compliant.",
-    icon: <ShieldCheck className="w-6 h-6 text-[#C5A059]" />,
+    icon: <ShieldCheck className="w-6 h-6 text-[#C9A24B]" />,
   },
 ];
 
@@ -104,20 +104,20 @@ const SobhaParallax = () => {
           >
             {/* Animated Badge */}
             <div className="flex items-center gap-3">
-              <span className="flex h-px w-10 bg-[#C5A059]"></span>
-              <span className="text-[#C5A059] font-bold tracking-[0.2em] uppercase text-xs">
+              <span className="flex h-px w-10 bg-[#C9A24B]"></span>
+              <span className="text-[#C9A24B] font-bold tracking-[0.2em] uppercase text-xs">
                 The Sobha Standard
               </span>
             </div>
 
             <h2 className="text-5xl md:text-6xl lg:text-7xl font-bold text-white leading-[0.95] tracking-tight">
               Crafting <br />
-              <span className="text-transparent bg-clip-text bg-gradient-to-br from-[#E6C785] via-[#C5A059] to-[#8E7036]">
+              <span className="text-transparent bg-clip-text bg-gradient-to-br from-[#E6C785] via-[#C9A24B] to-[#8E7036]">
                 Perfection.
               </span>
             </h2>
 
-            <p className="text-gray-400 text-lg leading-relaxed border-l-2 border-[#C5A059]/30 pl-6">
+            <p className="text-gray-400 text-lg leading-relaxed border-l-2 border-[#C9A24B]/30 pl-6">
               "Quality" is often used, but rarely defined. At Sobha, we define
               it through
               <span className="text-white font-medium"> precision</span>. From
@@ -128,7 +128,7 @@ const SobhaParallax = () => {
             <div className="flex flex-wrap gap-4 pt-4">
               <button
                 onClick={() => setIsModalOpen(true)}
-                className="group relative px-8 py-4 bg-[#C5A059] text-black font-bold uppercase tracking-widest text-xs overflow-hidden"
+                className="group relative px-8 py-4 bg-[#C9A24B] text-black font-bold uppercase tracking-widest text-xs overflow-hidden"
               >
                 <span className="relative z-10 flex items-center gap-2">
                   Experience It{" "}
@@ -154,17 +154,17 @@ const SobhaParallax = () => {
                   className="group relative p-8 bg-white/5 backdrop-blur-md border border-white/10 overflow-hidden hover:bg-white/10 transition-colors duration-500"
                 >
                   {/* Hover Spotlight Effect */}
-                  <div className="absolute inset-0 bg-gradient-to-br from-[#C5A059]/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+                  <div className="absolute inset-0 bg-gradient-to-br from-[#C9A24B]/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
 
                   {/* Decorative Corner */}
                   <div className="absolute top-0 right-0 w-16 h-16 bg-white/5 rounded-bl-[100px] -mr-8 -mt-8 transition-transform group-hover:scale-150 duration-700" />
 
                   <div className="relative z-10">
-                    <div className="w-12 h-12 rounded-full bg-[#000]/40 border border-[#C5A059]/30 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
+                    <div className="w-12 h-12 rounded-full bg-[#000]/40 border border-[#C9A24B]/30 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
                       {feature.icon}
                     </div>
 
-                    <h3 className="text-xl font-bold text-white mb-3 group-hover:text-[#C5A059] transition-colors">
+                    <h3 className="text-xl font-bold text-white mb-3 group-hover:text-[#C9A24B] transition-colors">
                       {feature.title}
                     </h3>
 

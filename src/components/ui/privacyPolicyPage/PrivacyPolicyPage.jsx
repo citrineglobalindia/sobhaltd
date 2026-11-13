@@ -31,14 +31,14 @@ const PrivacyPolicyPage = () => {
     <>
       <main className="min-h-screen bg-white pt-24 pb-20 relative overflow-hidden">
         {/* Decorative background element */}
-        <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-[#C5A059]/5 rounded-full blur-3xl -z-10 translate-x-1/2 -translate-y-1/2" />
+        <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-[#C9A24B]/5 rounded-full blur-3xl -z-10 translate-x-1/2 -translate-y-1/2" />
 
         <div className="max-w-4xl mx-auto px-5 lg:px-8 font-sans">
           {/* --- BREADCRUMB / BACK LINK --- */}
           <div className="mb-8">
             <Link
               href="/"
-              className="inline-flex items-center gap-2 text-xs font-bold uppercase tracking-widest text-gray-400 hover:text-[#C5A059] transition-colors"
+              className="inline-flex items-center gap-2 text-xs font-bold uppercase tracking-widest text-gray-400 hover:text-[#C9A24B] transition-colors"
             >
               <ArrowLeft className="w-3 h-3" />
               Back to Home
@@ -55,14 +55,14 @@ const PrivacyPolicyPage = () => {
               variants={itemVariants}
               className="mb-12 border-b border-gray-100 pb-8"
             >
-              <div className="flex items-center gap-3 mb-4 text-[#C5A059]">
+              <div className="flex items-center gap-3 mb-4 text-[#C9A24B]">
                 <ShieldCheck className="w-8 h-8" />
               </div>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-4 tracking-tight">
                 Privacy Policy – WAY TO NEST
               </h1>
               <div className="flex items-center gap-2">
-                <span className="h-1 w-1 bg-[#C5A059] rounded-full"></span>
+                <span className="h-1 w-1 bg-[#C9A24B] rounded-full"></span>
                 <p className="text-sm text-gray-500 font-medium">
                   Last updated: 03/02/2026
                 </p>
@@ -112,7 +112,7 @@ const PrivacyPolicyPage = () => {
                     "Any other information you choose to share in message boxes",
                   ].map((item, idx) => (
                     <li key={idx} className="flex items-start gap-2">
-                      <span className="mt-2 w-1.5 h-1.5 bg-[#C5A059] rounded-full shrink-0"></span>
+                      <span className="mt-2 w-1.5 h-1.5 bg-[#C9A24B] rounded-full shrink-0"></span>
                       <span>{item}</span>
                     </li>
                   ))}
@@ -161,7 +161,7 @@ const PrivacyPolicyPage = () => {
                     "To comply with legal and regulatory obligations",
                   ].map((item, idx) => (
                     <li key={idx} className="flex items-start gap-3">
-                      <div className="mt-1.5 min-w-[6px] h-[6px] rounded-full ring-2 ring-[#C5A059]/30 bg-[#C5A059]"></div>
+                      <div className="mt-1.5 min-w-[6px] h-[6px] rounded-full ring-2 ring-[#C9A24B]/30 bg-[#C9A24B]"></div>
                       <span>{item}</span>
                     </li>
                   ))}
@@ -188,7 +188,7 @@ const PrivacyPolicyPage = () => {
                     described in this Privacy Policy (for example, to coordinate
                     follow-up, site visits, or project-related communication).
                   </p>
-                  <div className="flex items-start gap-3 p-3 bg-[#C5A059]/10 text-[#8E7035] rounded-lg text-sm font-semibold">
+                  <div className="flex items-start gap-3 p-3 bg-[#C9A24B]/10 text-[#8E7035] rounded-lg text-sm font-semibold">
                     <Lock className="w-5 h-5 shrink-0" />
                     We are an independent channel partner and this is not the
                     official website of Sobha Limited.
@@ -383,7 +383,7 @@ const PrivacyPolicyPage = () => {
                 className="mt-16 pt-8 border-t border-gray-100"
               >
                 <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-6 flex items-center gap-3">
-                  <span className="flex items-center justify-center w-8 h-8 rounded-full bg-[#C5A059] text-sm font-bold text-white">
+                  <span className="flex items-center justify-center w-8 h-8 rounded-full bg-[#C9A24B] text-sm font-bold text-white">
                     12
                   </span>
                   Contact Us
@@ -394,8 +394,8 @@ const PrivacyPolicyPage = () => {
                   information, please contact:
                 </p>
 
-                <div className="bg-white border border-gray-200 rounded-2xl p-6 md:p-8 shadow-xl shadow-gray-100 relative overflow-hidden group hover:border-[#C5A059]/30 transition-colors duration-300">
-                  <div className="absolute top-0 right-0 w-32 h-32 bg-[#C5A059]/5 rounded-full -translate-y-1/2 translate-x-1/2 group-hover:bg-[#C5A059]/10 transition-colors"></div>
+                <div className="bg-white border border-gray-200 rounded-2xl p-6 md:p-8 shadow-xl shadow-gray-100 relative overflow-hidden group hover:border-[#C9A24B]/30 transition-colors duration-300">
+                  <div className="absolute top-0 right-0 w-32 h-32 bg-[#C9A24B]/5 rounded-full -translate-y-1/2 translate-x-1/2 group-hover:bg-[#C9A24B]/10 transition-colors"></div>
 
                   <h3 className="text-lg font-extrabold text-gray-900 mb-6 uppercase tracking-widest border-b border-gray-100 pb-4 inline-block">
                     WAY TO NEST PVT LTD
@@ -413,7 +413,7 @@ const PrivacyPolicyPage = () => {
                         </span>
                         <a
                           href="mailto:info@waytonest.in"
-                          className="text-gray-900 font-medium hover:text-[#C5A059] transition-colors"
+                          className="text-gray-900 font-medium hover:text-[#C9A24B] transition-colors"
                         >
                           info@waytonest.in
                         </a>
@@ -431,7 +431,7 @@ const PrivacyPolicyPage = () => {
                         </span>
                         <a
                           href="tel:+919739612117"
-                          className="text-gray-900 font-medium hover:text-[#C5A059] transition-colors"
+                          className="text-gray-900 font-medium hover:text-[#C9A24B] transition-colors"
                         >
                           +91 97396 12117
                         </a>

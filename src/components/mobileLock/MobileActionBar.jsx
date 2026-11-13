@@ -70,27 +70,27 @@ const MobileActionBar = () => {
           {/* Floating Button (Opens Modal) */}
           <button
             onClick={handleOpenModal}
-            className="group w-14 h-14 bg-[#C5A059] rounded-full flex items-center justify-center shadow-2xl shadow-black/50 border-2 border-white/20 active:scale-90 transition-all duration-300"
+            className="group w-14 h-14 bg-[#C9A24B] rounded-full flex items-center justify-center shadow-2xl shadow-black/50 border-2 border-white/20 active:scale-90 transition-all duration-300"
           >
             <div className="relative">
               <MessageSquare className="w-7 h-7 text-black fill-current group-hover:scale-110 transition-transform" />
               {/* Online Status Dot */}
-              <span className="absolute -top-1 -right-1 w-3 h-3 bg-green-500 border-2 border-[#C5A059] rounded-full animate-pulse"></span>
+              <span className="absolute -top-1 -right-1 w-3 h-3 bg-green-500 border-2 border-[#C9A24B] rounded-full animate-pulse"></span>
             </div>
           </button>
         </div>
 
         {/* --- 2. MAIN BOTTOM BAR --- */}
-        <div className="bg-[#0a0a0a]/95 backdrop-blur-lg text-white rounded-t-2xl shadow-[0_-8px_30px_rgba(0,0,0,0.4)] border-t border-[#C5A059] flex items-center justify-between px-2 py-3 pb-safe pointer-events-auto">
+        <div className="bg-[#0a0a0a]/95 backdrop-blur-lg text-white rounded-t-2xl shadow-[0_-8px_30px_rgba(0,0,0,0.4)] border-t border-[#C9A24B] flex items-center justify-between px-2 py-3 pb-safe pointer-events-auto">
           {/* Item 1: Call Us */}
           <a
             href="tel:+919902730474"
             className="flex-1 flex flex-col items-center justify-center gap-1 active:scale-95 transition-transform group"
           >
-            <div className="p-1.5 rounded-full group-active:bg-[#C5A059]/20 transition-colors">
-              <Phone className="w-5 h-5 text-white group-active:text-[#C5A059] transition-colors stroke-[2.5]" />
+            <div className="p-1.5 rounded-full group-active:bg-[#C9A24B]/20 transition-colors">
+              <Phone className="w-5 h-5 text-white group-active:text-[#C9A24B] transition-colors stroke-[2.5]" />
             </div>
-            <span className="text-[10px] font-bold tracking-widest uppercase text-gray-300 group-active:text-[#C5A059]">
+            <span className="text-[10px] font-bold tracking-widest uppercase text-gray-300 group-active:text-[#C9A24B]">
               Call
             </span>
           </a>
@@ -105,10 +105,10 @@ const MobileActionBar = () => {
             rel="noopener noreferrer"
             className="flex-1 flex flex-col items-center justify-center gap-1 active:scale-95 transition-transform group"
           >
-            <div className="p-1.5 rounded-full group-active:bg-[#C5A059]/20 transition-colors">
-              <MessageCircle className="w-5 h-5 text-white group-active:text-[#C5A059] transition-colors stroke-[2.5]" />
+            <div className="p-1.5 rounded-full group-active:bg-[#C9A24B]/20 transition-colors">
+              <MessageCircle className="w-5 h-5 text-white group-active:text-[#C9A24B] transition-colors stroke-[2.5]" />
             </div>
-            <span className="text-[10px] font-bold tracking-widest uppercase text-gray-300 group-active:text-[#C5A059]">
+            <span className="text-[10px] font-bold tracking-widest uppercase text-gray-300 group-active:text-[#C9A24B]">
               WhatsApp
             </span>
           </a>
@@ -121,10 +121,10 @@ const MobileActionBar = () => {
             onClick={handleOpenModal}
             className="flex-1 flex flex-col items-center justify-center gap-1 active:scale-95 transition-transform group"
           >
-            <div className="p-1.5 rounded-full group-active:bg-[#C5A059]/20 transition-colors">
-              <FileText className="w-5 h-5 text-white group-active:text-[#C5A059] transition-colors stroke-[2.5]" />
+            <div className="p-1.5 rounded-full group-active:bg-[#C9A24B]/20 transition-colors">
+              <FileText className="w-5 h-5 text-white group-active:text-[#C9A24B] transition-colors stroke-[2.5]" />
             </div>
-            <span className="text-[10px] font-bold tracking-widest uppercase text-gray-300 group-active:text-[#C5A059]">
+            <span className="text-[10px] font-bold tracking-widest uppercase text-gray-300 group-active:text-[#C9A24B]">
               Enquire
             </span>
           </button>

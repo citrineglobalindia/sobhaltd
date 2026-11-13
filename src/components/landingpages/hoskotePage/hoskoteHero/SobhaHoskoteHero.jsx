@@ -95,12 +95,12 @@ const SobhaHoskoteHero = () => {
             variants={itemVariants}
             className="flex items-center gap-3"
           >
-            <div className="flex items-center gap-2 px-3 py-1.5 bg-[#C5A059] text-black text-[10px] md:text-xs font-bold uppercase tracking-widest rounded-sm shadow-lg">
+            <div className="flex items-center gap-2 px-3 py-1.5 bg-[#C9A24B] text-black text-[10px] md:text-xs font-bold uppercase tracking-widest rounded-sm shadow-lg">
               <span className="w-1.5 h-1.5 bg-black rounded-full animate-pulse" />
               Pre-Launch
             </div>
             <div className="flex items-center gap-1.5 text-gray-300 text-xs md:text-sm font-medium tracking-wide">
-              <MapPin className="w-3.5 h-3.5 text-[#C5A059]" />
+              <MapPin className="w-3.5 h-3.5 text-[#C9A24B]" />
               East Bangalore
             </div>
           </motion.div>
@@ -112,7 +112,7 @@ const SobhaHoskoteHero = () => {
             </h2>
             <h1 className="text-5xl sm:text-6xl md:text-8xl lg:text-9xl font-bold text-white leading-[0.9] tracking-tight drop-shadow-2xl">
               SOBHA <br />
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#C5A059] via-[#E6C785] to-white/90">
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#C9A24B] via-[#E6C785] to-white/90">
                 ONE WORLD
               </span>
             </h1>
@@ -121,7 +121,7 @@ const SobhaHoskoteHero = () => {
           {/* 3. Description & Price */}
           <motion.div
             variants={itemVariants}
-            className="flex flex-col md:flex-row md:items-end gap-4 md:gap-12 border-l-2 border-[#C5A059] pl-5 md:pl-8"
+            className="flex flex-col md:flex-row md:items-end gap-4 md:gap-12 border-l-2 border-[#C9A24B] pl-5 md:pl-8"
           >
             <p className="text-gray-300 font-light text-sm sm:text-base md:text-lg max-w-md leading-relaxed">
               A 48-acre integrated township designed for the elite. Experience
@@ -133,7 +133,7 @@ const SobhaHoskoteHero = () => {
               </p>
               <p className="text-xl md:text-3xl font-bold text-white">
                 ₹ -- Lakhs*
-                <span className="text-[#C5A059] text-sm align-top">*</span>
+                <span className="text-[#C9A24B] text-sm align-top">*</span>
               </p>
             </div>
           </motion.div>
@@ -152,7 +152,7 @@ const SobhaHoskoteHero = () => {
                 key={idx}
                 className="flex items-center gap-2 px-4 py-2.5 bg-white/5 backdrop-blur-md border border-white/10 rounded-sm hover:bg-white/10 transition-colors"
               >
-                <item.icon className="w-4 h-4 text-[#C5A059]" />
+                <item.icon className="w-4 h-4 text-[#C9A24B]" />
                 <span className="text-xs md:text-sm text-gray-200 font-medium whitespace-nowrap">
                   {item.label}
                 </span>
@@ -167,7 +167,7 @@ const SobhaHoskoteHero = () => {
           >
             <button
               onClick={() => setIsDownloadModalOpen(true)}
-              className="group relative px-8 py-4 bg-[#C5A059] text-black font-bold text-sm uppercase tracking-widest overflow-hidden rounded-sm hover:shadow-[0_0_40px_rgba(197,160,89,0.4)] transition-all"
+              className="group relative px-8 py-4 bg-[#C9A24B] text-black font-bold text-sm uppercase tracking-widest overflow-hidden rounded-sm hover:shadow-[0_0_40px_rgba(197,160,89,0.4)] transition-all"
             >
               <span className="relative z-10 flex items-center gap-3">
                 <Download className="w-4 h-4" /> Download Brochure
@@ -190,10 +190,10 @@ const SobhaHoskoteHero = () => {
       {/* Right Side Vertical Text (Desktop Only) */}
       <div className="hidden lg:block absolute right-12 bottom-20 z-20">
         <div className="flex flex-col items-center gap-6">
-          <div className="w-[1px] h-24 bg-gradient-to-b from-transparent to-[#C5A059]" />
+          <div className="w-[1px] h-24 bg-gradient-to-b from-transparent to-[#C9A24B]" />
           <button
             onClick={handleScrollDown}
-            className="writing-vertical-rl text-xs font-bold text-[#C5A059] tracking-[0.3em] uppercase opacity-80 hover:opacity-100 transition-opacity"
+            className="writing-vertical-rl text-xs font-bold text-[#C9A24B] tracking-[0.3em] uppercase opacity-80 hover:opacity-100 transition-opacity"
           >
             Scroll to Explore
           </button>
@@ -212,13 +212,13 @@ const SobhaHoskoteHero = () => {
           onClick={() => setIsDownloadModalOpen(true)}
           className="flex-1 py-3.5 bg-black/60 backdrop-blur-xl border border-white/10 text-white font-bold uppercase text-[10px] tracking-wider rounded-lg flex items-center justify-center gap-2 active:scale-95 transition-transform"
         >
-          <Download className="w-4 h-4 text-[#C5A059]" /> Brochure
+          <Download className="w-4 h-4 text-[#C9A24B]" /> Brochure
         </button>
 
         {/* Mobile Button 2: Enquire */}
         <button
           onClick={() => setIsEnquiryModalOpen(true)}
-          className="flex-1 py-3.5 bg-[#C5A059] text-black font-bold uppercase text-[10px] tracking-wider shadow-xl rounded-lg flex items-center justify-center gap-2 active:scale-95 transition-transform"
+          className="flex-1 py-3.5 bg-[#C9A24B] text-black font-bold uppercase text-[10px] tracking-wider shadow-xl rounded-lg flex items-center justify-center gap-2 active:scale-95 transition-transform"
         >
           <Phone className="w-4 h-4 fill-current" /> Enquire
         </button>

@@ -47,7 +47,7 @@ const Footer = () => {
       />
 
       {/* --- TOP DECORATIVE BORDER --- */}
-      <div className="absolute top-0 left-0 w-full h-[3px] bg-gradient-to-r from-transparent via-[#C5A059] to-transparent z-20 opacity-70" />
+      <div className="absolute top-0 left-0 w-full h-[3px] bg-gradient-to-r from-transparent via-[#C9A24B] to-transparent z-20 opacity-70" />
 
       <div className="max-w-8xl mx-auto px-6 lg:px-8 pb-4 relative z-10">
         {/* Main Grid */}
@@ -64,7 +64,7 @@ const Footer = () => {
                   className="object-contain object-center lg:object-left"
                 />
               </div>
-              <span className="text-[10px] md:text-[10px] font-medium text-gray-500 uppercase tracking-wide mt-0.5 group-hover:text-[#C5A059] transition-colors">
+              <span className="text-[10px] md:text-[10px] font-medium text-gray-500 uppercase tracking-wide mt-0.5 group-hover:text-[#C9A24B] transition-colors">
                 Authorized Channel Partner
               </span>
             </div>
@@ -82,8 +82,8 @@ const Footer = () => {
             <div className="flex flex-col sm:flex-row gap-6 w-full max-w-2xl justify-center lg:justify-start">
               {/* Address */}
               <div className="flex items-start gap-3 text-left">
-                <div className="mt-1 p-1.5 bg-[#C5A059]/10 rounded-md shrink-0">
-                  <MapPin className="w-4 h-4 text-[#C5A059]" />
+                <div className="mt-1 p-1.5 bg-[#C9A24B]/10 rounded-md shrink-0">
+                  <MapPin className="w-4 h-4 text-[#C9A24B]" />
                 </div>
                 <div>
                   <h4 className="text-[11px] font-bold text-gray-400 uppercase tracking-wider mb-1">
@@ -105,18 +105,18 @@ const Footer = () => {
               <div className="flex flex-col gap-2 items-center lg:items-start">
                 <a
                   href="tel:9739612117"
-                  className="flex items-center gap-2 text-sm text-gray-600 hover:text-[#C5A059] transition-colors group"
+                  className="flex items-center gap-2 text-sm text-gray-600 hover:text-[#C9A24B] transition-colors group"
                 >
-                  <div className="p-1.5 bg-gray-50 rounded-md group-hover:bg-[#C5A059]/10 transition-colors">
+                  <div className="p-1.5 bg-gray-50 rounded-md group-hover:bg-[#C9A24B]/10 transition-colors">
                     <Phone className="w-3.5 h-3.5" />
                   </div>
                   <span className="font-medium">+91 97396 12117</span>
                 </a>
                 <a
                   href="mailto:waytonest01@gmail.com"
-                  className="flex items-center gap-2 text-sm text-gray-600 hover:text-[#C5A059] transition-colors group"
+                  className="flex items-center gap-2 text-sm text-gray-600 hover:text-[#C9A24B] transition-colors group"
                 >
-                  <div className="p-1.5 bg-gray-50 rounded-md group-hover:bg-[#C5A059]/10 transition-colors">
+                  <div className="p-1.5 bg-gray-50 rounded-md group-hover:bg-[#C9A24B]/10 transition-colors">
                     <Mail className="w-3.5 h-3.5" />
                   </div>
                   <span className="font-medium">info@waytonest.in</span>
@@ -132,7 +132,7 @@ const Footer = () => {
               <h3 className="text-sm font-bold text-gray-900 uppercase tracking-[0.2em]">
                 Connect
               </h3>
-              <div className="w-8 h-[2px] bg-[#C5A059] mt-2 mx-auto lg:mx-0 lg:ml-auto"></div>
+              <div className="w-8 h-[2px] bg-[#C9A24B] mt-2 mx-auto lg:mx-0 lg:ml-auto"></div>
             </div>
 
             <p className="text-sm text-gray-500 font-light max-w-xs">
@@ -148,7 +148,7 @@ const Footer = () => {
                   <a
                     key={idx}
                     href={item.href}
-                    className="group relative w-10 h-10 flex items-center justify-center bg-white border border-gray-200 rounded-full text-gray-500 hover:border-[#C5A059] hover:bg-[#C5A059] transition-all duration-300 shadow-sm hover:shadow-md hover:-translate-y-1"
+                    className="group relative w-10 h-10 flex items-center justify-center bg-white border border-gray-200 rounded-full text-gray-500 hover:border-[#C9A24B] hover:bg-[#C9A24B] transition-all duration-300 shadow-sm hover:shadow-md hover:-translate-y-1"
                   >
                     <Icon className="w-4 h-4 group-hover:text-white transition-colors" />
                   </a>
@@ -171,13 +171,13 @@ const Footer = () => {
             <div className="flex flex-wrap justify-center gap-4 lg:gap-6">
               <Link
                 href="https://citrineglobal.in"
-                className="text-[10px] font-bold text-gray-400 hover:text-[#C5A059] uppercase tracking-wider transition-colors"
+                className="text-[10px] font-bold text-gray-400 hover:text-[#C9A24B] uppercase tracking-wider transition-colors"
               >
                 Designed By: Citrine Global
               </Link>
               <Link
                 href="/privacy-policy"
-                className="text-[10px] font-bold text-gray-400 hover:text-[#C5A059] uppercase tracking-wider transition-colors"
+                className="text-[10px] font-bold text-gray-400 hover:text-[#C9A24B] uppercase tracking-wider transition-colors"
               >
                 Privacy Policy
               </Link>
@@ -187,12 +187,12 @@ const Footer = () => {
           {/* Scroll to Top */}
           <button
             onClick={scrollToTop}
-            className="group flex items-center gap-3 px-4 py-1.5 rounded-full border border-white/10 hover:border-[#C5A059]/50 hover:bg-[#C5A059]/10 transition-all duration-300"
+            className="group flex items-center gap-3 px-4 py-1.5 rounded-full border border-white/10 hover:border-[#C9A24B]/50 hover:bg-[#C9A24B]/10 transition-all duration-300"
           >
-            <span className="text-[9px] font-bold text-gray-300 group-hover:text-[#C5A059] uppercase tracking-widest">
+            <span className="text-[9px] font-bold text-gray-300 group-hover:text-[#C9A24B] uppercase tracking-widest">
               Back to Top
             </span>
-            <div className="w-6 h-6 flex items-center justify-center rounded-full bg-white/10 group-hover:bg-[#C5A059] transition-colors">
+            <div className="w-6 h-6 flex items-center justify-center rounded-full bg-white/10 group-hover:bg-[#C9A24B] transition-colors">
               <ArrowUp className="w-3 h-3 text-white group-hover:text-black" />
             </div>
           </button>

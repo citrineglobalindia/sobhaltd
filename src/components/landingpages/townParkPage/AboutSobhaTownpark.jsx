@@ -68,7 +68,7 @@ const AboutSobhaTownpark = () => {
             </motion.div>
 
             {/* Decorative Element */}
-            <div className="absolute -bottom-10 -right-10 w-40 h-40 bg-[#C5A059]/10 rounded-full blur-3xl -z-10" />
+            <div className="absolute -bottom-10 -right-10 w-40 h-40 bg-[#C9A24B]/10 rounded-full blur-3xl -z-10" />
           </div>
 
           {/* --- RIGHT: CONTENT --- */}
@@ -80,15 +80,15 @@ const AboutSobhaTownpark = () => {
               transition={{ duration: 0.6, delay: 0.2 }}
             >
               <div className="flex items-center gap-3 mb-4">
-                <span className="w-10 h-[2px] bg-[#C5A059]" />
-                <span className="text-[#C5A059] font-bold text-xs uppercase tracking-[0.2em]">
+                <span className="w-10 h-[2px] bg-[#C9A24B]" />
+                <span className="text-[#C9A24B] font-bold text-xs uppercase tracking-[0.2em]">
                   The Destination
                 </span>
               </div>
 
-              <h2 className="text-4xl md:text-5xl font-bold text-[#0a1e38] mb-6 leading-tight">
+              <h2 className="text-4xl md:text-5xl font-bold text-[#0B3D2E] mb-6 leading-tight">
                 {ABOUT_DATA.title} <br />
-                <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#C5A059] to-[#b08d4b]">
+                <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#C9A24B] to-[#b08d4b]">
                   {ABOUT_DATA.subtitle}
                 </span>
               </h2>
@@ -101,11 +101,11 @@ const AboutSobhaTownpark = () => {
               <div className="grid grid-cols-2 gap-6 mb-10">
                 {ABOUT_DATA.highlights.map((item, idx) => (
                   <div key={idx} className="flex items-start gap-4 group">
-                    <div className="p-3 bg-gray-50 rounded-lg group-hover:bg-[#C5A059] group-hover:text-white transition-colors duration-300">
+                    <div className="p-3 bg-gray-50 rounded-lg group-hover:bg-[#C9A24B] group-hover:text-white transition-colors duration-300">
                       <item.icon className="w-6 h-6" />
                     </div>
                     <div>
-                      <h4 className="text-xl font-bold text-[#0a1e38]">
+                      <h4 className="text-xl font-bold text-[#0B3D2E]">
                         {item.value}
                       </h4>
                       <p className="text-sm text-gray-500 uppercase tracking-wide">
@@ -120,14 +120,14 @@ const AboutSobhaTownpark = () => {
               <div className="flex flex-wrap gap-4">
                 <button
                   onClick={() => setIsModalOpen(true)}
-                  className="group flex items-center gap-3 px-8 py-4 bg-[#0a1e38] text-white font-bold text-sm uppercase tracking-widest rounded-sm hover:bg-[#C5A059] transition-all shadow-xl"
+                  className="group flex items-center gap-3 px-8 py-4 bg-[#0B3D2E] text-white font-bold text-sm uppercase tracking-widest rounded-sm hover:bg-[#C9A24B] transition-all shadow-xl"
                 >
                   Download Brochure{" "}
                   <Download className="w-4 h-4 group-hover:translate-y-1 transition-transform" />
                 </button>
                 <a
                   href="#location"
-                  className="flex items-center gap-3 px-8 py-4 border border-[#0a1e38]/20 text-[#0a1e38] font-bold text-sm uppercase tracking-widest rounded-sm hover:border-[#C5A059] hover:text-[#C5A059] transition-all"
+                  className="flex items-center gap-3 px-8 py-4 border border-[#0B3D2E]/20 text-[#0B3D2E] font-bold text-sm uppercase tracking-widest rounded-sm hover:border-[#C9A24B] hover:text-[#C9A24B] transition-all"
                 >
                   View Masterplan <ArrowRight className="w-4 h-4" />
                 </a>
