@@ -116,7 +116,7 @@ export async function POST(request) {
       state,
       project,
       source: "Website",
-      subSource: "sobha-specialoffers.com",
+      subSource: "sobhaltd.com",
       notes: notesParts.join(" | "),
       submittedDate: date,
       submittedTime: time,
