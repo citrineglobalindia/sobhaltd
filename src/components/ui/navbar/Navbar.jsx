@@ -130,10 +130,7 @@ const Navbar = () => {
               />
             </div>
             {/* ADDED TEXT BELOW LOGO */}
-            <span className="text-[8px] md:text-[8px] font-medium text-gray-500 uppercase tracking-wide mt-0.5 group-hover:text-[#C9A24B] transition-colors">
-              Authorized Channel Partner
-            </span>
-          </Link>
+                      </Link>
 
           {/* DESKTOP CTA */}
           <div className="hidden md:flex items-center gap-4">
@@ -191,10 +188,7 @@ const Navbar = () => {
                     />
                   </div>
                   {/* ADDED TEXT BELOW LOGO IN DRAWER */}
-                  <span className="text-[9px] font-medium text-gray-500 uppercase tracking-wide mt-1">
-                    Authorized Channel Partner
-                  </span>
-                </div>
+                                  </div>
 
                 <button
                   onClick={toggleMenu}

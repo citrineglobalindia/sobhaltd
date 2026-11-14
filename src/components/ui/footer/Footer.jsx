@@ -64,10 +64,7 @@ const Footer = () => {
                   className="object-contain object-center lg:object-left"
                 />
               </div>
-              <span className="text-[10px] md:text-[10px] font-medium text-gray-500 uppercase tracking-wide mt-0.5 group-hover:text-[#C9A24B] transition-colors">
-                Authorized Channel Partner
-              </span>
-            </div>
+                          </div>
 
             {/* Tagline */}
             <p className="text-sm text-gray-500 max-w-md leading-relaxed font-light">
@@ -170,10 +167,10 @@ const Footer = () => {
 
             <div className="flex flex-wrap justify-center gap-4 lg:gap-6">
               <Link
-                href="https://citrineglobal.in"
+                href="#"
                 className="text-[10px] font-bold text-gray-400 hover:text-[#C9A24B] uppercase tracking-wider transition-colors"
               >
-                Designed By: Citrine Global
+                Designed By: Stepstones
               </Link>
               <Link
                 href="/privacy-policy"
