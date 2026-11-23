@@ -24,10 +24,10 @@ const SobhaHennurHero = () => {
 
   return (
     <div className="relative w-full min-h-screen lg:h-[95vh] flex items-center justify-start bg-slate-900 overflow-hidden font-sans">
-      {/* --- 1. Background Image (placeholder — replace with official Hennur render) --- */}
+      {/* --- 1. Background Image --- */}
       <div className="absolute inset-0 z-0">
         <img
-          src="https://res.cloudinary.com/dkoljvhc9/image/upload/f_auto/v1769442585/ayna_rgsfz3.jpg"
+          src="/hennur/hennur-hero.jpg"
           alt="Sobha Hennur Township"
           className="w-full h-full object-cover opacity-60"
         />

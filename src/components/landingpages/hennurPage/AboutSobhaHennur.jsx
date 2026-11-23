@@ -19,9 +19,7 @@ const ABOUT_DATA = {
     { icon: Trophy, label: "Residential Wings", value: "12 Towers*" },
     { icon: Trees, label: "Configurations", value: "1/2/3/3.5/4 BHK" },
   ],
-  // Placeholder image — replace with the official Hennur render.
-  image:
-    "https://res.cloudinary.com/dkoljvhc9/image/upload/f_auto/v1769442581/hoskote_cxdrzp.jpg",
+  image: "/hennur/hennur-about.jpg",
 };
 
 const AboutSobhaHennur = () => {

@@ -91,6 +91,40 @@ const HennurMasterPlan = () => {
           </p>
         </div>
 
+        {/* Master plan visuals */}
+        <div className="grid lg:grid-cols-3 gap-5 md:gap-6 mb-16 items-stretch">
+          <motion.div
+            initial={{ opacity: 0, y: 24 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6 }}
+            className="lg:col-span-2 rounded-3xl overflow-hidden border border-white/10 shadow-2xl bg-white"
+          >
+            <img
+              src="/hennur/hennur-masterplan.jpg"
+              alt="Sobha Hennur — proposed master plan layout"
+              className="w-full h-full object-cover"
+            />
+          </motion.div>
+          <motion.div
+            initial={{ opacity: 0, y: 24 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6, delay: 0.1 }}
+            className="rounded-3xl overflow-hidden border border-white/10 shadow-2xl min-h-[220px]"
+          >
+            <img
+              src="/hennur/hennur-aerial.jpg"
+              alt="Sobha Hennur — aerial render of the township"
+              className="w-full h-full object-cover"
+            />
+          </motion.div>
+        </div>
+        <p className="text-center text-gray-400 text-xs -mt-10 mb-16 max-w-2xl mx-auto">
+          Indicative master plan and development renders. Proposed layout subject
+          to statutory approvals and change.
+        </p>
+
         {/* Key stats strip */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6 mb-16">
           {KEY_STATS.map((s, idx) => (
