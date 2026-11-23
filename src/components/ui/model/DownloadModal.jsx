@@ -42,8 +42,7 @@ const PROJECT_DATA = [
     id: 100,
     title: "Sobha Hennur Township",
     slug: "/sobha-hennur",
-    image:
-      "https://res.cloudinary.com/dkoljvhc9/image/upload/f_auto/v1769442585/ayna_rgsfz3.jpg",
+    image: "/hennur/hennur-about.jpg",
     location: "Hennur Main Road, North Bangalore",
     basePrice: "Starts ₹1 Cr*+",
     configs: [
