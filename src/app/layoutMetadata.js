@@ -1,10 +1,10 @@
 export const metadata = {
   title: {
-    default: "Sobha Projects Bengaluru | Altair, Hoskote, Townpark & Ayana",
-    template: "%s | Sobha Luxury Apartments Bengaluru",
+    default: "Sobha Hennur Township, Aurelia & New Launches in Bangalore",
+    template: "%s | Sobha Homes Bangalore",
   },
   description:
-    "Explore Sobha's premium residential launches in Bengaluru: Sobha Altair (Hennur), Sobha Hoskote (East Bangalore), Sobha Townpark (Hosur Road), and Sobha Ayana. Discover 2, 3 & 4 BHK luxury apartments featuring world-class amenities, prime locations, and superior craftsmanship.",
+    "Your direct gateway to Sobha's newest Bangalore addresses — from the 50+ acre Sobha Hennur Township to Sobha Aurelia, One World, Townpark and Ayana. Browse 1, 2, 3 & 4 BHK layouts, master plans and amenities, and get current pricing and pre-launch offers, all in one place.",
   keywords: [
     // Brand & General
     "Sobha Limited",
@@ -12,6 +12,13 @@ export const metadata = {
     "Luxury Apartments Bengaluru",
     "New Launch Projects Bangalore",
     "Premium Flats for sale in Bangalore",
+
+    // Sobha Hennur
+    "Sobha Hennur",
+    "Sobha Hennur Township",
+    "Sobha Hennur Main Road",
+    "Sobha Hennur Pre-launch",
+    "Sobha Aurelia",
 
     // Sobha Altair
     "Sobha Altair",
@@ -47,9 +54,9 @@ export const metadata = {
     "Gated Community Apartments Bangalore",
   ],
   alternates: {
-    canonical: "https://www.your-real-estate-domain.com", // Replace with actual domain
+    canonical: "https://www.sobhaltd.com",
   },
-  metadataBase: new URL("https://www.sobha-specialoffers.com"),
+  metadataBase: new URL("https://www.sobhaltd.com"),
   category: "Real Estate | Residential | Luxury Apartments | New Launch",
 
   // Icon configuration
@@ -74,12 +81,11 @@ export const metadata = {
 
   // Open Graph for Social Media (Facebook, LinkedIn, WhatsApp)
   openGraph: {
-    title:
-      "Sobha Luxury Projects | Altair, Hoskote, Townpark & Ayana | Bengaluru",
+    title: "Sobha Hennur Township & New Bangalore Launches",
     description:
-      "Your gateway to Sobha's finest homes. Featuring Sobha Altair, Sobha Hoskote, Sobha Townpark & Sobha Ayana. 2, 3 & 4 BHK Luxury Apartments available now.",
-    url: "https://www.your-real-estate-domain.com",
-    siteName: "Sobha Premium Homes Bengaluru",
+      "From the 50+ acre Sobha Hennur Township to Aurelia, One World, Townpark and Ayana — explore floor plans, pricing and pre-launch offers for Sobha's newest Bangalore homes.",
+    url: "https://www.sobhaltd.com",
+    siteName: "Sobha Homes Bangalore",
     locale: "en_IN",
     type: "website",
     images: [
@@ -95,9 +101,9 @@ export const metadata = {
   // Twitter Card
   twitter: {
     card: "summary_large_image",
-    title: "New Launch Alert: Sobha Altair, Hoskote, Townpark & Ayana",
+    title: "Sobha Hennur Township & New Bangalore Launches",
     description:
-      "Discover the finest luxury apartments in Bengaluru by Sobha. Prime locations, premium amenities, and limited-time launch offers.",
+      "Explore Sobha Hennur Township, Aurelia, One World, Townpark & Ayana — floor plans, pricing and pre-launch offers, all in one place.",
     images: ["/shobalogo.png"], // Ensure this image exists
   },
 
